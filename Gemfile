@@ -1,5 +1,6 @@
 gem 'sinatra'
 gem 'sinatra-partial', require: 'sinatra/partial'
+gem 'sinatra-r18n'
 gem 'sinatra-assetpack', :require => 'sinatra/assetpack'
 gem 'yui-compressor', :require => 'yui/compressor'i
 gem 'haml'

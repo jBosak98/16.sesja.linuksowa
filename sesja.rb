@@ -4,6 +4,7 @@ require 'sinatra/assetpack'
 class SesjaLinuksowa < Sinatra::Application
 
   configure do
+    R18n::I18n.default = 'pl'
     register Sinatra::AssetPack
     register Sinatra::Partial
     set :partial_template_engine, :haml
