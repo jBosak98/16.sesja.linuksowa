@@ -7,6 +7,7 @@ class SesjaLinuksowa < Sinatra::Application
     register Sinatra::Partial
     set :partial_template_engine, :haml
     set :haml, :format => :html5
+    # Nie zapomnij zmienić tego!
     set :edition => ""
   end
 
@@ -16,14 +17,12 @@ class SesjaLinuksowa < Sinatra::Application
   end
 
   assets do
-
     serve '/css', :from => "assets/css"
 
     serve '/js', :from => "assets/js"
 
     js_compression :yui
     css_compression :yui
-
   end
 
   get '/' do
