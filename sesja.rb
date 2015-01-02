@@ -1,5 +1,9 @@
-require 'sinatra'
+require 'sinatra/base'
 
-get '/' do
-  haml :index, :format => :html5
+class SesjaLinuksowa < Sinatra::Application
+
+  get '/' do
+    haml :index, :format => :html5
+  end
+
 end
