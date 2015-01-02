@@ -6,6 +6,8 @@ class SesjaLinuksowa < Sinatra::Application
     register Sinatra::AssetPack
     register Sinatra::Partial
     set :partial_template_engine, :haml
+    set :haml, :format => :html5
+    set :edition => ""
   end
 
   configure :development do
@@ -25,7 +27,32 @@ class SesjaLinuksowa < Sinatra::Application
   end
 
   get '/' do
-    haml :index, :format => :html5
+    haml :index
+  end
+  
+  post '/' do
+    require 'base64'
+    require 'net/smtp'
+    subject = "[FORMULARZ KONTAKTOWY] #{params['name']} <#{params['email']}>"
+    subject = "=?UTF-8?B?#{Base64.encode64(subject).gsub(/\s+/,'')}?="
+    mail = <<EMAIL
+      From: #{settings.edition}. Sesja Linuksowa <asiwww@tramwaj.asi.pwr.wroc.pl>
+      To: <sesja@linuksowa.pl>
+      MIME-Version: 1.0
+      Content-type: text/plain; charset=utf-8
+      Subject: #{subject}
+      #{params['content']}
+EMAIL
+    Net::SMTP.start('localhost', 25) { |smtp| smtp.send_message mail, 'asiwww@tramwaj.asi.pwr.wroc.pl', 'sesja@linuksowa.pl' }
+    redirect '/'
+  end
+
+  not_found do
+    haml :notfound
+  end
+
+  error do
+    haml :error
   end
 
 end
