@@ -1,9 +1,7 @@
-require 'sinatra/base'
-require 'sinatra/assetpack'
-
 class SesjaLinuksowa < Sinatra::Application
 
   configure do
+    register Sinatra::R18n
     R18n::I18n.default = 'pl'
     register Sinatra::AssetPack
     register Sinatra::Partial
