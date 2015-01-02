@@ -1,8 +1,10 @@
 require 'sinatra/base'
+require 'sinatra/assetpack'
 
 class SesjaLinuksowa < Sinatra::Application
 
   configure do
+    register Sinatra::AssetPack
     register Sinatra::Partial
     set :partial_template_engine, :haml
   end
@@ -10,6 +12,17 @@ class SesjaLinuksowa < Sinatra::Application
   configure :development do
     use BetterErrors::Middleware
     BetterErrors.application_root = File.expand_path('..', __FILE__)
+  end
+
+  assets do
+
+    serve '/css', :from => "assets/css"
+
+    serve '/js', :from => "assets/js"
+
+    js_compression :yui
+    css_compression :yui
+
   end
 
   get '/' do
