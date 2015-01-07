@@ -21,6 +21,20 @@ class SesjaLinuksowa < Sinatra::Application
 
     serve '/js', :from => "assets/js"
 
+    serve '/jquery', :from => "assets/jquery"
+    js :jquery, '/jquery/jquery.js', [
+      '/jquery/dist/jquery.js'
+    ]
+
+    serve '/bootstrap', :from => "assets/bootstrap"
+    css :bootstrap, '/bootstrap/bootstrap.css', [
+      '/bootstrap/dist/css/bootstrap.css',
+      '/bootstrap/dist/css/bootstrap-theme.css'
+    ]
+    js :bootstrap, '/bootstrap/bootstrap.js', [
+      '/bootstrap/dist/js/bootstrap.js'
+    ]
+
     js_compression :yui
     css_compression :yui
   end
