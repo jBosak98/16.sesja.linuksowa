@@ -44,7 +44,7 @@ class SesjaLinuksowa < Sinatra::Application
   end
 
   get '/' do
-    haml :index
+    haml :index, :locals => {:edition => settings.edition}
   end
   
   post '/' do
