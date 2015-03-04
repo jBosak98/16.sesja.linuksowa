@@ -10,6 +10,10 @@ class SesjaLinuksowa < Sinatra::Application
     # Nie zapomnij zmienić tego!
     set :edition => ""
   end
+  
+  if settings.edition.empty?
+    abort("Edycja Sesji nie jest ustawiona, zajrzyj do pliku sesja.rb!")
+  end
 
   configure :development do
     use BetterErrors::Middleware
