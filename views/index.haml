@@ -1,1 +1,9 @@
-= partial :opengraph, :layout => false, :locals => { :edition => edition }
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %title #{edition}. Sesja Linuksowa
+    %meta{:name => "author", :content => "Akademickie Stowarzyszenie Informatyczne"}
+    %meta{:name => "description", :content => "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."}
+    = partial :opengraph, :layout => false, :locals => { :edition => edition }
+  %body
