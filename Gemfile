@@ -5,6 +5,7 @@ gem 'sinatra-r18n'
 gem 'sinatra-assetpack', :require => 'sinatra/assetpack'
 gem 'yui-compressor', :require => 'yui/compressor'
 gem 'haml'
+gem 'pony'
 
 
 group :development do

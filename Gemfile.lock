@@ -15,6 +15,11 @@ GEM
     haml (4.0.6)
       tilt
     jsmin (1.0.1)
+    mail (2.6.3)
+      mime-types (>= 1.16, < 3)
+    mime-types (2.4.3)
+    pony (1.11)
+      mail (>= 2.0)
     r18n-core (2.0.3)
     rack (1.6.0)
     rack-protection (1.5.3)
@@ -49,6 +54,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   haml
+  pony
   sinatra
   sinatra-assetpack
   sinatra-partial

@@ -1,14 +1,25 @@
 class SesjaLinuksowa < Sinatra::Application
 
   configure do
+    # Nie zapomnij zmienić tego!
+    set :edition => ""
+
     register Sinatra::R18n
     R18n::I18n.default = 'pl'
     register Sinatra::AssetPack
     register Sinatra::Partial
     set :partial_template_engine, :haml
     set :haml, :format => :html5
-    # Nie zapomnij zmienić tego!
-    set :edition => ""
+    set :default_to => "sesja@linuksowa.pl",
+    set :email_options, {
+      :from => "asiwww@tramwaj.asi.pwr.wroc.pl",
+      :via => :smtp,
+      :via_options => {
+        :address => "localhost",
+        :port => "22"
+      }
+    }
+
   end
   
   if settings.edition.empty?
@@ -48,20 +59,30 @@ class SesjaLinuksowa < Sinatra::Application
   end
   
   post '/' do
-    require 'base64'
-    require 'net/smtp'
-    subject = "[FORMULARZ KONTAKTOWY] #{params['name']} <#{params['email']}>"
-    subject = "=?UTF-8?B?#{Base64.encode64(subject).gsub(/\s+/,'')}?="
-    mail = <<EMAIL
-      From: #{settings.edition}. Sesja Linuksowa <asiwww@tramwaj.asi.pwr.wroc.pl>
-      To: <sesja@linuksowa.pl>
-      MIME-Version: 1.0
-      Content-type: text/plain; charset=utf-8
-      Subject: #{subject}
-      #{params['content']}
-EMAIL
-    Net::SMTP.start('localhost', 25) { |smtp| smtp.send_message mail, 'asiwww@tramwaj.asi.pwr.wroc.pl', 'sesja@linuksowa.pl' }
-    redirect '/'
+
+    # Prosty filtr antyspamowy
+    if params[:email]
+      redirect '/'
+    end
+
+    require 'pony'
+    Pony.options = settings.email_options
+
+    subject = "#{params[:name]} <#{params[:adres]}>"
+    body = ""
+
+    if params[:abstract]
+      Pony.subject_prefix("[PRELEKCJA]")
+      body << "Temat: #{params[:content]}\n"
+      body << "Abstrakt: #{params[:abstract]}\n"
+      body << "Długość (min): #{params[:duration]}\n"
+      body << "Opis na stronę: #{params[:description]}\n"
+      body << "Opis prelegenta: #{params[:aboutyou]}\n"
+    else
+      Pony.subject_prefix("[FORMULARZ KONTAKTOWY]")
+      body = "#{params[:content]}"
+    end
+    Pony.mail(:to => settings.default_to)
   end
 
   not_found do
