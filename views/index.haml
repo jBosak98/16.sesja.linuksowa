@@ -7,3 +7,22 @@
     %meta{:name => "description", :content => "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."}
     = partial :opengraph, :layout => false, :locals => { :edition => edition }
   %body
+    %form{:action => "/", :method => "POST", :role => "form"}
+      %input{:name => "name", :placeholder => "Imię i nazwisko", :type => "text", :required => true}
+      %input{:name => "email", :placeholder => "", :type => "text", :hidden => true}
+      %input{:name => "adres", :placeholder => "Adres email", :type => "email", :required => true}
+      %input{:name => "content", :placeholder => "O co chciałbyś nas zapytać?", :required => true}
+      %input{:value => "Wyślij", :type => "submit"}
+    %br
+    %br
+    %br
+    %form{:action => "/", :method => "POST", :role => "form"}
+      %input{:name => "name", :placeholder => "Imię i nazwisko", :type => "text", :required => true}
+      %input{:name => "email", :placeholder => "", :type => "text", :hidden => true}
+      %input{:name => "adres", :placeholder => "Adres email", :type => "email", :required => true}
+      %input#content{:name => "content", :placeholder => "Temat prelekcji", :type => "text", :required => true}
+      %textarea#abstract{:name => "abstract", :placeholder => "Abstrakt", :required => true}
+      %input#duration{:name => "duration", :placeholder => "Czas trwania (minuty)", :type => "number"}
+      %textarea#description{:name => "description", :placeholder => "Opis prelekcji który pojawi się na stronie", :required => true}
+      %textarea#aboutyou{:name => "aboutyou", :placeholder => "2-3 zdania o Tobie które pojawią się na stronie", :required => true}
+      %input{:value => "Wyślij", :type => "submit"}

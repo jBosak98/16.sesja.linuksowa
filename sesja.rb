@@ -10,7 +10,7 @@ class SesjaLinuksowa < Sinatra::Application
     register Sinatra::Partial
     set :partial_template_engine, :haml
     set :haml, :format => :html5
-    set :default_to => "sesja@linuksowa.pl",
+    set :default_to => "sesja@linuksowa.pl"
     set :email_options, {
       :from => "asiwww@tramwaj.asi.pwr.wroc.pl",
       :via => :smtp,
