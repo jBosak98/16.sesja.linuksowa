@@ -76,6 +76,7 @@ class SesjaLinuksowa < Sinatra::Application
       body = "#{params[:content]}"
     end
     Pony.mail(:to => settings.default_to, :subject => subject, :body => body)
+    redirect '/'
   end
 
   not_found do
