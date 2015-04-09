@@ -12,12 +12,7 @@ class SesjaLinuksowa < Sinatra::Application
     set :haml, :format => :html5
     set :default_to => "sesja@linuksowa.pl"
     set :email_options, {
-      :from => "asiwww@tramwaj.asi.pwr.wroc.pl",
-      :via => :smtp,
-      :via_options => {
-        :address => "localhost",
-        :port => "22"
-      }
+      :from => "asiwww@tramwaj.asi.pwr.wroc.pl"
     }
 
   end
@@ -61,9 +56,7 @@ class SesjaLinuksowa < Sinatra::Application
   post '/' do
 
     # Prosty filtr antyspamowy
-    if params[:email]
-      redirect '/'
-    end
+    redirect '/' unless params[:email].empty?
 
     require 'pony'
     Pony.options = settings.email_options
@@ -72,17 +65,17 @@ class SesjaLinuksowa < Sinatra::Application
     body = ""
 
     if params[:abstract]
-      Pony.subject_prefix("[PRELEKCJA]")
+      Pony.subject_prefix("[PRELEKCJA] ")
       body << "Temat: #{params[:content]}\n"
       body << "Abstrakt: #{params[:abstract]}\n"
       body << "Długość (min): #{params[:duration]}\n"
       body << "Opis na stronę: #{params[:description]}\n"
       body << "Opis prelegenta: #{params[:aboutyou]}\n"
     else
-      Pony.subject_prefix("[FORMULARZ KONTAKTOWY]")
+      Pony.subject_prefix("[FORMULARZ KONTAKTOWY] ")
       body = "#{params[:content]}"
     end
-    Pony.mail(:to => settings.default_to)
+    Pony.mail(:to => settings.default_to, :subject => subject, :body => body)
   end
 
   not_found do
