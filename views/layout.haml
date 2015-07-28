@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %meta{:charset => "utf-8"}
+    %title="#{edition}. #{t.meta.name}"
+    %meta{:name => "author", :content => "#{t.meta.author}"}
+    %meta{:name => "description", :content => "#{t.meta.description}"}
+    = stylesheet_tag 'application'
+    = partial :opengraph, :layout => false, :locals => { :edition => edition }
+  %body
+    .container
+      = yield
+    = javascript_tag 'application'

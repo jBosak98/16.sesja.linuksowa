@@ -1,0 +1,15 @@
+meta:
+  name: "Sesja Linuksowa"
+  author: "Akademickie Stowarzyszenie Informatyczne"
+  description: "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
+  locale: "pl_PL"
+forms:
+  name: "Imię i nazwisko"
+  email: "Adres email"
+  question: "O co chciałbyś nas zapytać?"
+  topic: "Temat prelekcji?"
+  abstract: "Opcjonalne ale mile widziane."
+  duration: "Jak długa będzie Twoja prelekcja? Wielokrotności 30 minut."
+  description: "Krótki opis prelekcji, będzie umieszczony na stronie." 
+  aboutyou: "Krótki opis prelegenta, będzie umieszczony na stronie."
+  submit: "Wyślij"

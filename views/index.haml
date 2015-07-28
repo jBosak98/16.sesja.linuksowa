@@ -1,28 +1,16 @@
-!!!
-%html
-  %head
-    %meta{:charset => "utf-8"}
-    %title #{edition}. Sesja Linuksowa
-    %meta{:name => "author", :content => "Akademickie Stowarzyszenie Informatyczne"}
-    %meta{:name => "description", :content => "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."}
-    = partial :opengraph, :layout => false, :locals => { :edition => edition }
-  %body
-    %form{:action => "/", :method => "POST", :role => "form"}
-      %input{:name => "name", :placeholder => "Imię i nazwisko", :type => "text", :required => true}
-      %input{:name => "email", :placeholder => "", :type => "text", :hidden => true}
-      %input{:name => "adres", :placeholder => "Adres email", :type => "email", :required => true}
-      %input{:name => "content", :placeholder => "O co chciałbyś nas zapytać?", :required => true}
-      %input{:value => "Wyślij", :type => "submit"}
-    %br
-    %br
-    %br
-    %form{:action => "/", :method => "POST", :role => "form"}
-      %input{:name => "name", :placeholder => "Imię i nazwisko", :type => "text", :required => true}
-      %input{:name => "email", :placeholder => "", :type => "text", :hidden => true}
-      %input{:name => "adres", :placeholder => "Adres email", :type => "email", :required => true}
-      %input#content{:name => "content", :placeholder => "Temat prelekcji", :type => "text", :required => true}
-      %textarea#abstract{:name => "abstract", :placeholder => "Abstrakt", :required => true}
-      %input#duration{:name => "duration", :placeholder => "Czas trwania (minuty)", :type => "number"}
-      %textarea#description{:name => "description", :placeholder => "Opis prelekcji który pojawi się na stronie", :required => true}
-      %textarea#aboutyou{:name => "aboutyou", :placeholder => "2-3 zdania o Tobie które pojawią się na stronie", :required => true}
-      %input{:value => "Wyślij", :type => "submit"}
+%form{:action => "/", :method => "POST", :role => "form"}
+  %input{:name => "name", :placeholder => "#{t.forms.name}", :type => "text", :required => true}
+  %input{:name => "email", :placeholder => "", :type => "text", :hidden => true}
+  %input{:name => "adres", :placeholder => "#{t.forms.email}", :type => "email", :required => true}
+  %input{:name => "content", :placeholder => "#{t.forms.question}", :required => true}
+  %input{:type => "submit"}
+%form{:action => "/", :method => "POST", :role => "form"}
+  %input{:name => "name", :placeholder => "#{t.forms.name}", :type => "text", :required => true}
+  %input{:name => "email", :placeholder => "", :type => "text", :hidden => true}
+  %input{:name => "adres", :placeholder => "#{t.forms.email}", :type => "email", :required => true}
+  %input#content{:name => "content", :placeholder => "#{t.forms.topic}", :type => "text", :required => true}
+  %textarea#abstract{:name => "abstract", :placeholder => "#{t.forms.abstract}", :required => true}
+  %input#duration{:name => "duration", :placeholder => "#{t.forms.duration}", :type => "number"}
+  %textarea#description{:name => "description", :placeholder => "#{t.forms.description}", :required => true}
+  %textarea#aboutyou{:name => "aboutyou", :placeholder => "#{t.forms.aboutyou}", :required => true}
+  %input{:type => "submit"}

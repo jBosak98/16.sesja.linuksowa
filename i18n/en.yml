@@ -1,0 +1,15 @@
+meta:
+  name: "Linux Session"
+  author: "Academic IT Association"
+  description: "Linux Session is the biggest Polish conference oriented towards newest trends and developments in the GNU/Linux family of systems."
+  locale: "en_GB"
+forms:
+  name: "Full name"
+  email: "Email"
+  question: "What would you like to ask us?"
+  topic: "What's the topic of your talk?"
+  abstract: "Optional, but very welcome."
+  duration: "How long will your talk be? Multiple of 30 minutes"
+  description: "Brief description of the talk will be put on the website." 
+  aboutyou: "Briefly describe yourself, this will be put on the website."
+  submit: "Submit"
