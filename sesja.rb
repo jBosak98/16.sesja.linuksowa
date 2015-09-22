@@ -4,7 +4,7 @@ class SesjaLinuksowa < Sinatra::Application
     enable :sessions
 
     # Nie zapomnij zmienić tego!
-    set :edition => "13"
+    set :edition => ""
 
     register Sinatra::R18n
 
@@ -39,7 +39,7 @@ class SesjaLinuksowa < Sinatra::Application
     use BetterErrors::Middleware
     BetterErrors.application_root = File.expand_path('..', __FILE__)
   end
-  
+
   get '/' do
     redirect "/pl"
   end
@@ -47,7 +47,7 @@ class SesjaLinuksowa < Sinatra::Application
   get '/:locale/?' do
     haml :index, :locals => {:edition => settings.edition}
   end
-  
+
   post '/:locale/?' do
 
     # Prosty filtr antyspamowy
