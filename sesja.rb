@@ -26,9 +26,19 @@ class SesjaLinuksowa < Sinatra::Application
     set :haml, :format => :html5
 
     set :default_to => "sesja@linuksowa.pl"
-    set :email_options, {
-      :from => "asiwww@tramwaj.asi.pwr.wroc.pl"
-    }
+    if development?
+      set :email_options, {
+        via: :smtp,
+        via_options: {
+          address: "localhost",
+          port: "1025"
+        }
+      }
+    else
+      set :email_options, {
+        from: "asiwww@tramwaj.asi.pwr.wroc.pl"
+      }
+    end
 
   end
 
@@ -49,9 +59,9 @@ class SesjaLinuksowa < Sinatra::Application
     haml :index, locals: { edition: settings.edition, hide_talk_submission_form: settings.hide_talk_submission_form }
   end
 
-  post '/:locale/?' do
+  post '/' do
 
-    # Prosty filtr antyspamowy
+    # Antispam filter lol
     redirect '/' unless params[:email].empty?
 
     require 'pony'
