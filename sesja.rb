@@ -5,6 +5,7 @@ class SesjaLinuksowa < Sinatra::Application
 
     # Nie zapomnij zmienić tego!
     set :edition => ""
+    set :hide_talk_submission_form, true
 
     register Sinatra::R18n
 
@@ -45,7 +46,7 @@ class SesjaLinuksowa < Sinatra::Application
   end
 
   get '/:locale/?' do
-    haml :index, :locals => {:edition => settings.edition}
+    haml :index, locals: { edition: settings.edition, hide_talk_submission_form: settings.hide_talk_submission_form }
   end
 
   post '/:locale/?' do

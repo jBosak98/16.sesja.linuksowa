@@ -1,0 +1,6 @@
+%form{:action => "/", :method => "POST", :role => "form"}
+  %input{:name => "name", :placeholder => "#{t.forms.name}", :type => "text", :required => true}
+  %input{:name => "email", :placeholder => "", :type => "text", :hidden => true}
+  %input{:name => "adres", :placeholder => "#{t.forms.email}", :type => "email", :required => true}
+  %input{:name => "content", :placeholder => "#{t.forms.question}", :required => true}
+  %input{:type => "submit"}

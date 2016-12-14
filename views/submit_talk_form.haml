@@ -1,0 +1,11 @@
+- unless hide_talk_submission_form
+  %form{:action => "/", :method => "POST", :role => "form"}
+    %input{:name => "name", :placeholder => "#{t.forms.name}", :type => "text", :required => true}
+    %input{:name => "email", :placeholder => "", :type => "text", :hidden => true}
+    %input{:name => "adres", :placeholder => "#{t.forms.email}", :type => "email", :required => true}
+    %input#content{:name => "content", :placeholder => "#{t.forms.topic}", :type => "text", :required => true}
+    %textarea#abstract{:name => "abstract", :placeholder => "#{t.forms.abstract}", :required => true}
+    %input#duration{:name => "duration", :placeholder => "#{t.forms.duration}", :type => "number"}
+    %textarea#description{:name => "description", :placeholder => "#{t.forms.description}", :required => true}
+    %textarea#aboutyou{:name => "aboutyou", :placeholder => "#{t.forms.aboutyou}", :required => true}
+    %input{:type => "submit"}
