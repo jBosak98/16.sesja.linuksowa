@@ -13,6 +13,7 @@ class SesjaLinuksowa < Sinatra::Application
     set :assets_css_compressor, :sass
     set :assets_js_compressor, :uglifier
     register Sinatra::AssetPipeline
+    R18n::I18n.default = "pl"
 
     if defined?(RailsAssets)
       RailsAssets.load_paths.each do |path|
