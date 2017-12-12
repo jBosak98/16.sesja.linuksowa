@@ -1,15 +1,298 @@
 meta:
-  name: "Sesja Linuksowa"
+  name: "15. Sesja Linuksowa"
   author: "Akademickie Stowarzyszenie Informatyczne"
   description: "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
   locale: "pl_PL"
-forms:
-  name: "Imię i nazwisko"
-  email: "Adres email"
-  question: "O co chciałbyś nas zapytać?"
-  topic: "Temat prelekcji?"
-  abstract: "Opcjonalne ale mile widziane."
-  duration: "Jak długa będzie Twoja prelekcja? Wielokrotności 30 minut."
-  description: "Krótki opis prelekcji, będzie umieszczony na stronie." 
-  aboutyou: "Krótki opis prelegenta, będzie umieszczony na stronie."
-  submit: "Wyślij"
+navigation:
+  logo: "/img/logo-male-pl.png"
+  about: "O Sesji"
+  cfp: "Call for Papers"
+  previous: "Poprzednia edycja"
+  agenda: "Agenda"
+  workshops: "Warsztaty"
+  dojazd: "Dojazd"
+  sponsorship: "Współpraca"
+  sponsors: "Sponsorzy"
+  speakers: "Prelegenci"
+  orgs: "Organizatorzy"
+  live: "Nagrania"
+  contact: "Kontakt"
+  lpi: "Egzaminy LPI"
+  patrons: "Patroni"
+  home_url: "/pl"
+  agenda_url: "/pl/agenda"
+  lang_url: "/en"
+  lang_agenda_url: "/en/agenda"
+  lang_flag: "/img/icon-us.png"
+  lang_text: "English version"
+  back_to_home: "Powrót do strony głównej"
+description:
+  logo: "/img/logo-duze-pl.png"
+contact:
+  form:
+    name: "Imię i nazwisko"
+    email: "Email"
+    content: "Pytania? Sugestie? Wpisz je tutaj!"
+    submit: "Wyślij"
+agenda:
+  speaker: "Prelegent:"
+  extended_text: "Aby przejśc do rozszerzonej agendy (z opisami prelekcji), kliknij tutaj."
+  lpi:
+    photo: "/img/loga/logo-lpi.png"
+    time: "08:30-09:45"
+    title: "<i>Egzamin LPI</i>"
+  saturday:
+    date: "6 maja"
+    day: ".Sobota"
+    p1:
+      title: "Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego! "
+      time: "10:00-11:00"
+      lang: "[pl]"
+      author: "Marcin Słoniewski"
+      photo: "/img/ludzie/sloniewski.jpg"
+      desc: "<p>Projekt Yocto jest otwartoźródłowym środowiskiem do tworzenia własnej dystrybucji Linuksa. Dzięki wygodzie korzystania z niego w dużych zespołach oraz wspieraniu przez niego wiele architektur procesorów jest obecnie szeroko stosowany w przemyśle do tworzenia systemów wbudowanych.</p><p>Podczas tej prelekcji przedstawione zostaną podstawy pracy w środowisku oferowanym przez Projekt Yocto oraz jego wady i zalety. Wszystko to pokazane będzie na przykładzie “wypiekania” na platformę Raspberry Pi własnej dystrybucji Linuksa, która zawiera napisaną przez nas testową aplikację.</p>"
+    p2:
+      title: "Usually Slightly Broken (USB) devices and what you can do with them? "
+      time: "11:00-12:00"
+      lang: "[pl]"
+      author: "Krzysztof Opasiak"
+      photo: "/img/ludzie/opasiak.jpg"
+      desc: "<p>USB is definitely the most popular external interface. Thousands of people are using it every day and many of them have problems with it. Driver not found, incorrect driver bound, kernel oops are just examples of common problems which we are all facing. How to solve them or at least debug? If you’d like to find out, then this talk is exactly for you!</p><p>We start with a gentle introduction to the USB protocol itself. Then standard Linux host side infrastructure will be discussed. How drivers are chosen? How can we modify matching rules of a particular driver? That's only couple of questions which will be answered in this part. Final part is an introduction to USB communication sniffing. Krzysztof will show how to monitor and analyze USB traffic without expensive USB analyzers. </p>"
+    p3:
+      title: "Przyrządzanie koszernych paczek RPM i DEB dla zajętych "
+      time: "12:00-13:00"
+      lang: "[pl]"
+      author: "Stanisław Klekot"
+      photo: "/img/ludzie/klekot.jpg"
+      desc: "<p>Pakiety RPM i DEB nie rosną na drzewach, więc zanim znajdą się w dystrybucji, ktoś je musi zbudować i opublikować. Wykład pokaże, jak przygotować paczkę binarną i jak ją dostarczyć za pomocą repozytoriów APT i Yum.</p>"
+    p4:
+      title: Przerwa obiadowa
+      time: "13:00-14:00"
+      lang: ""
+      author: ""
+      desc: ""
+    p5:
+      title: "Jak uprzykrzyć życie włamywacza wykorzystując narzędzia systemów GNU/Linux "
+      time: "14:00-15:00"
+      lang: "[pl]"
+      author: "Marcin Tomków"
+      photo: "/img/ludzie/tomkow.jpg"
+      desc: "<p>Zarządy firm z reguły reagują \"wysypką\" na potrzebę inwestycji w bezpieczeństwo organizacji. \"Security\" nie bez powodu kojarzone jest z dużymi wydatkami na szkolenia, sprzęt i technologię których, koniec końców, nikt nie rozumie, a co gorsze, nie potrafi poprawnie skonfigurować.</p><p>Chciałbym pokazać, jak można wykorzystać wachlarz narzędzi zawartych w dystrybucjach GNU/Linux oraz kliku zagrywek socjotechnicznych, aby bez potrzeby ponoszenia sporych kosztów, uprzykrzyć życie potencjalnego włamywacza.</p>"
+    p6:
+      title: "Flatpak - nowoczesna dystrybucja programów "
+      time: "15:00-16:00"
+      lang: "[pl]"
+      author: "Bartłomiej Piotrowski, Michał Rostecki"
+      photo: "/img/ludzie/piotrowski.jpg"
+      desc: "<p>Klasyczny model dystrybucji oprogramowania, scentralizowany w samych dystrybucjach Linuksa, nie jest pozbawiony wad. Nieograniczone uprawnienia programów, nieistniejący wpływ programistów na opiekunów, ignorowanie małych projektów to tylko niektóre z problemów, które można wytknąć standardowym dystrybucjom. Przez ostatnie lata pojawiło się kilka narzędzi, starających się zagarnąć swój kawałek tortu w temacie uniwersalnych pakietów.</p><p>Dlaczego Flatpak wydaje się być faworytem, jak działa, w jaki sposób ułatwia to życie klasycznym dystrybucjom i zwykłym użytkowników oraz jak stworzyć własny pakiet – na te pytanie odpowie nasza prezentacja.</p>"
+    p7:
+      title: "Systemd: Poza strefą komfortu "
+      time: "16:00-17:00"
+      lang: "[pl]"
+      author: "Maciej Lasyk"
+      photo: "/img/ludzie/lasyk.jpg"
+      desc: "<p>W trakcie tej prezentacji chciałbym wam pokazać do czego można użyć systemd poza funkcjami, z których jest najbardziej popularny (vide: init - system). Część tych dodatkowych funkcji jest mało popularna lub też zastępuje dotychczas używane i znane rozwiązania - stąd też tytułowe nawiązanie do opuszczenia strefy komfortu. Postaram się omówić w jaki sposób korzystać z dystrybucji zawierających systemd w Google Cloudzie czy AWSie.</p>"
+    p8:
+      title: "Lightning talks "
+      time: "17:00-18:00"
+      lang: "[pl]"
+      author: ""
+      desc: ""
+  sunday:
+    date: "7 maja"
+    day: ".Niedziela"
+    p1:
+      title: "DevOps Tools Explained: Update Your Arsenal "
+      time: "10:00-11:00"
+      lang: "[en]"
+      author: "Fabian Thorns / <b>LPI</b>"
+      photo: "/img/ludzie/unknown.jpg"
+      desc: "<p>Buzzword like cloud, container, deployment, continuous delivery or configuration automation are rampant in the media these days. This keynote explains what's behind these terms, how they relate to each other and what they mean for the daily job of system administrators and software developers. We will also discuss which technologies provide an actual benefit for technicians and how to approach and learn them.</p>"
+    p2:
+      title: "Linux i oszczędzanie energii "
+      time: "11:00-12:00"
+      lang: "[pl]"
+      author: "Rafał Wysocki"
+      photo: "/img/ludzie/wysocki.jpg"
+      desc: "<p>Mechanizmy zwiazane z oszczędzaniem energii, a ściślej mówiąc z zapobieganiem traceniu energii bez potrzeby, są ważną częścią Linuksa od ponad 10 lat.  Ogólnie można podzielić je na dwie grupy, te działające jednocześnie na cały system (system-wide PM) oraz te operujące pojedynczymi składnikami systemu, takimi jak procesory i urządzenia wejścia-wyjścia, w stanie aktywności (working-state PM). Do pierwszej grupy należą usypianie systemu (system suspend) i hibernacja, natomiast druga grupa obejmuje między innymi skalowanie wydajności procesorów (CPU performance scaling) oraz wykrywanie nieaktywności i wprowadzanie nieaktywnych (idle) składników systemu do stanów o ograniczonym poborze mocy (low-power states). Mechanizmy z drugiej grupy, poza swoim głównym zastosowaniem, mogą także służyć do zapobiegania przegrzewaniu się urządzeń, bądź zapobiegania przekraczaniu budżetów energetycznych lub limitów poboru mocy przy jednoczesnym zapewnieniu wykonania określonych operacji w zadanym czasie.</p><p>W prezentacji przedstawię przegląd mechanizmów z dziedziny power management znajdujących się w jądrze Linuksa oraz omówię ich działanie i sposoby wykorzystania, a także wyzwania, z jakimi ta dziedzina musi się mierzyć w związku z obecnymi trendami w rozwoju technologii.</p>"
+    p3:
+      title: "Windows 10 uruchamia natywne programy z Linuksa. Bash on Ubuntu on Windows "
+      time: "12:00-13:00"
+      lang: "[pl]"
+      author: "Kajetan Krykwiński"
+      photo: "/img/ludzie/krykwinski.jpg"
+      desc: "<p>W zeszłym roku Microsoft zaskoczył wiele osób ogłaszając Bash on Ubuntu on Windows. Projekt obiecywał uruchamianie niezmodyfikowanych linuksowych narzędzi deweloperskich w systemie Windows 10, bez użycia wirtualnej maszyny.</p><p>Jednak czy tylko narzędzia deweloperskie? Jak działa i co właściwie potrafi Windows Subsystem for Linux? W końcu mowa tu o >>niezmodyfikowanych<< programach.</p><p>Prelekcja wprowadzi w rozwiązania techniczne stojące za WSL, zademonstruje jego możliwości z punktu widzenia dewelopera jak i zwykłego użytkownika oraz odpowie na pytanie czy Microsoft łamie licencję GNU GPL nie udostępniając kodów źródłowych jądra systemu Windows ;)</p>"
+    p4:
+      title: Przerwa obiadowa
+      time: "13:00-14:00"
+      lang: ""
+      author: ""
+      desc: ""
+    p5:
+      title: "CDS - simple, scalable, powerful CI/CD solution "
+      time: "14:00-15:00"
+      lang: "[en]"
+      author: "Szymon Datko / <b>OVH.pl</b>"
+      photo: "/img/ludzie/datko.jpg"
+      desc: "<p>Nowadays, the automation is a compulsory part of every IT project, either in big company or just small start-up. Reliable and scalable solution for tasks automation is always desirable - and this is what the CDS was designed for. During the presentation, I would like to introduce the CDS - describe its basic concepts, as well as how to set and use it. Please, join for an overview! </p>"
+    p6:
+      title: "The practical aspects of YOCTO "
+      time: "15:00-16:00"
+      lang: "[en]"
+      author: "Marcin Gudajczyk / <b>Nokia</b>"
+      photo: "/img/ludzie/gudajczyk.jpg"
+      desc: "Nie chcę podchodzić do tematu YOCTO z typowym opisem detali technicznych. Zamiast tego, korzystając z mojego doświadczenia w zakresie konfiguracji i integracji oprogramowania, chciałbym zaprezentować kilka anegdot, przedstawiających zyski jakie można osiągnąć z użycia YOCTO w projekcie oraz jakie problemy YOCTO pomoże faktycznie rozwiązać."
+    p7:
+      title: "Interfejsy sieciowe w Linuksie - wprowadzenie do czarnej magii "
+      time: "16:00-17:00"
+      lang: "[pl]"
+      author: "Jakub Juszczakiewicz"
+      photo: "/img/ludzie/siewca.jpg"
+      desc: "<p>Podstawowe interfejsy sieciowe w Linuksie dotyczą fizycznych kart sieciowych, modemów, jak i tzw. pętli zwrotnej. Trochę bardziej zaawansowane wykorzystanie pozwala uruchomić VPNy i VLANy. Ale na tym się nie kończy. Mosty, czy interfejsy połączeń splątanych pozwalają uzyskać ciekawe efekty w działaniu sieci. To będzie małe wprowadzenie to tej części magii sieci na Linuksie.</p>"
+speakers:
+  p1:
+    name: "Krzysztof Opasiak"
+    photo: "/img/ludzie/opasiak.jpg"
+    content: "Krzysztof is a PhD student at Warsaw University of Technology. He works as Kernel and System Developer at Samsung R&D Institute Poland. Since 2013 involved in USB support development in Tizen OS.<br/>Maintainer of libusbgx - library for USB gadgets management through ConfigFS. Open Source enthusiast and speaker at several Linux and Open Source Conferences. "
+  p2:
+    name: "Marcin Tomków"
+    photo: "/img/ludzie/tomkow.jpg"
+    content: "Senior Lead Administrator systemów *NIX, GNU/Linux w firmie NetworkedAssets Sp. z o.o. Dwunastoletnie doświadczenie w branży IT. Entuzjasta i propagator wolnego oprogramowania. Interesuje się wykorzystaniem i implementacją nowoczesnych technologii w budowie centrum danych i administracji serwerami. Na bieżąco śledzi najnowsze trendy w tej dziedzinie. Apple Fanboy."
+  p3:
+    name: "Rafał Wysocki"
+    photo: "/img/ludzie/wysocki.jpg"
+    content: "Opiekun podsystemów PM i ACPI  w jądrze Linuksa. Pracuje w Intel Open Source Technology Center, gdzie zajmuje się głównie rozwiązywaniem problemów związanych z jądrem Linuksa.<br />W roku 1996 ukończył studia magisterskie z fizyki teoretycznej  na Wydziale Fizyki Uniwersytetu Warszawskiego, a w roku 2002 uzyskał stopień naukowy doktora w dziedzinie fizyki na tym samym wydziale."
+  p4:
+    name: "Marcin Słoniewski"
+    photo: "/img/ludzie/sloniewski.jpg"
+    content: "Absolwent kierunku Automatyka i Robotyka na wydziale Elektroniki Politechniki Wrocławskiej. Obecnie zatrudniony w firmie Pruftechnik Technology, gdzie zajmuje się rozwojem systemów wbudowanych dla diagnostyki maszyn przemysłowych."
+  p5:
+    name: "Stanisław Klekot"
+    photo: "/img/ludzie/klekot.jpg"
+    content: "Sezonowany administrator/programista systemowy. Większą część czasu poświęca na budowanie narzędzi, których później używa do budowania narzędzi i zarządzania serwerami."
+  p6:
+    name: "Fabian Thorns"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "Fabian Thorns is the Director of Certification Development at Linux Professional Institute, LPI. He is M.Sc. Business Information Systems, a regular speaker at open source events and the author of numerous articles and books."
+  p7:
+    name: "Bartłomiej Piotrowski"
+    photo: "/img/ludzie/piotrowski.jpg"
+    content: "Złota rączka w dystrybucji Arch Linux, zawodowo inżynier wdrożeń OpenStacka"
+  p8:
+    name: "Michał Rostecki"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "Developer, widoczny głównie w community Kubernetesa, dawniej udzielający się w OpenStacku"
+  p9:
+    name: "Maciej \"docent\" Lasyk"
+    photo: "/img/ludzie/lasyk.jpg"
+    content: "Absolwent AGH w Krakowie, administrator w firmie Ocado w wolnym czasie rozwijający dystrybuję Fedora oraz zapalony cyklista."
+  p10:
+    name: "Jakub \"Siewca\" Juszczakiewicz"
+    photo: "/img/ludzie/siewca.jpg"
+    content: "Zażarty użytkownik systemów operacyjnych GNU/Linux, programista z zawodu, admin z zamiłowania. Po za IT lubi jeździć na rowerze i na nartach, oraz pływać pod żaglami jak i wpław."
+  p11:
+    name: "Kajetan \"kitor\" Krykwiński"
+    photo: "/img/ludzie/krykwinski.jpg"
+    content: "Inżynier integracji oprogramowania w firmie Nokia, były wiceprezes Akademickiego Stowarzyszenia Informatycznego, absolwent PWR. <br />Linuksa na serwerach używa od kilkunastu lat, jednocześnie nie znosząc go jako system desktopowy."
+  p12:
+    name: "Szymon Datko"
+    photo: "/img/ludzie/datko.jpg"
+    content: "DevOps at OVH.pl - daily, PhD student at Wrocław University of Science and Technology - occasionally, Dungeon Master - in free time, IKEA's furniture assembling lover - anytime :-) "
+  p13:
+    name: "Marcin Gudajczyk"
+    photo: "/img/ludzie/gudajczyk.jpg"
+    content: "Pracuję dla NOKII od ponad pięciu lat w zakresie tematów związanych z SCM. Interesuję się kilkoma tematami, w szczególności astronomią, książkami sci-fi, historią oraz grami video."
+  p14:
+    name: "Patryk Czajkowski"
+    photo: "/img/ludzie/czajkowski.jpg"
+    content: "Elektronik, DevOps. Zawodowo wieloletnio zwiazany z IoT od strony SW jak i HW, Aktywny uzytkownik Yocto. W wolnych chwilach pasjonat elektroniki i druku 3D"
+  p15:
+    name: "Łukasz Gardoń"
+    photo: "/img/ludzie/gardon.jpg"
+    content: "Student Politechniki Wrocławskiej pajsonat Linuksa, wolnego oprogramowania oraz systemów wbudowanych. Miłośnik wypraw rowerowych. "
+workshops:
+  p1:
+    header: "O Yocto"
+    content: "<p>Platforma wbudowana skonstruowana na przełomie 2006 i 2008 roku, przez 3 wykładowców Uniwersytetu Cambridge w celu poprawy umiejętności programistycznych przyszłych studentów, wyprzedając pierwszy nakład w kilka minut.</p><p>Na przełomie kilku lat stał się najpopularniejszą platformą wbudowaną, która daje łatwy dostęp nauki programowania oraz podstaw robotyki za niewielką cenę.</p>"
+  p2:
+    header: "Tematyka"
+    content: "<p>Celem warsztatów będzie praktycznie wykorzystanie Yocto do stworzenia dystrybucji Linuksowej dedykowanej dla Raspberry Pi.</p><p>Przedstawimy główne narzędzie Yocto jakim jest BitBake służące do budowy przepisów oraz zarządzaniem zadań.</p><p>Poruszymy temat związany z debugowaniem oraz weryfikowaniem zachowania BitBake.</p>
+<center><b>Agenda i ważne informacje na temat warsztatów: <a href=\"/pdf/workshops_pl.pdf\">LINK</a></b></p>"
+  p3:
+    header: "Wymagania"
+    content: "Warsztaty przeznaczone dla osób o podstawowej wiedzy z zakresu Linuksa.<br />Wprowadzeniem do warsztatu jest wykład <i><b>Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego!</b></i>"
+  p4:
+    header: "Zapisy"
+    content: "Warsztaty odbędą się dwóch turach - w sobotę i w niedzielę, od godziny 11:30.<br /><center>Zapisy zostały zakończone. Osoby wytypowane do warsztatów powiadomimy mailowo.</center></a></p>"
+  p5:
+    header: "Trenerzy"
+    content: "Warsztaty poprowadzą <b>Łukasz Gardoń</b> oraz <b>Patryk Czajkowski</b> - pracownicy firmy Nokia<br /><center><img style=\"max-width: 50%\" src=\"/img/loga/logo-nokia.svg\" /></center>"
+about:
+  p1:
+    header: "Czym jest sesja?"
+    content: "Jest to konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
+  p2:
+    header: "Jak to wygląda?"
+    content: "Udział w Sesji jest darmowy. Co roku na konferencji spotykają się pasjonaci informatyki z całej Polski, aby pogłębić swoją wiedzę i podjąć dyskusję w interesujących ich dziedzinach."
+  p3:
+    header: "Nasz cel"
+    content: "Naszym celem jest promowanie idei wolnego oprogramowania. Wiemy, że Open Source jest coraz bardziej popularny w rozwiązaniach komercyjnych, jak i domowych. I zależy nam na jego popularyzacji."
+dojazd:
+  p1:
+    header: "Strefa Kultury Studenckiej"
+    content: "Budynek SKS znajduje się na terenie kampusu Politechniki Wrocławskiej, przy ulicy Hoene-Wrońskiego 10"
+  p2:
+    header: "Komunikacją miejską"
+    content: "Udajemy się dowolną linią jadącą na węzeł Plac Grunwaldzki, a następnie pokonujemy pieszo około 500 metrów."
+  p3:
+    header: "Samochodem"
+    content: "W obrębie kampusu Politechniki Wrocławskiej dostępne jest wiele miejsc parkingowych."
+lpi:
+  p1:
+    header: "Szczegóły"
+    content: "W trakcie tegorocznej Sesji Linuksowej organizujemy egzaminy Linux Professional Institute. Uczestnicy płacą tylko połowę ceny, czyli 90 Euro (60 EUR dla egzaminu Linux Essentials)."
+  p2:
+    header: "Przygotowanie"
+    content: "Uczestnicy egzaminu proszeni są o zgłoszenie się z ważnym dokumentem tożsamości ze zdjęciem oraz obowiązkowo LPI-ID, które można otrzymać rejestrując się na stronie <a href=\"https://cs.lpi.org/caf/Xamman/register\">LINK</a>"
+  p3:
+    header: "Więcej informacji"
+    content: "Dokładne informacje o egzaminie zostały zebrane w <a href=\"pdf/lpi_pl.pdf\">tym dokumencie.</a><br /><center><img style=\"max-width: 40%\" src=\"/img/loga/logo-lpi.png\"></center>"
+cfp:
+  p1:
+    header: "Chcesz podzielić się wiedzą?"
+    content: "Jeśli zajmujesz się zawodowo lub hobbystycznie Linuksem, masz hopla na punkcie tego systemu i chcesz opowiedzieć o tym uczestnikom konferencji, zapraszamy do zgłoszenia swojego wystąpienia."
+  p2:
+    header: "Wygłoś swoją prelekcję!"
+    content: "Potrzebujemy od ciebie jedynie: imię i nazwisko, kilka słów o sobie, aktualne zdjęcie, tytuł prelekcji i abstrakt oraz ewentualne niestandardowe wymagania techniczne."
+  p3:
+    header: "Skontaktuj się z nami"
+    content: |
+      Zgłoszenia przyjmujemy mailowo pod adresem
+      <a href="mailto:prelekcje@sesja.linuksowa.pl">prelekcje@sesja.linuksowa.pl</a>
+      <br/>
+      Ostateczny termin przyjmowania zgłoszeń to 7 kwietnia.
+live:
+  title: "Nagrania z 14 Sesji Linuksowej"
+  p1:
+    header: "Transmisja"
+    content: "Ze wszystkich prelekcji podczas 14. Sesji Linuksowej dostępna była transmisja na żywo"
+  p2:
+    header: "Youtube"
+    content: "Nagrania można obejrzeć za  pośrednicwem kanału Akademickiego Stowarzyszenia Informatycznego w serwisie YouTube"
+  p3:
+    header: "Playlista"
+    content: "W ciągu kilku dni po konferencji udostępnimy pocięte filmy w formie listy odtwarzania. "
+  p4:
+    content: "13. Sesja Linuksowa odbyła się w dniach 2-3 kwietnia 2016 roku w Strefie Kultury Studenckiej Politechniki Wrocławskiej."
+  p5:
+     content: "Numer edycji zobowiązuje - podczas 13. Sesji uczestnicy mieli okazję wysłuchać trzynastu prelekcji. Swoją obecnością ponownie zaszczycił nas Klaus Knopper."
+  p6:
+    content: 'Agendę, pregelenetów i więcej informacji odnośnie poprzedniej edycji konferencji można znaleźć pod adresem <a href="http://13.sesja.linuksowa.pl">13.sesja.linuksowa.pl</a>'
+sponsorship:
+    content: "Jesteś zainteresowany współpracą z nami? Zapoznaj się z naszą ofertą sponsorską!"
+    link: "Oferta sponsorska"
+    link_href: "pdf/offer_pl.pdf"
+
+title: "15. Sesja Linuksowa | Wrocław, Polska"
+pwr: "Politechnika Wrocławska"
+asi: "Akademickie Stowarzyszenie Informatyczne"

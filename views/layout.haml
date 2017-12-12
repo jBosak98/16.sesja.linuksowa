@@ -1,13 +1,107 @@
 !!!
-%html
+%html{"xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
   %head
-    %meta{:charset => "utf-8"}
-    %title="#{edition}. #{t.meta.name}"
-    %meta{:name => "author", :content => "#{t.meta.author}"}
-    %meta{:name => "description", :content => "#{t.meta.description}"}
-    = stylesheet_tag 'application'
-    = partial :opengraph, :layout => false, :locals => { :edition => edition }
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0", :name => "viewport"}/
+    %meta{:content => t.meta.name, :property => "og:site_name"}/
+    %meta{:content => t.meta.locale, :property => "og:locale"}/
+    %meta{:content => "website", :property => "og:type"}/
+    %meta{:content => t.title, :property => "og:title"}/
+    %meta{:content => "http://15.sesja.linuksowa.pl/", :property => "og:url"}/
+    %meta{:content => t.meta.description, :property => "og:description"}/
+    %meta{:content => "http://15.sesja.linuksowa.pl/img/logo-opengraph-pl.jpg", :property => "og:image"}/
+    %link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700&subset=latin-ext,latin", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/css/font-awesome.min.css", :rel => "stylesheet", :type => "text/css"}/
+    %title=t.title
   %body
-    .container
-      = yield
-    = javascript_tag 'application'
+    %img.image-preload{:src => "/img/tla/1.jpg"}/
+    #con-head.con-bg
+      .con-content
+        %a{:href => "#top"}
+          %img{:src => t.navigation.logo}/
+        %span#menu-button.fa-bars
+        #menu-container.mobile-hidden
+          %a{:href => "#about"}=t.navigation.about
+          %a{:href => "#14sesjalinuksowa"}=t.navigation.live
+          %a{:href => "#kontakt"}=t.navigation.contact
+          %a.lang-switch{:href => t.navigation.lang_url}
+            %img{:alt => "", :src => t.navigation.lang_flag}
+            %span.mobile-only=t.navigation.lang_text
+    #con-description.con-bg
+      %span#top.anchor-jump-link
+      .main-bg-container{:style => "background-image: url('/img/tla/1.jpg')"}
+      .con-content
+        .social
+          -# pseudokopia sociala aby logo było wciąż wyrównane w pionie do środka
+          %span
+            %img{:src => "/img/squares-empty.png"}/
+          %span
+            %img{:src => "/img/squares-empty.png"}/
+        #logo-container
+          %img{:alt => "14. Sesja Linuksowa", :src => t.description.logo}/
+        .social
+          %a{:href => "https://www.facebook.com/sesjalinuksowa"}
+            %img{:alt => "", :src => "/img/squares-facebook.png"}/
+          %a{:href => "https://www.youtube.com/user/pwrasi"}
+            %img{:alt => "", :src => "/img/squares-youtube.png"}/
+          %a{:href => "https://twitter.com/sesjalinuksowa"}
+            %img{:alt => "", :src => "/img/squares-twitter.png"}/
+          %a{:href => "https://plus.google.com/+AkademickieStowarzyszenieInformatycznePWR"}
+            %img{:alt => "", :src => "/img/squares-google-plus.png"}/
+    #con-about.con-bg
+      %span#about.anchor-jump-link
+      .con-content
+        .third
+          %img{:alt => "Czym jest sesja?", :src => "/img/ikony/coTo.png"}/
+          %h2=t.about.p1.header
+          %p=t.about.p1.content
+        .third
+          %img{:alt => "Jak to wygląda?", :src => "/img/ikony/jakWyglada.png"}/
+          %h2=t.about.p2.header
+          %p=t.about.p2.content
+        .third
+          %img{:alt => "Nasz cel", :src => "/img/ikony/cel.png"}/
+          %h2=t.about.p3.header
+          %p=t.about.p3.content
+    #con-live.con-bg
+      %span#14sesjalinuksowa.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.live.title
+        %h2.spacer  
+        .embed-container
+          %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/videoseries?list=PLTvZBPQxCI8E02vvjWjyzS_r3Snanol2g"}
+    #con-wspolpraca.con-bg
+      %span#wspolpraca.anchor-jump-link
+      .con-content
+        %h2=t.navigation.sponsorship
+        %h3=t.sponsorship.content
+        %a.button{:href => t.sponsorship.link_href}=t.sponsorship.link
+    #con-organizatorzy.con-bg
+      %span#organizatorzy.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.navigation.orgs
+        %h2.spacer  
+        .loga
+          .logo-asi
+            %a{:href => "http://asi.wroclaw.pl"}
+              %img{:src => "/img/loga/logo-asi.png"}/
+      #con-kontakt.con-bg
+        %span#kontakt.anchor-jump-link
+        .con-content
+          %h2.bg-text=t.navigation.contact
+          %h2.spacer  
+          %form{:action => "/", :method => "POST", :role => "form"}
+            %input#name.form-control{:name => "name", :placeholder => t.contact.form.name, :type => "text"}/
+            %input#email.form-control{:name => "email", :placeholder => t.contact.form.email, :type => "email"}/
+            %textarea#content.form-control{:name => "content", :placeholder => t.contact.form.content, :rows => "10"}
+            %input#sendemail{:type => "submit", :value => t.contact.form.submit}/
+      #con-footer.con-bg
+        .con-content
+          © 2017
+          %a{:href => "http://asi.wroclaw.pl"}=t.asi
+      -# / Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
+      %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
+      %script{:src => "/js/jquery-2.1.1.min.js"}
+      %script{:src => "/js/style.js"}

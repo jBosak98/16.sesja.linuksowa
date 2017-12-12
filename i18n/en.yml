@@ -1,15 +1,149 @@
 meta:
-  name: "Linux Session"
+  name: "15th Linux Session"
   author: "Academic IT Association"
-  description: "Linux Session is the biggest Polish conference oriented towards newest trends and developments in the GNU/Linux family of systems."
-  locale: "en_GB"
-forms:
-  name: "Full name"
-  email: "Email"
-  question: "What would you like to ask us?"
-  topic: "What's the topic of your talk?"
-  abstract: "Optional, but very welcome."
-  duration: "How long will your talk be? Multiple of 30 minutes"
-  description: "Brief description of the talk will be put on the website." 
-  aboutyou: "Briefly describe yourself, this will be put on the website."
-  submit: "Submit"
+  description: "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
+  locale: "en_US"
+navigation:
+  logo: "/img/logo-male-en.png"
+  about: "About"
+  cfp: "Call for Papers"
+  agenda: "Agenda"
+  previous: "Previous edition"
+  sponsorship: "Sponsorship"
+  sponsors: "Sponsors"
+  speakers: "Speakers"
+  workshops: "Workshops"
+  live: "Talks"
+  orgs: "Organizers"
+  dojazd: "Location"
+  contact: "Contact us"
+  lpi: LPI Exams
+  patrons: "Patrons"
+  home_url: "/en"
+  agenda_url: "/en/agenda"
+  lang_url: "/pl"
+  lang_agenda_url: "/pl/agenda"
+  lang_flag: "/img/icon-pl.png"
+  lang_text: "Wersja polska"
+  back_to_home: "Back to home page"
+description:
+  logo: "/img/logo-duze-en.png"
+contact:
+  form:
+    name: "Name and surname"
+    email: "Your email"
+    content: "Got any questions or suggestions? Write them here."
+    submit: "Send"
+about:
+  p1:
+    header: "What is Linux Session?"
+    content: "Linux Session is a conference about Open Source solutions and latest trends in Linux-based systems"
+  p2:
+    header: "How does this work?"
+    content: "Entry is free. Every year enthusiasts and professionals visit us to learn and share their knowledge"
+  p3:
+    header: "Why?"
+    content: "We want to promote the idea of free software. We know that open source if getting more and more popular in commercial solutions and we want to promote it even more"
+cfp:
+  p1:
+    header: "Want to share your knowledge?"
+    content: "Are you an enthusiast or a professional working on Linux? Want to talk about it? Send us an email!"
+  p2:
+    header: "Give a talk!"
+    content: "We only need your first and last name, few words about yourself, picture or avatar, talk name and an abstract. Be sure to let us know about any custom technical requirements."
+  p3:
+    header: "Contact us!"
+    content: |
+      We accept talk submissions by mail
+      <a href="mailto:talks@sesja.linuksowa.pl">talks@sesja.linuksowa.pl</a>
+      <br/>
+      Talk submission deadline is 7th April 2017
+agenda:
+  speaker: "Speaker:"
+  extended_text: "To see the extended agenda (with talk descriptions), click here."
+  lpi:
+     title: "<i>LPI Exam</i>"
+  saturday:
+    date: "May 6th"
+    day: ".Saturday"
+    p4:
+      title: "Lunch break"
+  sunday:
+    date: "May 7th"
+    day: ".Sunday"
+    p4:
+      title: "Lunch break"
+    p6:
+      desc: "I do not want to approach the subject from a usual perspective covering technical details. Instead based on my experience from software configuration and integration area, I would like to present few stories which will give examples how projects can actually profit from moving towards YOCTO driven approaches and which problems YOCTO can actually help to solve."
+speakers:
+  p1:
+    content: "Krzysztof is a PhD student at Warsaw University of Technology. He works as Kernel and System Developer at Samsung R&D Institute Poland. Since 2013 involved in USB support development in Tizen OS. Maintainer of libusbgx - library for USB gadgets management through ConfigFS. Open Source enthusiast and speaker at several Linux and Open Source Conferences. "
+  p6:
+    content: "Fabian Thorns is the Director of Certification Development at Linux Professional Institute, LPI. He is M.Sc. Business Information Systems, a regular speaker at open source events and the author of numerous articles and books."
+  p11:
+    content: "SCM Engineer at Nokia, former vice-chairman of Academic IT Association, graduate of Wroclaw University of Science and Technology.<br />Uses Linux as server environment for years, at the same time hating it as desktop system."
+  p12:
+    content: "DevOps at OVH.pl - daily, PhD student at Wrocław University of Science and Technology - occasionally, Dungeon Master - in free time, IKEA's furniture assembling lover - anytime :-) "
+  p13:
+    content: "I work for NOKIA for over 5 years within SCM related areas. I have few interests here and there, especially in astronomy, sci-fi books, history and video games."
+workshops:
+  p1:
+    header: "About Yocto"
+    content: "<p>Embedded platform estabilished in years 2006 and 2008 by 3 lecturers from University of Cambridge in order to improve future programming skill of new generation students, the first batch sold out in few minutes.</p><p>During a few shor years it became the worlds most popular embedded platform,which grants the ease of learning programming and basic of robotics for a small price.</p>"
+  p2:
+    header: "Covered topic"
+    content: "<p>The point of those workshops is the use of  Yocto to create a gnu/linux distro for Raspberry Pi.</p><p>The main Yocto tool will be introduced -BitBake- used to build recipes and task management. Topic of debugging and controlling BitBake will be covered too.</p><p>Workshops will be held in Polish.</p>"
+  p3:
+    header: "Requirements"
+    content: "Workshops are designated towards people with basic Linux knowledge.<br />Lecture is the introduction to the workshops <i><b>Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego!</b></i>"
+  p4:
+    header: "Enrollment"
+    content: "Workshops will be held in two parts - during saturday and sunday, from 11:30AM.<br /><center>Registration is closed. Qualified participants will be informed via e-mail.</center>"
+  p5:
+    header: "Coaches"
+    content: "Workshops will be held by <b>Łukasz Gardoń</b> and <b>Patryk Czajkowski</b> - employees of Nokia<br /><center><img style=\"max-width: 50%\" src=\"/img/loga/logo-nokia.svg\" /></center>"
+live:
+  title: "Talks from 14th Linux Session"
+  p1:
+    header: "Transmission"
+    content: "From all the lectures during the 14th Linux Session we will be streaming live video feed"
+  p2:
+    header: "Youtube"
+    content: "Streaming will be done using ASI channel on Youtube"
+  p3:
+    header: "Playlist"
+    content: "All the video content will be edited for better view experiance and published a few days after the conference. Video content from last year is provided below."
+  p4:
+    content: "13th Linux Session took place at Wrocław University of Technology, 2nd - 3rd May 2016."
+  p5:
+    content: "Last year we held 13 talks. We also have been visited again by Klaus Knopper - the creator of Knoppix Linux"
+  p6:
+    content: 'More infomration can be found at <a href="http://13.sesja.linuksowa.pl/en.html">13.sesja.linuksowa.pl</a>'
+dojazd:
+  p1:
+    header: "Strefa Kultury Studenckiej"
+    content: "Students' Culture Zone is a building located on Wrocław University of Technology campus. The precise address is Hoene-Wrońskiego 10."
+  p2:
+    header: "Public transport"
+    content: "Use any tram or bus heading to a stop called \"Plac Grunwaldzki\". From the stop you'll have to walk for about 500 meters."
+  p3:
+    header: "By car"
+    content: "Please contact us after you have registered for the event and we will arrange a free parking spot."
+lpi:
+  p1:
+    header: "Details"
+    content: "Linux Professional Institute exams will take place during 13th Linux Session. Participants will pay only half of price - 90 EUR (60 EUR for Linux Essentials)"
+  p2:
+    header: "Preparation"
+    content: "Participants are asekd to come with a vaild identity document, and LPI-ID, that you can obtain by registering <a href=\"https://cs.lpi.org/caf/Xamman/register\">HERE</a>"
+  p3:
+    header: "More info"
+    content: "Details about LPI exams are available in <a href=\"pdf/lpi_pl.pdf\">this document.</a><br /><center><img style=\"max-width: 40%\" src=\"/img/loga/logo-lpi.png\"></center>"
+sponsorship:
+    content: "Would you like to support us? Here's what we can offer our sponsors!"
+    link: "Sponsorship offer"
+    link_href: "pdf/offer_en.pdf"
+
+title: "15th Linux Session | Wrocław, Poland"
+pwr: "Wrocław University of Technology"
+asi: "Academic IT Association"
