@@ -82,7 +82,7 @@ class SesjaLinuksowa < Sinatra::Application
       Pony.subject_prefix("[FORMULARZ KONTAKTOWY] ")
       body = "#{params[:content]}"
     end
-    Pony.mail(:to => settings.default_to, :subject => subject, :body => body)
+    Pony.mail(to: settings.default_to, subject: subject, body: body)
     redirect '/'
   end
 
