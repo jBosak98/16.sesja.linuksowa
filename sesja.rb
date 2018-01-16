@@ -63,7 +63,7 @@ class SesjaLinuksowa < Sinatra::Application
   post '/' do
 
     # Antispam filter lol
-    redirect '/' unless params[:email].empty?
+    redirect '/' unless params[:email].nil?
 
     require 'pony'
     Pony.options = settings.email_options
