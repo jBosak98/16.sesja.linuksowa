@@ -1,0 +1,292 @@
+!!!
+%html{"xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0", :name => "viewport"}/
+    %meta{:content => t.meta.name, :property => "og:site_name"}/
+    %meta{:content => t.meta.locale, :property => "og:locale"}/
+    %meta{:content => "website", :property => "og:type"}/
+    %meta{:content => t.title, :property => "og:title"}/
+    %meta{:content => "http://14.sesja.linuksowa.pl/", :property => "og:url"}/
+    %meta{:content => t.meta.description, :property => "og:description"}/
+    %meta{:content => "http://14.sesja.linuksowa.pl/img/logo-opengraph-pl.jpg", :property => "og:image"}/
+    %link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700&subset=latin-ext,latin", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/css/font-awesome.min.css", :rel => "stylesheet", :type => "text/css"}/
+    %title=t.title
+  %body
+    %img.image-preload{:src => "img/tla/1.jpg"}/
+    #con-head.con-bg
+      .con-content
+        %a{:href => "#top"}
+          %img{:src => t.navigation.logo}/
+        %span#menu-button.fa-bars
+        #menu-container.mobile-hidden
+          %a{:href => t.navigation.home_url}=t.navigation.back_to_home
+          %a{:href => "#agenda"}=t.navigation.agenda
+          %a{:href => "#warsztaty"}=t.navigation.workshops
+          %a{:href => "#lpi"}=t.navigation.lpi
+          %a{:href => "#prelegenci"}=t.navigation.speakers
+          %a.lang-switch{:href => t.navigation.lang_agenda_url}
+            %img{:alt => "", :src => t.navigation.lang_flag}
+            %span.mobile-only=t.navigation.lang_text
+    .extended-agenda{:style => "margin-top: 5em"}
+      %span#agenda.anchor-jump-link
+      .con-content
+        %h2.bg-text="Agenda"
+        %h2.spacer="&nbsp;"
+        %h3
+          %span.data=t.agenda.saturday.date
+          =t.agenda.saturday.day
+        .prelekcja
+          %img{:src => t.agenda.lpi.photo}
+          .opis
+            .tytul
+              =t.agenda.lpi.title
+            .godzina=t.agenda.lpi.time
+        .prelekcja
+          %img{:src => t.agenda.saturday.p1.photo}
+          .opis
+            .tytul
+              =t.agenda.saturday.p1.title
+              %span.lang=t.agenda.saturday.p1.lang
+            .godzina=t.agenda.saturday.p1.time
+            .abstrakt=t.agenda.saturday.p1.desc
+            .autor=t.agenda.speaker + " " + t.agenda.saturday.p1.author
+        .prelekcja
+          %img{:src => t.agenda.saturday.p2.photo}
+          .opis
+            .tytul
+              =t.agenda.saturday.p2.title
+              %span.lang=t.agenda.saturday.p2.lang
+            .godzina=t.agenda.saturday.p2.time
+            .abstrakt=t.agenda.saturday.p2.desc
+            .autor=t.agenda.speaker + " " + t.agenda.saturday.p2.author
+        .prelekcja
+          %img{:src => t.agenda.saturday.p3.photo}
+          .opis
+            .tytul
+              =t.agenda.saturday.p3.title
+              %span.lang=t.agenda.saturday.p3.lang
+            .godzina=t.agenda.saturday.p3.time
+            .abstrakt=t.agenda.saturday.p3.desc
+            .autor=t.agenda.speaker + " " + t.agenda.saturday.p3.author
+        .prelekcja
+          .opis
+            .tytul
+              =t.agenda.saturday.p4.title
+              %span.lang=t.agenda.saturday.p4.lang
+            .godzina=t.agenda.saturday.p4.time
+        .prelekcja
+          %img{:src => t.agenda.saturday.p5.photo}
+          .opis
+            .tytul
+              =t.agenda.saturday.p5.title
+              %span.lang=t.agenda.saturday.p5.lang
+            .godzina=t.agenda.saturday.p5.time
+            .abstrakt=t.agenda.saturday.p5.desc
+            .autor=t.agenda.speaker + " " + t.agenda.saturday.p5.author
+        .prelekcja
+          %img{:src => t.agenda.saturday.p6.photo}
+          .opis
+            .tytul
+              =t.agenda.saturday.p6.title
+              %span.lang=t.agenda.saturday.p6.lang
+            .godzina=t.agenda.saturday.p6.time
+            .abstrakt=t.agenda.saturday.p6.desc
+            .autor=t.agenda.speaker + " " + t.agenda.saturday.p6.author
+        .prelekcja
+          %img{:src => t.agenda.saturday.p7.photo}
+          .opis
+            .tytul
+              =t.agenda.saturday.p7.title
+              %span.lang=t.agenda.saturday.p7.lang
+            .godzina=t.agenda.saturday.p7.time
+            .abstrakt=t.agenda.saturday.p7.desc
+            .autor=t.agenda.speaker + " " + t.agenda.saturday.p7.author
+        .prelekcja
+          .opis
+            .tytul
+              =t.agenda.saturday.p8.title
+              %span.lang=t.agenda.saturday.p8.lang
+            .godzina=t.agenda.saturday.p8.time
+        %h3
+          %span.data=t.agenda.sunday.date
+          =t.agenda.sunday.day
+        .prelekcja
+          %img{:src => t.agenda.lpi.photo}
+          .opis
+            .tytul
+              =t.agenda.lpi.title
+            .godzina=t.agenda.lpi.time
+        .prelekcja
+          %img{:src => t.agenda.sunday.p1.photo}
+          .opis
+            .tytul
+              =t.agenda.sunday.p1.title
+              %span.lang=t.agenda.sunday.p1.lang
+            .godzina=t.agenda.sunday.p1.time
+            .abstrakt=t.agenda.sunday.p1.desc
+            .autor=t.agenda.speaker + " " + t.agenda.sunday.p1.author
+        .prelekcja
+          %img{:src => t.agenda.sunday.p2.photo}
+          .opis
+            .tytul
+              =t.agenda.sunday.p2.title
+              %span.lang=t.agenda.sunday.p2.lang
+            .godzina=t.agenda.sunday.p2.time
+            .abstrakt=t.agenda.sunday.p2.desc
+            .autor=t.agenda.speaker + " " + t.agenda.sunday.p2.author
+        .prelekcja
+          %img{:src => t.agenda.sunday.p3.photo}
+          .opis
+            .tytul
+              =t.agenda.sunday.p3.title
+              %span.lang=t.agenda.sunday.p3.lang
+            .godzina=t.agenda.sunday.p3.time
+            .abstrakt=t.agenda.sunday.p3.desc
+            .autor=t.agenda.speaker + " " + t.agenda.sunday.p3.author
+        .prelekcja
+          .opis
+            .tytul
+              =t.agenda.sunday.p4.title
+              %span.lang=t.agenda.sunday.p4.lang
+            .godzina=t.agenda.sunday.p4.time
+        .prelekcja
+          %img{:src => t.agenda.sunday.p5.photo}
+          .opis
+            .tytul
+              =t.agenda.sunday.p5.title
+              %span.lang=t.agenda.sunday.p5.lang
+            .godzina=t.agenda.sunday.p5.time
+            .abstrakt=t.agenda.sunday.p5.desc
+            .autor=t.agenda.speaker + " " + t.agenda.sunday.p5.author
+        .prelekcja
+          %img{:src => t.agenda.sunday.p6.photo}
+          .opis
+            .tytul
+              =t.agenda.sunday.p6.title
+              %span.lang=t.agenda.sunday.p6.lang
+            .godzina=t.agenda.sunday.p6.time
+            .abstrakt=t.agenda.sunday.p6.desc
+            .autor=t.agenda.speaker + " " + t.agenda.sunday.p6.author
+        .prelekcja
+          %img{:src => t.agenda.sunday.p7.photo}
+          .opis
+            .tytul
+              =t.agenda.sunday.p7.title
+              %span.lang=t.agenda.sunday.p7.lang
+            .godzina=t.agenda.sunday.p7.time
+            .abstrakt=t.agenda.sunday.p7.desc
+            .autor=t.agenda.speaker + " " + t.agenda.sunday.p7.author
+    #con-warsztaty.con-bg
+      %span#warsztaty.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.navigation.workshops
+        %h2.spacer  
+        .opis
+          .half
+            %h2=t.workshops.p1.header
+            %p=t.workshops.p1.content
+          .half
+            %h2=t.workshops.p2.header
+            %p=t.workshops.p2.content
+        .third
+          %h2=t.workshops.p3.header
+          %p=t.workshops.p3.content
+        .third
+          %h2=t.workshops.p4.header
+          %p=t.workshops.p4.content
+        .third
+          %h2=t.workshops.p5.header
+          %p=t.workshops.p5.content
+    #con-lpi.con-bg
+      %span#lpi.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.navigation.lpi
+        %h2.spacer  
+        .third
+          %h2=t.lpi.p1.header
+          %p=t.lpi.p1.content
+        .third
+          %h2=t.lpi.p2.header
+          %p=t.lpi.p2.content
+        .third
+          %h2=t.lpi.p3.header
+          %p=t.lpi.p3.content
+    #con-prelegenci.con-bg
+      %span#prelegenci.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.navigation.speakers
+        %h2.spacer="&nbsp;"
+        .third
+          %img{:src => t.speakers.p1.photo}
+          %h3=t.speakers.p1.name
+          %span=t.speakers.p1.content
+        .third
+          %img{:src => t.speakers.p2.photo}
+          %h3=t.speakers.p2.name
+          %span=t.speakers.p2.content
+        .third
+          %img{:src => t.speakers.p3.photo}
+          %h3=t.speakers.p3.name
+          %span=t.speakers.p3.content
+        .third
+          %img{:src => t.speakers.p4.photo}
+          %h3=t.speakers.p4.name
+          %span=t.speakers.p4.content
+        .third
+          %img{:src => t.speakers.p5.photo}
+          %h3=t.speakers.p5.name
+          %span=t.speakers.p5.content
+        .third
+          %img{:src => t.speakers.p6.photo}
+          %h3=t.speakers.p6.name
+          %span=t.speakers.p6.content
+        .third
+          %img{:src => t.speakers.p7.photo}
+          %h3=t.speakers.p7.name
+          %span=t.speakers.p7.content
+        .third
+          %img{:src => t.speakers.p8.photo}
+          %h3=t.speakers.p8.name
+          %span=t.speakers.p8.content
+        .third
+          %img{:src => t.speakers.p9.photo}
+          %h3=t.speakers.p9.name
+          %span=t.speakers.p9.content
+        .third
+          %img{:src => t.speakers.p10.photo}
+          %h3=t.speakers.p10.name
+          %span=t.speakers.p10.content
+        .third
+          %img{:src => t.speakers.p11.photo}
+          %h3=t.speakers.p11.name
+          %span=t.speakers.p11.content
+        .third
+          %img{:src => t.speakers.p12.photo}
+          %h3=t.speakers.p12.name
+          %span=t.speakers.p12.content
+        .third
+          %img{:src => t.speakers.p13.photo}
+          %h3=t.speakers.p13.name
+          %span=t.speakers.p13.content
+        .third
+          %img{:src => t.speakers.p14.photo}
+          %h3=t.speakers.p14.name
+          %span=t.speakers.p14.content
+        .third
+          %img{:src => t.speakers.p15.photo}
+          %h3=t.speakers.p15.name
+          %span=t.speakers.p15.content
+    #con-footer.con-bg
+      .con-content
+        © 2016
+        %a{:href => "http://asi.wroclaw.pl"}=t.asi
+        |
+        %a{:href => "http://pwr.edu.pl"}=t.pwr
+    -# / Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
+    %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
+    %script{:src => "/js/jquery-2.1.1.min.js"}
+    %script{:src => "/js/style.js"}
