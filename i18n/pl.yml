@@ -49,8 +49,8 @@ agenda:
       time: "10:00-11:00"
       lang: "[pl]"
       author: "Filip Drapejkowski"
-      photo: "/img/ludzie/sloniewski.jpg"
-      desc: "<p>Projekt Yocto jest otwartoźródłowym środowiskiem do tworzenia własnej dystrybucji Linuksa. Dzięki wygodzie korzystania z niego w dużych zespołach oraz wspieraniu przez niego wiele architektur procesorów jest obecnie szeroko stosowany w przemyśle do tworzenia systemów wbudowanych.</p><p>Podczas tej prelekcji przedstawione zostaną podstawy pracy w środowisku oferowanym przez Projekt Yocto oraz jego wady i zalety. Wszystko to pokazane będzie na przykładzie “wypiekania” na platformę Raspberry Pi własnej dystrybucji Linuksa, która zawiera napisaną przez nas testową aplikację.</p>"
+      photo: "/img/ludzie/drapej.jpg"
+      desc: "<p>How open-source drives Artificial Intelligence</p>"
     p2:
       title: "Prelekcja firmy Nokia"
       time: "11:00-12:00"
@@ -64,7 +64,7 @@ agenda:
       lang: "[pl]"
       author: "Tomasz Maczukin"
       photo: "/img/ludzie/maczukin.jpg"
-      desc: ""
+      desc: "Opowiadając historię rozwoju CI/CD na GitLab.com chciał bym zaprezentować z jakimi problemami się spotkaliśmy, jakie rozwiązania wprowadziliśmy i na co próbujemy się przygotować dążąc do postawionego sobie celu: udostępnienia systemu, który obsłuży milion zadań CI/CD każdego dnia."
     p4:
       title: Przerwa obiadowa
       time: "13:00-15:00"
@@ -77,14 +77,14 @@ agenda:
       lang: "[en]"
       author: "Klaus Knopper"
       photo: "/img/ludzie/klaus.jpg"
-      desc: "<p><br>Cel: Wytworzenie pudełka handlującego Bitcoinem przy pomocy w pełni automatycznych algorytmów w bezpiecznym środowisku sprzętowym.</p>"
+      desc: "<p>Cel: Wytworzenie pudełka handlującego Bitcoinem przy pomocy w pełni automatycznych algorytmów w bezpiecznym środowisku sprzętowym.</p><p> Bitcoin zyskał na popularności jako pierwsza i obecnie najdroższa kryptowaluta. Strategia \"kup wcześnie i trzymaj\" zwykle pozwalała zarobić. Jednak ze względu na zmienność kursów, aktywny handel kusi możliwością szybszego i większego powiększenia majątku. Niestety, handel manualny w rękach niedoświadczonej osoby zmienia się w nieodpowiedzialny hazard i może skutkować szybką utratą inwestycji. Projekt \"Pudełko szybkiego zarabiania pieniędzy\" z kursu Zaawansowanego Zarządzania Informacją ma na celu implementację czysto algorytmicznego handlu w sposób uniemożliwiający złe decyzje spowodowane chciwością czy paniką. Jednocześnie służy jako elektroniczna wersja konta oszczędnościowego opartego na technologii blockchain, eliminując jeden z wektorów ataku, przez dostarczenie konkretnego rozwiązania sprzętowego portfela.</p>"
     p6:
       title: "OSX for Linux Power Users"
       time: "17:00-18:00"
       lang: "[pl]"
       author: "Adam Rogowski"
       photo: "/img/ludzie/krykwinski.jpg"
-      desc: "<p>W zeszłym roku Microsoft zaskoczył wiele osób ogłaszając Bash on Ubuntu on Windows. Projekt obiecywał uruchamianie niezmodyfikowanych linuksowych narzędzi deweloperskich w systemie Windows 10, bez użycia wirtualnej maszyny.</p><p>Jednak czy tylko narzędzia deweloperskie? Jak działa i co właściwie potrafi Windows Subsystem for Linux? W końcu mowa tu o >>niezmodyfikowanych<< programach.</p><p>Prelekcja wprowadzi w rozwiązania techniczne stojące za WSL, zademonstruje jego możliwości z punktu widzenia dewelopera jak i zwykłego użytkownika oraz odpowie na pytanie czy Microsoft łamie licencję GNU GPL nie udostępniając kodów źródłowych jądra systemu Windows ;)</p>"
+      desc: "<p>How \"the most advanced operating system in the world\" fares in usability comparing to linux...</p>"
     p7:
       title: "Lightning talks "
       time: "18:00-18:30"
@@ -100,7 +100,7 @@ agenda:
       lang: "[en]"
       author: "Błażej Święcicki"
       photo: "/img/ludzie/unknown.jpg"
-      desc: "<p>Buzzword like cloud, container, deployment, continuous delivery or configuration automation are rampant in the media these days. This keynote explains what's behind these terms, how they relate to each other and what they mean for the daily job of system administrators and software developers. We will also discuss which technologies provide an actual benefit for technicians and how to approach and learn them.</p>"
+      desc: "<p>Każdy kto używa vima, robi to trochę inaczej. To jest na tyle rozbudowany edytor tekstu, że można by o nim opowiadać pewnie w nieskończoność. Ja opowiem o tym, jak sam go używam - zarówno od podstaw, pokazując wbudowane komendy, które ułatwiają życie, jak i opowiem trochę o kilku pluginach, z których korzystam.</p>"
     p2:
       title: "Energy-efficiency Features in Hardware and Linux "
       time: "11:00-12:00"
@@ -127,7 +127,7 @@ agenda:
       lang: "[pl]"
       author: "Karol Wrótniak"
       photo: "/img/ludzie/lasyk.jpg"
-      desc: "<p>W trakcie tej prezentacji chciałbym wam pokazać do czego można użyć systemd poza funkcjami, z których jest najbardziej popularny (vide: init - system). Część tych dodatkowych funkcji jest mało popularna lub też zastępuje dotychczas używane i znane rozwiązania - stąd też tytułowe nawiązanie do opuszczenia strefy komfortu. Postaram się omówić w jaki sposób korzystać z dystrybucji zawierających systemd w Google Cloudzie czy AWSie.</p>"
+      desc:
     p6:
       title: "Wstęp do tunelowania ruchu sieciowego"
       time: "16:00-17:00"
