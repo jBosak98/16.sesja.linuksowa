@@ -168,7 +168,7 @@ function init()
 {
   var mapOptions = {
     zoom: 15,
-    center: new google.maps.LatLng(51.108828, 17.056726),
+    center: new google.maps.LatLng(51.1103829, 16.9898642),
     disableDefaultUI: true,
     scrollwheel: false,
     draggable: false,
@@ -176,7 +176,7 @@ function init()
   var mapElement = document.getElementById("map");
   var map = new google.maps.Map(mapElement, mapOptions);
   var image = "/img/map-marker.png";
-  var myLatLng = new google.maps.LatLng(51.108828, 17.056726);
+  var myLatLng = new google.maps.LatLng(51.1103829, 16.9898642);
   var beachMarker = new google.maps.Marker({
     position: myLatLng,
     map: map,

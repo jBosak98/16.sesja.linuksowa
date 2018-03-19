@@ -12,6 +12,14 @@ class SesjaLinuksowa < Sinatra::Application
     set :assets_precompile, %w(application.js application.css *.png *.jpg *.svg *.eot *.ttf *.woff)
     set :assets_css_compressor, :sass
     set :assets_js_compressor, :uglifier
+    set :locales, %w[pl en]
+    set :default_locale, 'pl'
+    set :locale_pattern, /^\/?(#{Regexp.union(settings.locales)})(\/.+)$/
+    helpers do
+      def locale
+	@locale || settings.default_locale
+      end
+    end
     register Sinatra::AssetPipeline
     R18n::I18n.default = "pl"
 
@@ -54,6 +62,12 @@ class SesjaLinuksowa < Sinatra::Application
 
   get '/' do
     redirect "/pl"
+  end
+
+  before('/:locale/*') { @locale = params[:locale] }
+
+  get '/:locale/agenda' do
+    haml :agenda, locals: { edition: settings.edition, hide_talk_submission_form: settings.hide_talk_submission_form }, layout: false
   end
 
   get '/:locale/?' do

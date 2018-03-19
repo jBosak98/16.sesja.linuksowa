@@ -34,10 +34,145 @@ contact:
     email: "Your email"
     content: "Got any questions or suggestions? Write them here."
     submit: "Send"
+agenda:
+  speaker: "Speaker:"
+  extended_text: "Click here if you want to check the talk descriptions."
+  lpi:
+    photo: "/img/loga/logo-lpi.png"
+    time: "08:30-09:45"
+    title: "<i>Egzamin LPI</i>"
+  saturday:
+    date: "7 kwietnia"
+    day: ".Sobota"
+    p1:
+      title: "Deep Learning - droga od ciekawostki futurologicznej do przemysłu"
+      time: "10:00-11:00"
+      lang: "[pl]"
+      author: "Filip Drapejkowski"
+      photo: "/img/ludzie/drapej.jpg"
+      desc: "Deep Learning is a subset of Machine Learning which is a subset of Artificial Intelligence. Many of these concepts and methods are older than computers themselves. Nevertheless, only recently, Deep Learning made its way into regular industry and revolutionized it. Let's take a closer look on the Deep Learning history and the way it changed the way we perceive business, machines and computers. Then, let's understand how open-source enabled the revolution to happen and how can it make Poland a Deep Learning hub for next generations of computer scientists."
+    p2:
+      title: "Ansible, by wszystkimi rządzić"
+      time: "11:00-12:00"
+      lang: "[pl]"
+      author: "Tomasz Szandała"
+      photo: "/img/ludzie/unknown.jpg"
+      desc: "Ansible is software that automates servers provisioning, configuration management, and application deployment on any OS supporting Python language. Presentation is about lessons learnt during establishing new project in NOKIA, from the first playbook to OpenStack cloud management using Ansible Tower."
+    p3:
+      title: "Jak zaprojektować rozwiązanie CI/CD, obsługujące milion zadań każdego dnia"
+      time: "12:00-13:00"
+      lang: "[pl]"
+      author: "Tomasz Maczukin"
+      photo: "/img/ludzie/maczukin.jpg"
+      desc: "Opowiadając historię rozwoju CI/CD na GitLab.com chciał bym zaprezentować z jakimi problemami się spotkaliśmy, jakie rozwiązania wprowadziliśmy i na co próbujemy się przygotować dążąc do postawionego sobie celu: udostępnienia systemu, który obsłuży milion zadań CI/CD każdego dnia."
+    p4:
+      title: Przerwa obiadowa
+      time: "13:00-14:30"
+      lang: ""
+      author: ""
+      desc: ""
+    p5:
+      title: "The ‘Make Money Fast Box Project’ Automatic Bitcoin trading on a Raspberry Pi"
+      time: "14:30-15:30"
+      lang: "[en]"
+      author: "Klaus Knopper"
+      photo: "/img/ludzie/klausknopper.jpg"
+      desc: "<p>Goal: Creating a Bitcoin trading box with fully automatic algorithms in a secure hardware environment. Bitcoin has become quite popular as the first and currently most valuable crypto currency. The ‘buy early and hold’ strategy has been mostly successful in the past for gaining revenue. However, due to the volatility of the exchange rates, active trading may be tempting to yield quicker and higher return of investment. Unfortunately, manual trading can be like irresponsible gambling for the unexperienced user, and may result in quickly destroying all of your Bit- coins or Euros investments. The Information Management Master course ‘Make Money Fast Box’ project aims to im- plement a pure algorithmic trading in a way that keeps the user from making bad trading decisions caused by greed or panic, and at the same time acts as an electronic version of a blockchain-based savings account, also eliminating an attac vector by providing specific hardware as storage for the wallet.</p>"
+    p6:
+      title: "Linux KVM - Virtualization in ARM server world"
+      time: "15:30-16:30"
+      lang: "[pl]"
+      photo: "/img/ludzie/nowicki.jpg"
+      author: "Tomasz Nowicki"
+      desc: "<p>On the server market, more and more frequently we can find machines based on ARM architecture. Although they are still in the minority compared to the competition, their numbers maintain an upward trend. It is worth to take a closer look at the ARM architecture and get to know the hardware capabilities. In the field of virtualization, ARM servers cannot stand apart from the well known x86_64 architecture, which is why over the last few years we've had several significant extensions aimed at this purpose. In my presentation I would like to introduce the ARMv8 architecture and methods of CPU and peripheral devices virtualization on the example of KVM. I will also discuss optimization methods that may be useful when managing virtual machines.
+
+</p>"
+    p7:
+      title: "Embedded Linux build systems - a comprehensive comparison"
+      time: "16:30-17:30"
+      lang: "[pl]"
+      author: "Cezary Dynak"
+      photo: "/img/ludzie/cezary.jpg"
+      desc: "<p>Buildroot, OpenWRT, LTIB, PTXDist, Yocto Project - probably you heard about one of those tools, but do you know all of them? Have you ever run a compilation process for whole Linux distribution by your own, not just kernel or single package? I'm going to present the possibilities of those Embedded Linux build systems, as well as some benchmarks and comparison. </p><p>For example: What is the time and cost of a full compilation process on various cloud instances? How much space do we need on the host system and how small images of the target system can we get? With a little bit of live coding, I will also present how create a Docker base images using output of mentioned distribution builders. This idea seems to fit perfectly with the current edge computing trends.</p>"
+    p8:
+      title: "OSX for Linux Power Users"
+      time: "17:30-18:30"
+      lang: "[pl]"
+      author: "Adam Rogowski"
+      photo: "/img/ludzie/rogowski.jpg"
+      desc: "<p>How 'the most advanced operating system in the world' fares in usability comparing to Linux...</p>"
+  sunday:
+    date: "8 kwietnia"
+    day: ".Niedziela"
+    p1:
+      title: "Vim"
+      time: "10:00-11:00"
+      lang: "[pl]"
+      author: "Błażej Święcicki"
+      photo: "/img/ludzie/mewp.jpg"
+      desc: "<p>Każdy kto używa vima, robi to trochę inaczej. To jest na tyle rozbudowany edytor tekstu, że można by o nim opowiadać pewnie w nieskończoność. Ja opowiem o tym, jak sam go używam - zarówno od podstaw, pokazując wbudowane komendy, które ułatwiają życie, jak i opowiem trochę o kilku pluginach, z których korzystam.</p>"
+    p2:
+      title: "Authentication and autorization with Oauth2, Nginx and Python"
+      time: "11:00-12:00"
+      lang: "[pl]"
+      author: "Maciej Lasyk"
+      photo: "/img/ludzie/lasyk.jpg"
+      desc: "<p>Sometimes it happens, that we host an application that cannot integrate with our IAM service. It often ends up in scenario where users have multiple application accounts within one organization. Also there're some apps that completely don't provide any form of authentication exposing its resources to the internet. </p><p>During this talk I'll show you method how to secure such applications with well known solutions (Nginx, a bit of Python with a chunk of pragmatism). I'll also describe briefly Google's and Github's implementations of Oauth2.</p><p>For the dessert I'll mix above ideas with others I showed you on my past Sesja presentations - there will be Rundeck authenticated by Oauth hosted with systemd-nspawn containers ;)</p>"
+    p3:
+      title: "Understanding GitLab CI"
+      time: "12:00-13:00"
+      lang: "[pl]"
+      author: "Kamil Trzciński"
+      photo: "/img/ludzie/kamiltrzcinski.jpg"
+      desc: "<p>The talk will explain how the GitLab CI is built and how to use it efficiently. You will understand what are the relations between executor and docker, job and container, but also see how to simply and efficiently prepare and debug your jobs. You will be presented with a few techniques how to improve the performance of your CI in common workflows for the benefit of your team. Everyone wants this docker build and rspec to run faster, right?</p>"
+    p4:
+      title: Przerwa obiadowa
+      time: "13:00-14:30"
+      lang: ""
+      author: ""
+      desc: ""
+    p5:
+      title: "Energy-efficiency Features in Hardware and Linux "
+      time: "14:30-15:30"
+      lang: "[pl]"
+      author: "Rafał Wysocki"
+      photo: "/img/ludzie/wysocki.jpg"
+      desc: "<p>Many hardware components of modern computer systems, like processors, System-on-a-Chip (SoC) circuits and I/O peripherals, offer features targeted at improving their energy efficiency.  Many of these features can be used by Linux, either by default or if they are enabled through a configuration mechanism of some sort.  I will describe some of these features and explain how they are used by the Linux kernel or how it can be configured to use them.</p>"
+    p6:
+      title: "Bitrise & OpenSTF"
+      time: "15:30-16:30"
+      lang: "[pl]"
+      author: "Karol Wrótniak"
+      photo: "/img/ludzie/karol.jpg"
+      desc: "<p>Prezentacja ma na celu przedstawienie OpenSTF - otwartej farmy testowej dla urządzeń z Androidem oraz Bitrise.io - platformy do Continuous Integration. Powiem w jaki sposób połączyć je ze sobą, jak ich używamy, do czego oprócz testów jeszcze mogą służyć oraz jak przebiegały kontrybucje do ich projektów open source.</p>"
+    p7:
+      title: "Wstęp do tunelowania ruchu sieciowego"
+      time: "16:30-17:30"
+      lang: "[pl]"
+      author: "Jakub Juszczakiewicz"
+      photo: "/img/ludzie/siewca.jpg"
+      desc: "<p>Na prelekcji przedstawię podstawy konfiguracji VLANów i OpenVPNa jako przykłady tunelowania ruchu sieciowego które każdy może zrobić. Opowiem czym są VLANy, jak je skonfigurować (głównie na Linuksie) i dlaczego warto z nich korzystać w sieciach lokalnych. Podobnie przestawię możliwości OpenVPNa. Dodatkowo będzie trochę informacji o konfiguracji IPTables i interfejsów-mostów sieciowych.</p>"
+speakers:
+  p1:
+    content: "Author of Knoppix - first LiveCD Linux distribution and Adrianne Knoppix - distribution aimed at people with impaired sigh"
+  p2:
+    content: "<p>Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge. He's focusing lately on the 'container revolution' and building best CI product in the world. In his spare time, he likes to run, cycle and play good games, although not all at the same time.</p>"
+  p5:
+    content: "<p>AGH University of Science and Technology in Kraków alumnus, sysadmin at Codewise, Fedora contributor and a cyclist.</p>"
+  p6:
+    content: "Sysadmin, programmer, Linux fan and former Academic IT Association president. Staunch opponent of Facebook and other centralized services."
+  p7:
+    content: "Senior Software Developer at Luxoft / Nauto working with algorithms for processing signals from sensors placed in cars (mainly cameras)."
+  p8:
+    content: "<p>Senior Software Engineer at Semihalf. An electronics engineer by education, an operating systems programmer by profession. For many years tied to the subject of Linux and ARMv8, in particular with KVM, PCI, and ACPI subsystems. An avid fan of ski jumping and football.</p>"
+  p13:
+    content: "<p>A graduate of the Embedded Robotics specialization and former lab07/C-3 admin on WUST. Currently working as Node.js developer for SpyroSoft. In addition to the back-end for IoT, he is also interested in Linux for embedded systems and DevOps purposes.</p>"
+
+
 about:
   p1:
     header: "What is Linux Session?"
-    content: "Linux Session is a conference about Open Source solutions and latest trends in Linux-based systems"
+    content: "Linux Session is the biggest conference about Open Source solutions and latest trends in Linux-based systems"
   p2:
     header: "How does this work?"
     content: "Entry is free. Every year enthusiasts and professionals visit us to learn and share their knowledge"
@@ -46,62 +181,8 @@ about:
     content: "We want to promote the idea of free software. We know that open source if getting more and more popular in commercial solutions and we want to promote it even more"
 cfp:
   p1:
-    header: "Want to share your knowledge?"
-    content: "Are you an enthusiast or a professional working on Linux? Want to talk about it? Send us an email!"
-  p2:
-    header: "Give a talk!"
-    content: "We only need your first and last name, few words about yourself, picture or avatar, talk name and an abstract. Be sure to let us know about any custom technical requirements."
-  p3:
-    header: "Contact us!"
-    content: |
-      We accept talk submissions by mail
-      <a href="mailto:talks@sesja.linuksowa.pl">talks@sesja.linuksowa.pl</a>
-      <br/>
-      Talk submission deadline is 7th April 2017
-agenda:
-  speaker: "Speaker:"
-  extended_text: "To see the extended agenda (with talk descriptions), click here."
-  lpi:
-     title: "<i>LPI Exam</i>"
-  saturday:
-    date: "May 6th"
-    day: ".Saturday"
-    p4:
-      title: "Lunch break"
-  sunday:
-    date: "May 7th"
-    day: ".Sunday"
-    p4:
-      title: "Lunch break"
-    p6:
-      desc: "I do not want to approach the subject from a usual perspective covering technical details. Instead based on my experience from software configuration and integration area, I would like to present few stories which will give examples how projects can actually profit from moving towards YOCTO driven approaches and which problems YOCTO can actually help to solve."
-speakers:
-  p1:
-    content: "Krzysztof is a PhD student at Warsaw University of Technology. He works as Kernel and System Developer at Samsung R&D Institute Poland. Since 2013 involved in USB support development in Tizen OS. Maintainer of libusbgx - library for USB gadgets management through ConfigFS. Open Source enthusiast and speaker at several Linux and Open Source Conferences. "
-  p6:
-    content: "Fabian Thorns is the Director of Certification Development at Linux Professional Institute, LPI. He is M.Sc. Business Information Systems, a regular speaker at open source events and the author of numerous articles and books."
-  p11:
-    content: "SCM Engineer at Nokia, former vice-chairman of Academic IT Association, graduate of Wroclaw University of Science and Technology.<br />Uses Linux as server environment for years, at the same time hating it as desktop system."
-  p12:
-    content: "DevOps at OVH.pl - daily, PhD student at Wrocław University of Science and Technology - occasionally, Dungeon Master - in free time, IKEA's furniture assembling lover - anytime :-) "
-  p13:
-    content: "I work for NOKIA for over 5 years within SCM related areas. I have few interests here and there, especially in astronomy, sci-fi books, history and video games."
-workshops:
-  p1:
-    header: "About Yocto"
-    content: "<p>Embedded platform estabilished in years 2006 and 2008 by 3 lecturers from University of Cambridge in order to improve future programming skill of new generation students, the first batch sold out in few minutes.</p><p>During a few shor years it became the worlds most popular embedded platform,which grants the ease of learning programming and basic of robotics for a small price.</p>"
-  p2:
-    header: "Covered topic"
-    content: "<p>The point of those workshops is the use of  Yocto to create a gnu/linux distro for Raspberry Pi.</p><p>The main Yocto tool will be introduced -BitBake- used to build recipes and task management. Topic of debugging and controlling BitBake will be covered too.</p><p>Workshops will be held in Polish.</p>"
-  p3:
-    header: "Requirements"
-    content: "Workshops are designated towards people with basic Linux knowledge.<br />Lecture is the introduction to the workshops <i><b>Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego!</b></i>"
-  p4:
-    header: "Enrollment"
-    content: "Workshops will be held in two parts - during saturday and sunday, from 11:30AM.<br /><center>Registration is closed. Qualified participants will be informed via e-mail.</center>"
-  p5:
-    header: "Coaches"
-    content: "Workshops will be held by <b>Łukasz Gardoń</b> and <b>Patryk Czajkowski</b> - employees of Nokia<br /><center><img style=\"max-width: 50%\" src=\"/img/loga/logo-nokia.svg\" /></center>"
+    header: "Registration"
+    content: "Registration you can find <a href='https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link'>here</a></p><p> The number of places is limited ;)</p>"
 live:
   title: "Talks from 14th Linux Session"
   p1:
@@ -109,10 +190,10 @@ live:
     content: "From all the lectures during the 14th Linux Session we will be streaming live video feed"
   p2:
     header: "Youtube"
-    content: "Streaming will be done using ASI channel on Youtube"
+    content: "Streaming will be done using ASI channel on YouTube"
   p3:
     header: "Playlist"
-    content: "All the video content will be edited for better view experiance and published a few days after the conference. Video content from last year is provided below."
+    content: "All the video content will be edited for better viewing experience and published a few days after the conference. Video content from last year is provided below."
   p4:
     content: "13th Linux Session took place at Wrocław University of Technology, 2nd - 3rd May 2016."
   p5:
@@ -121,11 +202,11 @@ live:
     content: 'More infomration can be found at <a href="http://13.sesja.linuksowa.pl/en.html">13.sesja.linuksowa.pl</a>'
 dojazd:
   p1:
-    header: "Strefa Kultury Studenckiej"
-    content: "Students' Culture Zone is a building located on Wrocław University of Technology campus. The precise address is Hoene-Wrońskiego 10."
+    header: "Congress Center of the Wrocław University of Science and Technology (bulding D20)"
+    content: "Congress Center of the Wrocław University of Technology is a building located on Wrocław University of Science and Technology campus. The precise address is Janiszewskiego 8."
   p2:
     header: "Public transport"
-    content: "Use any tram or bus heading to a stop called \"Plac Grunwaldzki\". From the stop you'll have to walk for about 500 meters."
+    content: "Use any tram or bus heading to a stop called Plac Grunwaldzki. From the stop you'll have to walk for about 500 meters."
   p3:
     header: "By car"
     content: "Please contact us after you have registered for the event and we will arrange a free parking spot."

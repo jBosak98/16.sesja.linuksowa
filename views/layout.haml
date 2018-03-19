@@ -25,7 +25,7 @@
         #menu-container.mobile-hidden
           %a{:href => "#about"}=t.navigation.about
           %a{:href => "#14sesjalinuksowa"}=t.navigation.live
-          %a{:href => "#callforpapers"}=t.navigation.cfp
+          %a{:href => "#agenda"}=t.navigation.agenda
           %a{:href => "#kontakt"}=t.navigation.contact
           %a.lang-switch{:href => t.navigation.lang_url}
             %img{:alt => "", :src => t.navigation.lang_flag}
@@ -51,6 +51,14 @@
             %img{:alt => "", :src => "/img/squares-twitter.png"}/
           %a{:href => "https://plus.google.com/+AkademickieStowarzyszenieInformatycznePWR"}
             %img{:alt => "", :src => "/img/squares-google-plus.png"}/
+
+    #con-callforpapers.con-bg
+      %span#callforpapers.anchor-jump-link
+      .con-content
+        %h2.spacer
+        %h2=t.cfp.p1.header
+        %p=t.cfp.p1.content
+
     #con-about.con-bg
       %span#about.anchor-jump-link
       .con-content
@@ -73,20 +81,208 @@
         %h2.spacer  
         .embed-container
           %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/videoseries?list=PLTvZBPQxCI8E02vvjWjyzS_r3Snanol2g"}
-    #con-callforpapers.con-bg
-      %span#callforpapers.anchor-jump-link
+    #con-agenda.con-bg
+      %span#agenda.anchor-jump-link
       .con-content
-        %h2.bg-text=t.navigation.cfp
-        %h2.spacer  
+        %h2.bg-text="Agenda"
+        %h2.spacer="&nbsp;"
+        #agenda-sobota
+          .half
+            %h3
+              %span.data=t.agenda.saturday.date
+              =t.agenda.saturday.day
+            .prelekcja
+              .godzina=t.agenda.saturday.p1.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p1.title
+                  %span.lang=t.agenda.saturday.p1.lang
+                .autor=t.agenda.saturday.p1.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p2.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p2.title
+                  %span.lang=t.agenda.saturday.p2.lang
+                .autor=t.agenda.saturday.p2.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p3.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p3.title
+                  %span.lang=t.agenda.saturday.p3.lang
+                .autor=t.agenda.saturday.p3.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p4.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p4.title
+                  %span.lang=t.agenda.saturday.p4.lang
+                .autor=t.agenda.saturday.p4.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p5.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p5.title
+                  %span.lang=t.agenda.saturday.p5.lang
+                .autor=t.agenda.saturday.p5.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p6.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p6.title
+                  %span.lang=t.agenda.saturday.p6.lang
+                .autor=t.agenda.saturday.p6.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p7.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p7.title
+                  %span.lang=t.agenda.saturday.p7.lang
+                .autor=t.agenda.saturday.p7.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p8.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p8.title
+                  %span.lang=t.agenda.saturday.p8.lang
+                .autor=t.agenda.saturday.p8.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p9.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p9.title
+                  %span.lang=t.agenda.saturday.p9.lang
+                .autor=t.agenda.saturday.p9.author
+          .half
+            %h3
+              %span.data=t.agenda.sunday.date
+              =t.agenda.sunday.day
+            .prelekcja
+              .godzina=t.agenda.sunday.p1.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p1.title
+                  %span.lang=t.agenda.sunday.p1.lang
+                .autor=t.agenda.sunday.p1.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p2.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p2.title
+                  %span.lang=t.agenda.sunday.p2.lang
+                .autor=t.agenda.sunday.p2.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p3.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p3.title
+                  %span.lang=t.agenda.sunday.p3.lang
+                .autor=t.agenda.sunday.p3.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p4.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p4.title
+                  %span.lang=t.agenda.sunday.p4.lang
+                .autor=t.agenda.sunday.p4.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p5.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p5.title
+                  %span.lang=t.agenda.sunday.p5.lang
+                .autor=t.agenda.sunday.p5.author
+            .prelekcja
+              .godzina=t.agenda.sunday.p6.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p6.title
+                  %span.lang=t.agenda.sunday.p6.lang
+                .autor=t.agenda.sunday.p6.author
+
+            .prelekcja
+              .godzina=t.agenda.sunday.p7.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p7.title
+                  %span.lang=t.agenda.sunday.p7.lang
+                .autor=t.agenda.sunday.p7.author
+        .extended-link
+          %a{:href => t.navigation.agenda_url}=t.agenda.extended_text
+    #con-prelegenci.con-bg
+      %span#prelegenci.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.navigation.speakers
+        %h2.spacer="&nbsp;"
         .third
-          %h2=t.cfp.p1.header
-          %p=t.cfp.p1.content
+          %img{:src => t.speakers.p1.photo}
+          %h3=t.speakers.p1.name
+          %span=t.speakers.p1.content
         .third
-          %h2=t.cfp.p2.header
-          %p=t.cfp.p2.content
+          %img{:src => t.speakers.p2.photo}
+          %h3=t.speakers.p2.name
+          %span=t.speakers.p2.content
         .third
-          %h2=t.cfp.p3.header
-          %p=t.cfp.p3.content
+          %img{:src => t.speakers.p3.photo}
+          %h3=t.speakers.p3.name
+          %span=t.speakers.p3.content
+        .third
+          %img{:src => t.speakers.p4.photo}
+          %h3=t.speakers.p4.name
+          %span=t.speakers.p4.content
+        .third
+          %img{:src => t.speakers.p5.photo}
+          %h3=t.speakers.p5.name
+          %span=t.speakers.p5.content
+        .third
+          %img{:src => t.speakers.p6.photo}
+          %h3=t.speakers.p6.name
+          %span=t.speakers.p6.content
+        .third
+          %img{:src => t.speakers.p7.photo}
+          %h3=t.speakers.p7.name
+          %span=t.speakers.p7.content
+        .third
+          %img{:src => t.speakers.p8.photo}
+          %h3=t.speakers.p8.name
+          %span=t.speakers.p8.content
+        .third
+          %img{:src => t.speakers.p9.photo}
+          %h3=t.speakers.p9.name
+          %span=t.speakers.p9.content
+        .third
+          %img{:src => t.speakers.p10.photo}
+          %h3=t.speakers.p10.name
+          %span=t.speakers.p10.content
+        .third
+          %img{:src => t.speakers.p11.photo}
+          %h3=t.speakers.p11.name
+          %span=t.speakers.p11.content
+        .third
+          %img{:src => t.speakers.p12.photo}
+          %h3=t.speakers.p12.name
+          %span=t.speakers.p12.content
+        .third
+          %img{:src => t.speakers.p13.photo}
+          %h3=t.speakers.p13.name
+          %span=t.speakers.p13.content
+
+
+    #con-dojazd.con-bg
+      %span#dojazd.anchor-jump-link
+      .con-content
+        %h2.spacer
+        .third
+          %h2=t.dojazd.p1.header
+          %p=t.dojazd.p1.content
+        .third
+          %h2=t.dojazd.p2.header
+          %p=t.dojazd.p2.content
+        .third
+          %h2=t.dojazd.p3.header
+          %p=t.dojazd.p3.content
+      #map
     #con-organizatorzy.con-bg
       %span#organizatorzy.anchor-jump-link
       .con-content
