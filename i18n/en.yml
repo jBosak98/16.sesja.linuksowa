@@ -181,18 +181,8 @@ about:
     content: "We want to promote the idea of free software. We know that open source if getting more and more popular in commercial solutions and we want to promote it even more"
 cfp:
   p1:
-    header: "Want to share your knowledge?"
-    content: "Are you an enthusiast or a professional working on Linux? Want to talk about it? Send us an email!"
-  p2:
-    header: "Give a talk!"
-    content: "We only need your first and last name, few words about yourself, picture or avatar, talk name and an abstract. Be sure to let us know about any custom technical requirements."
-  p3:
-    header: "Contact us!"
-    content: |
-      We accept talk submissions by mail
-      <a href="mailto:talks@sesja.linuksowa.pl">talks@sesja.linuksowa.pl</a>
-      <br/>
-      Talk submission deadline is 7th April 2017
+    header: "Registration"
+    content: "Registration you can find <a href='https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link'>here</a></p><p> The number of places is limited ;)</p>"
 live:
   title: "Talks from 14th Linux Session"
   p1:

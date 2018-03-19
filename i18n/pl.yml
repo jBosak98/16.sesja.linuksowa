@@ -242,7 +242,7 @@ lpi:
 cfp:
   p1:
     header: "Zapisy"
-    content: "Zgłoszenia przyjmujemy przez - <a href='https://docs.google.com/forms/d/e/1FAIpQLSeqA-4-Trmbe1CJwRcsstIEp8OKgIAtL9YjCPg7OSroYBlguw/viewform?usp=sf_link'>Formularze Google</a></p><p> Ilość miejsc ograniczona ;)</p>"
+    content: "Zgłoszenia przyjmujemy przez - <a href='https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link'>Formularze Google</a></p><p> Ilość miejsc ograniczona ;)</p>"
 live:
   title: "Nagrania z 14 Sesji Linuksowej"
   p1:
