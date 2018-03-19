@@ -60,7 +60,7 @@ class SesjaLinuksowa < Sinatra::Application
     haml :agenda, locals: { edition: settings.edition, hide_talk_submission_form: settings.hide_talk_submission_form }, layout: false
   end
 
-  get '/:locale/*' do
+  get '/:locale/?' do
     haml :index, locals: { edition: settings.edition, hide_talk_submission_form: settings.hide_talk_submission_form }
   end
 

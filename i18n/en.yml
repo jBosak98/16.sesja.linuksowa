@@ -77,9 +77,9 @@ speakers:
   p1:
     content: "Author of Knoppix - first LiveCD Linux distribution and Adrianne Knoppix - distribution aimed at people with impaired sigh"
   p2:
-    content: "<p>Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge. He's focusing lately on the "container revolution" and building best CI product in the world. In his spare time, he likes to run, cycle and play good games, although not all at the same time.</p>"
+    content: "<p>Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge. He's focusing lately on the 'container revolution' and building best CI product in the world. In his spare time, he likes to run, cycle and play good games, although not all at the same time.</p>"
   p5:
-    content: "</p>AGH University of Science and Technology in Kraków alumnus, sysadmin at Codewise, Fedora contributor and a cyclist.</p>"
+    content: "<p>AGH University of Science and Technology in Kraków alumnus, sysadmin at Codewise, Fedora contributor and a cyclist.</p>"
   p6:
     content: "Sysadmin, programmer, Linux fan and former Academic IT Association president. Staunch opponent of Facebook and other centralized services."
   p7:
@@ -93,10 +93,10 @@ live:
     content: "From all the lectures during the 14th Linux Session we will be streaming live video feed"
   p2:
     header: "Youtube"
-    content: "Streaming will be done using ASI channel on Youtube"
+    content: "Streaming will be done using ASI channel on YouTube"
   p3:
     header: "Playlist"
-    content: "All the video content will be edited for better view experiance and published a few days after the conference. Video content from last year is provided below."
+    content: "All the video content will be edited for better viewing experience and published a few days after the conference. Video content from last year is provided below."
   p4:
     content: "13th Linux Session took place at Wrocław University of Technology, 2nd - 3rd May 2016."
   p5:
@@ -106,10 +106,10 @@ live:
 dojazd:
   p1:
     header: "Congress Center of the Wrocław University of Science and Technology (bulding D20)"
-    content: Congress Center of the Wrocław University of Technology is a building located on Wrocław University of Science and Technology campus. The precise address is Janiszewskiego 8."
+    content: "Congress Center of the Wrocław University of Technology is a building located on Wrocław University of Science and Technology campus. The precise address is Janiszewskiego 8."
   p2:
     header: "Public transport"
-    content: "Use any tram or bus heading to a stop called \"Plac Grunwaldzki\". From the stop you'll have to walk for about 500 meters."
+    content: "Use any tram or bus heading to a stop called Plac Grunwaldzki. From the stop you'll have to walk for about 500 meters."
   p3:
     header: "By car"
     content: "Please contact us after you have registered for the event and we will arrange a free parking spot."

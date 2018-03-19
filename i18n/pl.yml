@@ -78,7 +78,7 @@ agenda:
       lang: "[en]"
       author: "Klaus Knopper"
       photo: "/img/ludzie/klaus.jpg"
-      desc: "<p>Cel: Wytworzenie pudełka handlującego Bitcoinem przy pomocy w pełni automatycznych algorytmów w bezpiecznym środowisku sprzętowym.</p><p> Bitcoin zyskał na popularności jako pierwsza i obecnie najdroższa kryptowaluta. Strategia \"kup wcześnie i trzymaj\" zwykle pozwalała zarobić. Jednak ze względu na zmienność kursów, aktywny handel kusi możliwością szybszego i większego powiększenia majątku. Niestety, handel manualny w rękach niedoświadczonej osoby zmienia się w nieodpowiedzialny hazard i może skutkować szybką utratą inwestycji. Projekt \"Pudełko szybkiego zarabiania pieniędzy\" z kursu Zaawansowanego Zarządzania Informacją ma na celu implementację czysto algorytmicznego handlu w sposób uniemożliwiający złe decyzje spowodowane chciwością czy paniką. Jednocześnie służy jako elektroniczna wersja konta oszczędnościowego opartego na technologii blockchain, eliminując jeden z wektorów ataku, przez dostarczenie konkretnego rozwiązania sprzętowego portfela.</p>"
+      desc: "<p>Cel: Wytworzenie pudełka handlującego Bitcoinem przy pomocy w pełni automatycznych algorytmów w bezpiecznym środowisku sprzętowym.</p><p> Bitcoin zyskał na popularności jako pierwsza i obecnie najdroższa kryptowaluta. Strategia 'kup wcześnie i trzymaj' zwykle pozwalała zarobić. Jednak ze względu na zmienność kursów, aktywny handel kusi możliwością szybszego i większego powiększenia majątku. Niestety, handel manualny w rękach niedoświadczonej osoby zmienia się w nieodpowiedzialny hazard i może skutkować szybką utratą inwestycji. Projekt 'Pudełko szybkiego zarabiania pieniędzy' z kursu Zaawansowanego Zarządzania Informacją ma na celu implementację czysto algorytmicznego handlu w sposób uniemożliwiający złe decyzje spowodowane chciwością czy paniką. Jednocześnie służy jako elektroniczna wersja konta oszczędnościowego opartego na technologii blockchain, eliminując jeden z wektorów ataku, przez dostarczenie konkretnego rozwiązania sprzętowego portfela.</p>"
     p6:
       title: "Linux KVM - wparcie dla wirtualizacji w kontekście serwerów ARM"
       time: "15:30-16:30"
@@ -91,14 +91,14 @@ agenda:
       lang: "[pl]"
       author: "Cezary Dynak"
       photo: "/img/ludzie/unknown.jpg"
-      desc: "<p>Buildroot, OpenWRT, LTIB, PTXDist, Yocto Project - pewnie słyszałeś o przynajmniej jednym z tych narzędzi, ale czy znasz je wszystkie? Czy kiedykolwiek samodzielnie skompilowałeś całą dystrybucje Linuksa, nie tylko samo jądro lub pojedynczą paczkę? W tej prezentacji chciałbym przedstawić możliwości oraz porównać dostępne narzędzia zbiorczo określane jako \"Embedded Linux build systems\".</p> <p>Na przykład: Jaki jest czas i koszt pełnego procesu kompilacji na maszynach o rożnej mocy? Ile przestrzeni potrzebujemy na systemie hosta i jak małe obrazy systemu docelowego możemy uzyskać? Przedstawię również jak przy pomocy kilku komend i wykorzystaniu półproduktów budowania dystrybucji stworzyć bazowy obraz Dockera. Ten pomysł wydaje się idealnie pasować do obecnych trendów "edge computing".</p>"
+      desc: "<p>Buildroot, OpenWRT, LTIB, PTXDist, Yocto Project - pewnie słyszałeś o przynajmniej jednym z tych narzędzi, ale czy znasz je wszystkie? Czy kiedykolwiek samodzielnie skompilowałeś całą dystrybucje Linuksa, nie tylko samo jądro lub pojedynczą paczkę? W tej prezentacji chciałbym przedstawić możliwości oraz porównać dostępne narzędzia zbiorczo określane jako 'Embedded Linux build systems'.</p> <p>Na przykład: Jaki jest czas i koszt pełnego procesu kompilacji na maszynach o rożnej mocy? Ile przestrzeni potrzebujemy na systemie hosta i jak małe obrazy systemu docelowego możemy uzyskać? Przedstawię również jak przy pomocy kilku komend i wykorzystaniu półproduktów budowania dystrybucji stworzyć bazowy obraz Dockera. Ten pomysł wydaje się idealnie pasować do obecnych trendów 'edge computing'.</p>"
     p8:
       title: "OSX for Linux Power Users"
       time: "17:30-18:30"
       lang: "[pl]"
       author: "Adam Rogowski"
       photo: "/img/ludzie/rogowski.jpg"
-      desc: "<p>How \"the most advanced operating system in the world\" fares in usability comparing to linux...</p>"
+      desc: "<p>How 'the most advanced operating system in the world' fares in usability comparing to Linux...</p>"
   sunday:
     date: "8 kwietnia"
     day: ".Niedziela"
@@ -168,11 +168,11 @@ speakers:
     photo: "/img/ludzie/maczukin.jpg"
     content: "<p>Programista, projektant oprogramowania, SRE. Z IT związany od 2002 roku, zawodowo od 2009. Linuksa pierwszy raz zainstalowałem w 2004 roku, a od 2007 to jedyny system, który napędza posiadane przeze mnie komputery. Korzystam głównie z Debiana/Ubuntu. Z GitLabem związany od grudnia 2015 i prawie od samego początku zajmuję się CI/CD. Obecnie dbam o sprawne działanie infrastruktury napędzającej CI/CD na GitLab.com</p>"
   p5:
-    name: "Maciej \"Docent\" Lasyk"
+    name: "Maciej 'Docent' Lasyk"
     photo: "/img/ludzie/lasyk.jpg"
     content: "<p>Absolwent AGH w Krakowie, administrator w firmie Codewise w wolnym czasie rozwijający dystrybuję Fedora oraz zapalony cyklista</p>"
   p6:
-    name: "Błażej \"Mewp\" Święcicki"
+    name: "Błażej 'Mewp' Święcicki"
     photo: "/img/ludzie/mewp.jpg"
     content: "<p>Sysadmin, programista, linuksiarz i były prezes Akademickiego Stowarzyszenia Informatycznego. Zagorzały przeciwnik Facebooka i innych zcentralizowanych usług w chmurze.</p>"
   p7:
@@ -184,7 +184,7 @@ speakers:
     photo: "/img/ludzie/nowicki.jpg"
     content: "<p>Starszy Inżynier Oprogramowania w firmie Semihalf. Z wykształcenia elektronik, zawodowo programista systemów operacyjnych.  Wieloletnio związany z tematyką Linux i ARMv8, w szczególności z podsystemami KVM, PCI, i ACPI. W wolnych chwilach kibic skoków narciarskich i piłki nożnej.</p>"
   p9:
-    name: "Jakub \"Siewca\" Juszczakiewicz"
+    name: "Jakub 'Siewca' Juszczakiewicz"
     photo: "/img/ludzie/siewca.jpg"
     content: "Jestem programistą i miłośnikiem otwartego oprogramowania. Byłym członkiem w ASI i absolwentem Politechniki Wrocławskiej. Po za informatyką lubię się przemieszczać różnymi środkami transportu - od własnych nóg, przez rower, narty... do pociągów."
   p10:
@@ -225,10 +225,10 @@ lpi:
     content: "W trakcie tegorocznej Sesji Linuksowej organizujemy egzaminy Linux Professional Institute. Uczestnicy płacą tylko połowę ceny, czyli 90 Euro (60 EUR dla egzaminu Linux Essentials)."
   p2:
     header: "Przygotowanie"
-    content: "Uczestnicy egzaminu proszeni są o zgłoszenie się z ważnym dokumentem tożsamości ze zdjęciem oraz obowiązkowo LPI-ID, które można otrzymać rejestrując się na stronie <a href=\"https://cs.lpi.org/caf/Xamman/register\">LINK</a>"
+    content: "Uczestnicy egzaminu proszeni są o zgłoszenie się z ważnym dokumentem tożsamości ze zdjęciem oraz obowiązkowo LPI-ID, które można otrzymać rejestrując się na stronie <a href='https://cs.lpi.org/caf/Xamman/register'>LINK</a>"
   p3:
     header: "Więcej informacji"
-    content: "Dokładne informacje o egzaminie zostały zebrane w <a href=\"pdf/lpi_pl.pdf\">tym dokumencie.</a><br /><center><img style=\"max-width: 40%\" src=\"/img/loga/logo-lpi.png\"></center>"
+    content: "Dokładne informacje o egzaminie zostały zebrane w <a href='pdf/lpi_pl.pdf'>tym dokumencie.</a><br /><center><img style='max-width: 40%' src='/img/loga/logo-lpi.png'></center>"
 cfp:
   p1:
     header: "Chcesz podzielić się wiedzą?"
