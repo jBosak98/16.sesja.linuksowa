@@ -34,6 +34,134 @@ contact:
     email: "Your email"
     content: "Got any questions or suggestions? Write them here."
     submit: "Send"
+agenda:
+  speaker: "Speaker:"
+  extended_text: "Click here if you want to check the talk descriptions."
+  lpi:
+    photo: "/img/loga/logo-lpi.png"
+    time: "08:30-09:45"
+    title: "<i>Egzamin LPI</i>"
+  saturday:
+    date: "7 kwietnia"
+    day: ".Sobota"
+    p1:
+      title: "Deep Learning - droga od ciekawostki futurologicznej do przemysłu"
+      time: "10:00-11:00"
+      lang: "[pl]"
+      author: "Filip Drapejkowski"
+      photo: "/img/ludzie/drapej.jpg"
+      desc: "Opis po angielsku"
+    p2:
+      title: "Ansible, by wszystkimi rządzić"
+      time: "11:00-12:00"
+      lang: "[pl]"
+      author: "Tomasz Szandała"
+      photo: "/img/ludzie/unknown.jpg"
+      desc: "Ansible to oprogramowanie, które pozwala zautomatyzować zarządzanie konfiguracją sprzętową na dowolnym systemami operacyjnym, za pomocą języka Python. Prezentacja będzie opowieścią o lekcjach zdobytych podczas rozwoju nowego projektu w firmie NOKIA. Od pierwszego playbooka, do zarządzania chmurą OpenStackową z pomocą Ansible Tower."
+    p3:
+      title: "Jak zaprojektować rozwiązanie CI/CD, obsługujące milion zadań każdego dnia"
+      time: "12:00-13:00"
+      lang: "[pl]"
+      author: "Tomasz Maczukin"
+      photo: "/img/ludzie/maczukin.jpg"
+      desc: "Opowiadając historię rozwoju CI/CD na GitLab.com chciał bym zaprezentować z jakimi problemami się spotkaliśmy, jakie rozwiązania wprowadziliśmy i na co próbujemy się przygotować dążąc do postawionego sobie celu: udostępnienia systemu, który obsłuży milion zadań CI/CD każdego dnia."
+    p4:
+      title: Przerwa obiadowa
+      time: "13:00-14:30"
+      lang: ""
+      author: ""
+      desc: ""
+    p5:
+      title: "Projekt pudełka do szybkiego zarabiania pieniędzy. Zautomatyzowany handel Bitcoinem na Raspberry Pi."
+      time: "14:30-15:30"
+      lang: "[en]"
+      author: "Klaus Knopper"
+      photo: "/img/ludzie/klaus.jpg"
+      desc: "<p>Cel: Wytworzenie pudełka handlującego Bitcoinem przy pomocy w pełni automatycznych algorytmów w bezpiecznym środowisku sprzętowym.</p><p> Bitcoin zyskał na popularności jako pierwsza i obecnie najdroższa kryptowaluta. Strategia 'kup wcześnie i trzymaj' zwykle pozwalała zarobić. Jednak ze względu na zmienność kursów, aktywny handel kusi możliwością szybszego i większego powiększenia majątku. Niestety, handel manualny w rękach niedoświadczonej osoby zmienia się w nieodpowiedzialny hazard i może skutkować szybką utratą inwestycji. Projekt 'Pudełko szybkiego zarabiania pieniędzy' z kursu Zaawansowanego Zarządzania Informacją ma na celu implementację czysto algorytmicznego handlu w sposób uniemożliwiający złe decyzje spowodowane chciwością czy paniką. Jednocześnie służy jako elektroniczna wersja konta oszczędnościowego opartego na technologii blockchain, eliminując jeden z wektorów ataku, przez dostarczenie konkretnego rozwiązania sprzętowego portfela.</p>"
+    p6:
+      title: "Linux KVM - wparcie dla wirtualizacji w kontekście serwerów ARM"
+      time: "15:30-16:30"
+      lang: "[pl]"
+      author: "Tomasz Nowicki"
+      desc: "<p>Na rynku serwerów coraz częściej możemy spotkać maszyny oparte o architekturę ARM. Chociaż na tle konkurencji wciąż znajdują się w mniejszości, to na rynku utrzymują tendencję wzrostową. Warto zatem przyjrzeć się bliżej architekturze i poznać możliwości sprzętowe.W tematyce wirtualizacji serwery ARM nie mogą odstawać od znanej nam architektury x86_64 dlatego na przestrzeni ostatnich kilku lat doczekaliśmy się kilku znaczących rozszerzeń ukierunkowanych w tym celu. W prezentacji chciałbym przybliżyć architekturę ARMv8 i metody wirtualizacji CPU oraz urządzeń peryferyjnych na przykładzie KVM. Omówię też sposoby optymalizacji, które mogą się przydać podczas zarządzania wirtualnymi maszynami.</p>"
+    p7:
+      title: "Embedded Linux build systems - wszechstronne porównanie"
+      time: "16:30-17:30"
+      lang: "[pl]"
+      author: "Cezary Dynak"
+      photo: "/img/ludzie/unknown.jpg"
+      desc: "<p>Buildroot, OpenWRT, LTIB, PTXDist, Yocto Project - pewnie słyszałeś o przynajmniej jednym z tych narzędzi, ale czy znasz je wszystkie? Czy kiedykolwiek samodzielnie skompilowałeś całą dystrybucje Linuksa, nie tylko samo jądro lub pojedynczą paczkę? W tej prezentacji chciałbym przedstawić możliwości oraz porównać dostępne narzędzia zbiorczo określane jako 'Embedded Linux build systems'.</p> <p>Na przykład: Jaki jest czas i koszt pełnego procesu kompilacji na maszynach o rożnej mocy? Ile przestrzeni potrzebujemy na systemie hosta i jak małe obrazy systemu docelowego możemy uzyskać? Przedstawię również jak przy pomocy kilku komend i wykorzystaniu półproduktów budowania dystrybucji stworzyć bazowy obraz Dockera. Ten pomysł wydaje się idealnie pasować do obecnych trendów 'edge computing'.</p>"
+    p8:
+      title: "OSX for Linux Power Users"
+      time: "17:30-18:30"
+      lang: "[pl]"
+      author: "Adam Rogowski"
+      photo: "/img/ludzie/rogowski.jpg"
+      desc: "<p>How 'the most advanced operating system in the world' fares in usability comparing to Linux...</p>"
+  sunday:
+    date: "8 kwietnia"
+    day: ".Niedziela"
+    p1:
+      title: "Vim"
+      time: "10:00-11:00"
+      lang: "[en]"
+      author: "Błażej Święcicki"
+      photo: "/img/ludzie/mewp.jpg"
+      desc: "<p>Każdy kto używa vima, robi to trochę inaczej. To jest na tyle rozbudowany edytor tekstu, że można by o nim opowiadać pewnie w nieskończoność. Ja opowiem o tym, jak sam go używam - zarówno od podstaw, pokazując wbudowane komendy, które ułatwiają życie, jak i opowiem trochę o kilku pluginach, z których korzystam.</p>"
+    p2:
+      title: "Uwierzytelnienie i autoryzacja przy pomocy Oauth2, Nginxa i Pythona"
+      time: "11:00-12:00"
+      lang: "[pl]"
+      author: "Maciej Lasyk"
+      photo: "/img/ludzie/lasyk.jpg"
+      desc: "<p>Jednym z problemów, z którymi borykamy się w naszych sieciach są aplikacje, które nie potrafią skorzystać z centralnego repozytorium tożsamości implementując własne rozwiązania i powodując, iż użytkownik posiada wiele kont w różnych serwisach w ramach jednej instytucji. Czasem też niektóre aplikacje w ogóle nie zapewniają jakiejkolwiek autentykacji pozostawiając swoje zasoby otwarte dla całej sieci wewnętrznej (lub co gorsza - internecie).</p><p> W trakcie prezentacji przedstawię w jaki sposób można zabezpieczyć tego rodzaju serwisy przy użyciu znanych nam rozwiązań (Nginx, trochę Pythona z domieszką pragmatyzmu). Implementację Oauth2 omówię na podstawie Google i Githuba.</p><p> Na deser - połączę wszystkie powyższe pomysły w jedną całość zgodną z moimi prezentacjami na Sesji z poprzednich lat - pokażę wam w jaki sposób zrealizować w Rundecku logowanie za pomocą Oautha hostując zasoby w kontenerach systemd-nspawn ;)</p>"
+    p3:
+      title: "Zrozumieć Gitlab CI"
+      time: "12:00-13:00"
+      lang: "[pl]"
+      author: "Kamil Trzciński"
+      photo: "/img/ludzie/kamiltrzcinski.jpg"
+      desc: "<p>Ta prelekcja wyjaśni jak zbudowany jest GitLab CI oraz jak go używać efektywnie. Zrozumiesz jaka jest relacja między wykonawcą a dockerem, zadaniem a kontenerem. Zobaczysz jak prosto i szybko przygotować i naprawić twojego pipeline. Dodatkowo, dowiesz się kilku technik jak usprawnić wydajność CI w popularnych zastosowaniach. Każdy chce aby jego docker build czy rspec wykonywał się szybciej, prawda?</p>"
+    p4:
+      title: Przerwa obiadowa
+      time: "13:00-14:30"
+      lang: ""
+      author: ""
+      desc: ""
+    p5:
+      title: "Energy-efficiency Features in Hardware and Linux "
+      time: "14:30-15:30"
+      lang: "[pl]"
+      author: "Rafał Wysocki"
+      photo: "/img/ludzie/wysocki.jpg"
+      desc: "<p>Many hardware components of modern computer systems, like processors, System-on-a-Chip (SoC) circuits and I/O peripherals, offer features targeted at improving their energy efficiency.  Many of these features can be used by Linux, either by default or if they are enabled through a configuration mechanism of some sort.  I will describe some of these features and explain how they are used by the Linux kernel or how it can be configured to use them.</p>"
+    p6:
+      title: "Bitrise & OpenSTF"
+      time: "15:30-16:30"
+      lang: "[pl]"
+      author: "Karol Wrótniak"
+      photo: "/img/ludzie/karol.jpg"
+      desc: "<p>Prezentacja ma na celu przedstawienie OpenSTF - otwartej farmy testowej dla urządzeń z Androidem oraz Bitrise.io - platformy do Continuous Integration. Powiem w jaki sposób połączyć je ze sobą, jak ich używamy, do czego oprócz testów jeszcze mogą służyć oraz jak przebiegały kontrybucje do ich projektów open source.</p>"
+    p7:
+      title: "Wstęp do tunelowania ruchu sieciowego"
+      time: "16:30-17:30"
+      lang: "[pl]"
+      author: "Jakub Juszczakiewicz"
+      photo: "/img/ludzie/siewca.jpg"
+      desc: "<p>Na prelekcji przedstawię podstawy konfiguracji VLANów i OpenVPNa jako przykłady tunelowania ruchu sieciowego które każdy może zrobić. Opowiem czym są VLANy, jak je skonfigurować (głównie na Linuksie) i dlaczego warto z nich korzystać w sieciach lokalnych. Podobnie przestawię możliwości OpenVPNa. Dodatkowo będzie trochę informacji o konfiguracji IPTables i interfejsów-mostów sieciowych.</p>"
+speakers:
+  p1:
+    content: "Author of Knoppix - first LiveCD Linux distribution and Adrianne Knoppix - distribution aimed at people with impaired sigh"
+  p2:
+    content: "<p>Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge. He's focusing lately on the 'container revolution' and building best CI product in the world. In his spare time, he likes to run, cycle and play good games, although not all at the same time.</p>"
+  p5:
+    content: "<p>AGH University of Science and Technology in Kraków alumnus, sysadmin at Codewise, Fedora contributor and a cyclist.</p>"
+  p6:
+    content: "Sysadmin, programmer, Linux fan and former Academic IT Association president. Staunch opponent of Facebook and other centralized services."
+  p7:
+    content: "Senior Software Developer at Luxoft / Nauto working with algorithms for processing signals from sensors placed in cars (mainly cameras)."
+  p8:
+    content: "<p>Senior Software Engineer at Semihalf. An electronics engineer by education, an operating systems programmer by profession. For many years tied to the subject of Linux and ARMv8, in particular with KVM, PCI, and ACPI subsystems. An avid fan of ski jumping and football.</p>"
 about:
   p1:
     header: "What is Linux Session?"
@@ -58,34 +186,6 @@ cfp:
       <a href="mailto:talks@sesja.linuksowa.pl">talks@sesja.linuksowa.pl</a>
       <br/>
       Talk submission deadline is 7th April 2017
-agenda:
-  speaker: "Speaker:"
-  extended_text: "To see the extended agenda (with talk descriptions), click here."
-  saturday:
-    date: "April 7th"
-    day: ".Saturday"
-    p4:
-      title: "Lunch break"
-  sunday:
-    date: "April 8th"
-    day: ".Sunday"
-    p4:
-      title: "Lunch break"
-    p6:
-      desc: "I do not want to approach the subject from a usual perspective covering technical details. Instead based on my experience from software configuration and integration area, I would like to present few stories which will give examples how projects can actually profit from moving towards YOCTO driven approaches and which problems YOCTO can actually help to solve."
-speakers:
-  p1:
-    content: "Author of Knoppix - first LiveCD Linux distribution and Adrianne Knoppix - distribution aimed at people with impaired sigh"
-  p2:
-    content: "<p>Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge. He's focusing lately on the 'container revolution' and building best CI product in the world. In his spare time, he likes to run, cycle and play good games, although not all at the same time.</p>"
-  p5:
-    content: "<p>AGH University of Science and Technology in Kraków alumnus, sysadmin at Codewise, Fedora contributor and a cyclist.</p>"
-  p6:
-    content: "Sysadmin, programmer, Linux fan and former Academic IT Association president. Staunch opponent of Facebook and other centralized services."
-  p7:
-    content: "Senior Software Developer at Luxoft / Nauto working with algorithms for processing signals from sensors placed in cars (mainly cameras)."
-  p8:
-    content: "<p>Senior Software Engineer at Semihalf. An electronics engineer by education, an operating systems programmer by profession. For many years tied to the subject of Linux and ARMv8, in particular with KVM, PCI, and ACPI subsystems. An avid fan of ski jumping and football.</p>"
 live:
   title: "Talks from 14th Linux Session"
   p1:
