@@ -115,12 +115,6 @@
           %span.data=t.agenda.sunday.date
           =t.agenda.sunday.day
         .prelekcja
-          %img{:src => t.agenda.lpi.photo}
-          .opis
-            .tytul
-              =t.agenda.lpi.title
-            .godzina=t.agenda.lpi.time
-        .prelekcja
           %img{:src => t.agenda.sunday.p1.photo}
           .opis
             .tytul
@@ -180,41 +174,6 @@
             .godzina=t.agenda.sunday.p7.time
             .abstrakt=t.agenda.sunday.p7.desc
             .autor=t.agenda.speaker + " " + t.agenda.sunday.p7.author
-    #con-warsztaty.con-bg
-      %span#warsztaty.anchor-jump-link
-      .con-content
-        %h2.bg-text=t.navigation.workshops
-        %h2.spacer  
-        .opis
-          .half
-            %h2=t.workshops.p1.header
-            %p=t.workshops.p1.content
-          .half
-            %h2=t.workshops.p2.header
-            %p=t.workshops.p2.content
-        .third
-          %h2=t.workshops.p3.header
-          %p=t.workshops.p3.content
-        .third
-          %h2=t.workshops.p4.header
-          %p=t.workshops.p4.content
-        .third
-          %h2=t.workshops.p5.header
-          %p=t.workshops.p5.content
-    #con-lpi.con-bg
-      %span#lpi.anchor-jump-link
-      .con-content
-        %h2.bg-text=t.navigation.lpi
-        %h2.spacer  
-        .third
-          %h2=t.lpi.p1.header
-          %p=t.lpi.p1.content
-        .third
-          %h2=t.lpi.p2.header
-          %p=t.lpi.p2.content
-        .third
-          %h2=t.lpi.p3.header
-          %p=t.lpi.p3.content
     #con-prelegenci.con-bg
       %span#prelegenci.anchor-jump-link
       .con-content
@@ -268,18 +227,6 @@
           %img{:src => t.speakers.p12.photo}
           %h3=t.speakers.p12.name
           %span=t.speakers.p12.content
-        .third
-          %img{:src => t.speakers.p13.photo}
-          %h3=t.speakers.p13.name
-          %span=t.speakers.p13.content
-        .third
-          %img{:src => t.speakers.p14.photo}
-          %h3=t.speakers.p14.name
-          %span=t.speakers.p14.content
-        .third
-          %img{:src => t.speakers.p15.photo}
-          %h3=t.speakers.p15.name
-          %span=t.speakers.p15.content
     #con-footer.con-bg
       .con-content
         © 2016

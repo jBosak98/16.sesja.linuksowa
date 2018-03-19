@@ -61,15 +61,13 @@ cfp:
 agenda:
   speaker: "Speaker:"
   extended_text: "To see the extended agenda (with talk descriptions), click here."
-  lpi:
-     title: "<i>LPI Exam</i>"
   saturday:
-    date: "May 6th"
+    date: "April 7th"
     day: ".Saturday"
     p4:
       title: "Lunch break"
   sunday:
-    date: "May 7th"
+    date: "April 8th"
     day: ".Sunday"
     p4:
       title: "Lunch break"
@@ -77,31 +75,17 @@ agenda:
       desc: "I do not want to approach the subject from a usual perspective covering technical details. Instead based on my experience from software configuration and integration area, I would like to present few stories which will give examples how projects can actually profit from moving towards YOCTO driven approaches and which problems YOCTO can actually help to solve."
 speakers:
   p1:
-    content: "Krzysztof is a PhD student at Warsaw University of Technology. He works as Kernel and System Developer at Samsung R&D Institute Poland. Since 2013 involved in USB support development in Tizen OS. Maintainer of libusbgx - library for USB gadgets management through ConfigFS. Open Source enthusiast and speaker at several Linux and Open Source Conferences. "
-  p6:
-    content: "Fabian Thorns is the Director of Certification Development at Linux Professional Institute, LPI. He is M.Sc. Business Information Systems, a regular speaker at open source events and the author of numerous articles and books."
-  p11:
-    content: "SCM Engineer at Nokia, former vice-chairman of Academic IT Association, graduate of Wroclaw University of Science and Technology.<br />Uses Linux as server environment for years, at the same time hating it as desktop system."
-  p12:
-    content: "DevOps at OVH.pl - daily, PhD student at Wrocław University of Science and Technology - occasionally, Dungeon Master - in free time, IKEA's furniture assembling lover - anytime :-) "
-  p13:
-    content: "I work for NOKIA for over 5 years within SCM related areas. I have few interests here and there, especially in astronomy, sci-fi books, history and video games."
-workshops:
-  p1:
-    header: "About Yocto"
-    content: "<p>Embedded platform estabilished in years 2006 and 2008 by 3 lecturers from University of Cambridge in order to improve future programming skill of new generation students, the first batch sold out in few minutes.</p><p>During a few shor years it became the worlds most popular embedded platform,which grants the ease of learning programming and basic of robotics for a small price.</p>"
+    content: "Author of Knoppix - first LiveCD Linux distribution and Adrianne Knoppix - distribution aimed at people with impaired sigh"
   p2:
-    header: "Covered topic"
-    content: "<p>The point of those workshops is the use of  Yocto to create a gnu/linux distro for Raspberry Pi.</p><p>The main Yocto tool will be introduced -BitBake- used to build recipes and task management. Topic of debugging and controlling BitBake will be covered too.</p><p>Workshops will be held in Polish.</p>"
-  p3:
-    header: "Requirements"
-    content: "Workshops are designated towards people with basic Linux knowledge.<br />Lecture is the introduction to the workshops <i><b>Yocto Project - stwórzmy własną dystrybucję Linuksa dla systemu wbudowanego!</b></i>"
-  p4:
-    header: "Enrollment"
-    content: "Workshops will be held in two parts - during saturday and sunday, from 11:30AM.<br /><center>Registration is closed. Qualified participants will be informed via e-mail.</center>"
+    content: "<p>Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge. He's focusing lately on the "container revolution" and building best CI product in the world. In his spare time, he likes to run, cycle and play good games, although not all at the same time.</p>"
   p5:
-    header: "Coaches"
-    content: "Workshops will be held by <b>Łukasz Gardoń</b> and <b>Patryk Czajkowski</b> - employees of Nokia<br /><center><img style=\"max-width: 50%\" src=\"/img/loga/logo-nokia.svg\" /></center>"
+    content: "</p>AGH University of Science and Technology in Kraków alumnus, sysadmin at Codewise, Fedora contributor and a cyclist.</p>"
+  p6:
+    content: "Sysadmin, programmer, Linux fan and former Academic IT Association president. Staunch opponent of Facebook and other centralized services."
+  p7:
+    content: "Senior Software Developer at Luxoft / Nauto working with algorithms for processing signals from sensors placed in cars (mainly cameras)."
+  p8:
+    content: "<p>Senior Software Engineer at Semihalf. An electronics engineer by education, an operating systems programmer by profession. For many years tied to the subject of Linux and ARMv8, in particular with KVM, PCI, and ACPI subsystems. An avid fan of ski jumping and football.</p>"
 live:
   title: "Talks from 14th Linux Session"
   p1:
@@ -121,8 +105,8 @@ live:
     content: 'More infomration can be found at <a href="http://13.sesja.linuksowa.pl/en.html">13.sesja.linuksowa.pl</a>'
 dojazd:
   p1:
-    header: "Strefa Kultury Studenckiej"
-    content: "Students' Culture Zone is a building located on Wrocław University of Technology campus. The precise address is Hoene-Wrońskiego 10."
+    header: "Congress Center of the Wrocław University of Science and Technology (bulding D20)"
+    content: Congress Center of the Wrocław University of Technology is a building located on Wrocław University of Science and Technology campus. The precise address is Janiszewskiego 8."
   p2:
     header: "Public transport"
     content: "Use any tram or bus heading to a stop called \"Plac Grunwaldzki\". From the stop you'll have to walk for about 500 meters."
