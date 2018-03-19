@@ -26,7 +26,6 @@
           %a{:href => t.navigation.home_url}=t.navigation.back_to_home
           %a{:href => "#agenda"}=t.navigation.agenda
           %a{:href => "#warsztaty"}=t.navigation.workshops
-          %a{:href => "#lpi"}=t.navigation.lpi
           %a{:href => "#prelegenci"}=t.navigation.speakers
           %a.lang-switch{:href => t.navigation.lang_agenda_url}
             %img{:alt => "", :src => t.navigation.lang_flag}
@@ -39,12 +38,6 @@
         %h3
           %span.data=t.agenda.saturday.date
           =t.agenda.saturday.day
-        .prelekcja
-          %img{:src => t.agenda.lpi.photo}
-          .opis
-            .tytul
-              =t.agenda.lpi.title
-            .godzina=t.agenda.lpi.time
         .prelekcja
           %img{:src => t.agenda.saturday.p1.photo}
           .opis
@@ -111,6 +104,12 @@
               =t.agenda.saturday.p8.title
               %span.lang=t.agenda.saturday.p8.lang
             .godzina=t.agenda.saturday.p8.time
+        .prelekcja
+          .opis
+            .tytul
+              =t.agenda.saturday.p9.title
+              %span.lang=t.agenda.saturday.p9.lang
+            .godzina=t.agenda.saturday.p9.time
         %h3
           %span.data=t.agenda.sunday.date
           =t.agenda.sunday.day

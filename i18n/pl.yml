@@ -90,7 +90,7 @@ agenda:
       time: "16:30-17:30"
       lang: "[pl]"
       author: "Cezary Dynak"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/cezary.jpg"
       desc: "<p>Buildroot, OpenWRT, LTIB, PTXDist, Yocto Project - pewnie słyszałeś o przynajmniej jednym z tych narzędzi, ale czy znasz je wszystkie? Czy kiedykolwiek samodzielnie skompilowałeś całą dystrybucje Linuksa, nie tylko samo jądro lub pojedynczą paczkę? W tej prezentacji chciałbym przedstawić możliwości oraz porównać dostępne narzędzia zbiorczo określane jako 'Embedded Linux build systems'.</p> <p>Na przykład: Jaki jest czas i koszt pełnego procesu kompilacji na maszynach o rożnej mocy? Ile przestrzeni potrzebujemy na systemie hosta i jak małe obrazy systemu docelowego możemy uzyskać? Przedstawię również jak przy pomocy kilku komend i wykorzystaniu półproduktów budowania dystrybucji stworzyć bazowy obraz Dockera. Ten pomysł wydaje się idealnie pasować do obecnych trendów 'edge computing'.</p>"
     p8:
       title: "OSX for Linux Power Users"
@@ -99,13 +99,19 @@ agenda:
       author: "Adam Rogowski"
       photo: "/img/ludzie/rogowski.jpg"
       desc: "<p>How 'the most advanced operating system in the world' fares in usability comparing to Linux...</p>"
+    p9:
+      title: "Lightning talks "
+      time: "18:30-19:00"
+      lang: "[pl]"
+      author: ""
+      desc: ""
   sunday:
     date: "8 kwietnia"
     day: ".Niedziela"
     p1:
       title: "Vim"
       time: "10:00-11:00"
-      lang: "[en]"
+      lang: "[pl]"
       author: "Błażej Święcicki"
       photo: "/img/ludzie/mewp.jpg"
       desc: "<p>Każdy kto używa vima, robi to trochę inaczej. To jest na tyle rozbudowany edytor tekstu, że można by o nim opowiadać pewnie w nieskończoność. Ja opowiem o tym, jak sam go używam - zarówno od podstaw, pokazując wbudowane komendy, które ułatwiają życie, jak i opowiem trochę o kilku pluginach, z których korzystam.</p>"
@@ -199,10 +205,14 @@ speakers:
     name: "Adam Rogowski"
     photo: "/img/ludzie/rogowski.jpg"
     content: "Game Developer. Były członek Akademickiego Stowarzyszenia Informatycznego."
+  p13:
+    name: "Cezary Dynak"
+    photo: "/img/ludzie/cezary.jpg"
+    content: "Absolwent specjalności Embedded Robotics oraz były admin lab07/C-3 na PWr. Obecnie pracuje jako Node.js developer dla firmy SpyroSoft. Poza back-endem dla IoT interesuje się również Linuksem pod kątem systemów wbudowanych i DevOps."
 about:
   p1:
     header: "Czym jest sesja?"
-    content: "Jest to konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
+    content: "Jest to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
   p2:
     header: "Jak to wygląda?"
     content: "Udział w Sesji jest darmowy. Co roku na konferencji spotykają się pasjonaci informatyki z całej Polski, aby pogłębić swoją wiedzę i podjąć dyskusję w interesujących ich dziedzinach."

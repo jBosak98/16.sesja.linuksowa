@@ -132,15 +132,24 @@
                   =t.agenda.saturday.p7.title
                   %span.lang=t.agenda.saturday.p7.lang
                 .autor=t.agenda.saturday.p7.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p8.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p8.title
+                  %span.lang=t.agenda.saturday.p8.lang
+                .autor=t.agenda.saturday.p8.author
+            .prelekcja
+              .godzina=t.agenda.saturday.p9.time
+              .opis
+                .tytul
+                  =t.agenda.saturday.p9.title
+                  %span.lang=t.agenda.saturday.p9.lang
+                .autor=t.agenda.saturday.p9.author
           .half
             %h3
               %span.data=t.agenda.sunday.date
               =t.agenda.sunday.day
-            .prelekcja
-              .godzina=t.agenda.lpi.time
-              .opis
-                .tytul
-                  =t.agenda.lpi.title
             .prelekcja
               .godzina=t.agenda.sunday.p1.time
               .opis
@@ -183,6 +192,14 @@
                   =t.agenda.sunday.p6.title
                   %span.lang=t.agenda.sunday.p6.lang
                 .autor=t.agenda.sunday.p6.author
+
+            .prelekcja
+              .godzina=t.agenda.sunday.p7.time
+              .opis
+                .tytul
+                  =t.agenda.sunday.p7.title
+                  %span.lang=t.agenda.sunday.p7.lang
+                .autor=t.agenda.sunday.p7.author
         .extended-link
           %a{:href => t.navigation.agenda_url}=t.agenda.extended_text
     #con-prelegenci.con-bg
@@ -222,6 +239,26 @@
           %img{:src => t.speakers.p8.photo}
           %h3=t.speakers.p8.name
           %span=t.speakers.p8.content
+        .third
+          %img{:src => t.speakers.p9.photo}
+          %h3=t.speakers.p9.name
+          %span=t.speakers.p9.content
+        .third
+          %img{:src => t.speakers.p10.photo}
+          %h3=t.speakers.p10.name
+          %span=t.speakers.p10.content
+        .third
+          %img{:src => t.speakers.p11.photo}
+          %h3=t.speakers.p11.name
+          %span=t.speakers.p11.content
+        .third
+          %img{:src => t.speakers.p12.photo}
+          %h3=t.speakers.p12.name
+          %span=t.speakers.p12.content
+        .third
+          %img{:src => t.speakers.p13.photo}
+          %h3=t.speakers.p13.name
+          %span=t.speakers.p13.content
     #con-organizatorzy.con-bg
       %span#organizatorzy.anchor-jump-link
       .con-content

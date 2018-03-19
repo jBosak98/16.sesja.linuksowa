@@ -50,14 +50,14 @@ agenda:
       lang: "[pl]"
       author: "Filip Drapejkowski"
       photo: "/img/ludzie/drapej.jpg"
-      desc: "Opis po angielsku"
+      desc: "Deep Learning is a subset of Machine Learning which is a subset of Artificial Intelligence. Many of these concepts and methods are older than computers themselves. Nevertheless, only recently, Deep Learning made its way into regular industry and revolutionized it. Let's take a closer look on the Deep Learning history and the way it changed the way we perceive business, machines and computers. Then, let's understand how open-source enabled the revolution to happen and how can it make Poland a Deep Learning hub for next generations of computer scientists."
     p2:
       title: "Ansible, by wszystkimi rządzić"
       time: "11:00-12:00"
       lang: "[pl]"
       author: "Tomasz Szandała"
       photo: "/img/ludzie/unknown.jpg"
-      desc: "Ansible to oprogramowanie, które pozwala zautomatyzować zarządzanie konfiguracją sprzętową na dowolnym systemami operacyjnym, za pomocą języka Python. Prezentacja będzie opowieścią o lekcjach zdobytych podczas rozwoju nowego projektu w firmie NOKIA. Od pierwszego playbooka, do zarządzania chmurą OpenStackową z pomocą Ansible Tower."
+      desc: "Ansible is software that automates servers provisioning, configuration management, and application deployment on any OS supporting Python language. Presentation is about lessons learnt during establishing new project in NOKIA, from the first playbook to OpenStack cloud management using Ansible Tower."
     p3:
       title: "Jak zaprojektować rozwiązanie CI/CD, obsługujące milion zadań każdego dnia"
       time: "12:00-13:00"
@@ -72,25 +72,28 @@ agenda:
       author: ""
       desc: ""
     p5:
-      title: "Projekt pudełka do szybkiego zarabiania pieniędzy. Zautomatyzowany handel Bitcoinem na Raspberry Pi."
+      title: "The ‘Make Money Fast Box Project’ Automatic Bitcoin trading on a Raspberry Pi"
       time: "14:30-15:30"
       lang: "[en]"
       author: "Klaus Knopper"
-      photo: "/img/ludzie/klaus.jpg"
-      desc: "<p>Cel: Wytworzenie pudełka handlującego Bitcoinem przy pomocy w pełni automatycznych algorytmów w bezpiecznym środowisku sprzętowym.</p><p> Bitcoin zyskał na popularności jako pierwsza i obecnie najdroższa kryptowaluta. Strategia 'kup wcześnie i trzymaj' zwykle pozwalała zarobić. Jednak ze względu na zmienność kursów, aktywny handel kusi możliwością szybszego i większego powiększenia majątku. Niestety, handel manualny w rękach niedoświadczonej osoby zmienia się w nieodpowiedzialny hazard i może skutkować szybką utratą inwestycji. Projekt 'Pudełko szybkiego zarabiania pieniędzy' z kursu Zaawansowanego Zarządzania Informacją ma na celu implementację czysto algorytmicznego handlu w sposób uniemożliwiający złe decyzje spowodowane chciwością czy paniką. Jednocześnie służy jako elektroniczna wersja konta oszczędnościowego opartego na technologii blockchain, eliminując jeden z wektorów ataku, przez dostarczenie konkretnego rozwiązania sprzętowego portfela.</p>"
+      photo: "/img/ludzie/klausknopper.jpg"
+      desc: "<p>Goal: Creating a Bitcoin trading box with fully automatic algorithms in a secure hardware environment. Bitcoin has become quite popular as the first and currently most valuable crypto currency. The ‘buy early and hold’ strategy has been mostly successful in the past for gaining revenue. However, due to the volatility of the exchange rates, active trading may be tempting to yield quicker and higher return of investment. Unfortunately, manual trading can be like irresponsible gambling for the unexperienced user, and may result in quickly destroying all of your Bit- coins or Euros investments. The Information Management Master course ‘Make Money Fast Box’ project aims to im- plement a pure algorithmic trading in a way that keeps the user from making bad trading decisions caused by greed or panic, and at the same time acts as an electronic version of a blockchain-based savings account, also eliminating an attac vector by providing specific hardware as storage for the wallet.</p>"
     p6:
-      title: "Linux KVM - wparcie dla wirtualizacji w kontekście serwerów ARM"
+      title: "Linux KVM - Virtualization in ARM server world"
       time: "15:30-16:30"
       lang: "[pl]"
+      photo: "/img/ludzie/nowicki.jpg"
       author: "Tomasz Nowicki"
-      desc: "<p>Na rynku serwerów coraz częściej możemy spotkać maszyny oparte o architekturę ARM. Chociaż na tle konkurencji wciąż znajdują się w mniejszości, to na rynku utrzymują tendencję wzrostową. Warto zatem przyjrzeć się bliżej architekturze i poznać możliwości sprzętowe.W tematyce wirtualizacji serwery ARM nie mogą odstawać od znanej nam architektury x86_64 dlatego na przestrzeni ostatnich kilku lat doczekaliśmy się kilku znaczących rozszerzeń ukierunkowanych w tym celu. W prezentacji chciałbym przybliżyć architekturę ARMv8 i metody wirtualizacji CPU oraz urządzeń peryferyjnych na przykładzie KVM. Omówię też sposoby optymalizacji, które mogą się przydać podczas zarządzania wirtualnymi maszynami.</p>"
+      desc: "<p>On the server market, more and more frequently we can find machines based on ARM architecture. Although they are still in the minority compared to the competition, their numbers maintain an upward trend. It is worth to take a closer look at the ARM architecture and get to know the hardware capabilities. In the field of virtualization, ARM servers cannot stand apart from the well known x86_64 architecture, which is why over the last few years we've had several significant extensions aimed at this purpose. In my presentation I would like to introduce the ARMv8 architecture and methods of CPU and peripheral devices virtualization on the example of KVM. I will also discuss optimization methods that may be useful when managing virtual machines.
+
+</p>"
     p7:
-      title: "Embedded Linux build systems - wszechstronne porównanie"
+      title: "Embedded Linux build systems - a comprehensive comparison"
       time: "16:30-17:30"
       lang: "[pl]"
       author: "Cezary Dynak"
-      photo: "/img/ludzie/unknown.jpg"
-      desc: "<p>Buildroot, OpenWRT, LTIB, PTXDist, Yocto Project - pewnie słyszałeś o przynajmniej jednym z tych narzędzi, ale czy znasz je wszystkie? Czy kiedykolwiek samodzielnie skompilowałeś całą dystrybucje Linuksa, nie tylko samo jądro lub pojedynczą paczkę? W tej prezentacji chciałbym przedstawić możliwości oraz porównać dostępne narzędzia zbiorczo określane jako 'Embedded Linux build systems'.</p> <p>Na przykład: Jaki jest czas i koszt pełnego procesu kompilacji na maszynach o rożnej mocy? Ile przestrzeni potrzebujemy na systemie hosta i jak małe obrazy systemu docelowego możemy uzyskać? Przedstawię również jak przy pomocy kilku komend i wykorzystaniu półproduktów budowania dystrybucji stworzyć bazowy obraz Dockera. Ten pomysł wydaje się idealnie pasować do obecnych trendów 'edge computing'.</p>"
+      photo: "/img/ludzie/cezary.jpg"
+      desc: "<p>Buildroot, OpenWRT, LTIB, PTXDist, Yocto Project - probably you heard about one of those tools, but do you know all of them? Have you ever run a compilation process for whole Linux distribution by your own, not just kernel or single package? I'm going to present the possibilities of those Embedded Linux build systems, as well as some benchmarks and comparison. </p><p>For example: What is the time and cost of a full compilation process on various cloud instances? How much space do we need on the host system and how small images of the target system can we get? With a little bit of live coding, I will also present how create a Docker base images using output of mentioned distribution builders. This idea seems to fit perfectly with the current edge computing trends.</p>"
     p8:
       title: "OSX for Linux Power Users"
       time: "17:30-18:30"
@@ -104,24 +107,24 @@ agenda:
     p1:
       title: "Vim"
       time: "10:00-11:00"
-      lang: "[en]"
+      lang: "[pl]"
       author: "Błażej Święcicki"
       photo: "/img/ludzie/mewp.jpg"
       desc: "<p>Każdy kto używa vima, robi to trochę inaczej. To jest na tyle rozbudowany edytor tekstu, że można by o nim opowiadać pewnie w nieskończoność. Ja opowiem o tym, jak sam go używam - zarówno od podstaw, pokazując wbudowane komendy, które ułatwiają życie, jak i opowiem trochę o kilku pluginach, z których korzystam.</p>"
     p2:
-      title: "Uwierzytelnienie i autoryzacja przy pomocy Oauth2, Nginxa i Pythona"
+      title: "Authentication and autorization with Oauth2, Nginx and Python"
       time: "11:00-12:00"
       lang: "[pl]"
       author: "Maciej Lasyk"
       photo: "/img/ludzie/lasyk.jpg"
-      desc: "<p>Jednym z problemów, z którymi borykamy się w naszych sieciach są aplikacje, które nie potrafią skorzystać z centralnego repozytorium tożsamości implementując własne rozwiązania i powodując, iż użytkownik posiada wiele kont w różnych serwisach w ramach jednej instytucji. Czasem też niektóre aplikacje w ogóle nie zapewniają jakiejkolwiek autentykacji pozostawiając swoje zasoby otwarte dla całej sieci wewnętrznej (lub co gorsza - internecie).</p><p> W trakcie prezentacji przedstawię w jaki sposób można zabezpieczyć tego rodzaju serwisy przy użyciu znanych nam rozwiązań (Nginx, trochę Pythona z domieszką pragmatyzmu). Implementację Oauth2 omówię na podstawie Google i Githuba.</p><p> Na deser - połączę wszystkie powyższe pomysły w jedną całość zgodną z moimi prezentacjami na Sesji z poprzednich lat - pokażę wam w jaki sposób zrealizować w Rundecku logowanie za pomocą Oautha hostując zasoby w kontenerach systemd-nspawn ;)</p>"
+      desc: "<p>Sometimes it happens, that we host an application that cannot integrate with our IAM service. It often ends up in scenario where users have multiple application accounts within one organization. Also there're some apps that completely don't provide any form of authentication exposing its resources to the internet. </p><p>During this talk I'll show you method how to secure such applications with well known solutions (Nginx, a bit of Python with a chunk of pragmatism). I'll also describe briefly Google's and Github's implementations of Oauth2.</p><p>For the dessert I'll mix above ideas with others I showed you on my past Sesja presentations - there will be Rundeck authenticated by Oauth hosted with systemd-nspawn containers ;)</p>"
     p3:
-      title: "Zrozumieć Gitlab CI"
+      title: "Understanding GitLab CI"
       time: "12:00-13:00"
       lang: "[pl]"
       author: "Kamil Trzciński"
       photo: "/img/ludzie/kamiltrzcinski.jpg"
-      desc: "<p>Ta prelekcja wyjaśni jak zbudowany jest GitLab CI oraz jak go używać efektywnie. Zrozumiesz jaka jest relacja między wykonawcą a dockerem, zadaniem a kontenerem. Zobaczysz jak prosto i szybko przygotować i naprawić twojego pipeline. Dodatkowo, dowiesz się kilku technik jak usprawnić wydajność CI w popularnych zastosowaniach. Każdy chce aby jego docker build czy rspec wykonywał się szybciej, prawda?</p>"
+      desc: "<p>The talk will explain how the GitLab CI is built and how to use it efficiently. You will understand what are the relations between executor and docker, job and container, but also see how to simply and efficiently prepare and debug your jobs. You will be presented with a few techniques how to improve the performance of your CI in common workflows for the benefit of your team. Everyone wants this docker build and rspec to run faster, right?</p>"
     p4:
       title: Przerwa obiadowa
       time: "13:00-14:30"
@@ -162,10 +165,14 @@ speakers:
     content: "Senior Software Developer at Luxoft / Nauto working with algorithms for processing signals from sensors placed in cars (mainly cameras)."
   p8:
     content: "<p>Senior Software Engineer at Semihalf. An electronics engineer by education, an operating systems programmer by profession. For many years tied to the subject of Linux and ARMv8, in particular with KVM, PCI, and ACPI subsystems. An avid fan of ski jumping and football.</p>"
+  p13:
+    content: "<p>A graduate of the Embedded Robotics specialization and former lab07/C-3 admin on WUST. Currently working as Node.js developer for SpyroSoft. In addition to the back-end for IoT, he is also interested in Linux for embedded systems and DevOps purposes.</p>"
+
+
 about:
   p1:
     header: "What is Linux Session?"
-    content: "Linux Session is a conference about Open Source solutions and latest trends in Linux-based systems"
+    content: "Linux Session is the biggest conference about Open Source solutions and latest trends in Linux-based systems"
   p2:
     header: "How does this work?"
     content: "Entry is free. Every year enthusiasts and professionals visit us to learn and share their knowledge"
