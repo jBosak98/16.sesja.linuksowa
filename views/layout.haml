@@ -51,6 +51,14 @@
             %img{:alt => "", :src => "/img/squares-twitter.png"}/
           %a{:href => "https://plus.google.com/+AkademickieStowarzyszenieInformatycznePWR"}
             %img{:alt => "", :src => "/img/squares-google-plus.png"}/
+
+    #con-callforpapers.con-bg
+      %span#callforpapers.anchor-jump-link
+      .con-content
+        %h2.spacer
+        %h2=t.cfp.p1.header
+        %p=t.cfp.p1.content
+
     #con-about.con-bg
       %span#about.anchor-jump-link
       .con-content
@@ -259,6 +267,8 @@
           %img{:src => t.speakers.p13.photo}
           %h3=t.speakers.p13.name
           %span=t.speakers.p13.content
+
+
     #con-dojazd.con-bg
       %span#dojazd.anchor-jump-link
       .con-content

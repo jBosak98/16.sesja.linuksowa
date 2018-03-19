@@ -241,18 +241,8 @@ lpi:
     content: "Dokładne informacje o egzaminie zostały zebrane w <a href='pdf/lpi_pl.pdf'>tym dokumencie.</a><br /><center><img style='max-width: 40%' src='/img/loga/logo-lpi.png'></center>"
 cfp:
   p1:
-    header: "Chcesz podzielić się wiedzą?"
-    content: "Jeśli zajmujesz się zawodowo lub hobbystycznie Linuksem, masz hopla na punkcie tego systemu i chcesz opowiedzieć o tym uczestnikom konferencji, zapraszamy do zgłoszenia swojego wystąpienia."
-  p2:
-    header: "Wygłoś swoją prelekcję!"
-    content: "Potrzebujemy od ciebie jedynie: imię i nazwisko, kilka słów o sobie, aktualne zdjęcie, tytuł prelekcji i abstrakt oraz ewentualne niestandardowe wymagania techniczne."
-  p3:
-    header: "Skontaktuj się z nami"
-    content: |
-      Zgłoszenia przyjmujemy przez
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSeqA-4-Trmbe1CJwRcsstIEp8OKgIAtL9YjCPg7OSroYBlguw/viewform?usp=sf_link">Formularze Google</a>
-      <br/>
-      Ostateczny termin przyjmowania zgłoszeń to 15 marca.
+    header: "Zapisy"
+    content: "Zgłoszenia przyjmujemy przez - <a href='https://docs.google.com/forms/d/e/1FAIpQLSeqA-4-Trmbe1CJwRcsstIEp8OKgIAtL9YjCPg7OSroYBlguw/viewform?usp=sf_link'>Formularze Google</a></p><p> Ilość miejsc ograniczona ;)</p>"
 live:
   title: "Nagrania z 14 Sesji Linuksowej"
   p1:
