@@ -77,7 +77,7 @@ agenda:
       time: "14:30-15:30"
       lang: "[en]"
       author: "Klaus Knopper"
-      photo: "/img/ludzie/klaus.jpg"
+      photo: "/img/ludzie/klausknopper.jpg"
       desc: "<p>Cel: Wytworzenie pudełka handlującego Bitcoinem przy pomocy w pełni automatycznych algorytmów w bezpiecznym środowisku sprzętowym.</p><p> Bitcoin zyskał na popularności jako pierwsza i obecnie najdroższa kryptowaluta. Strategia 'kup wcześnie i trzymaj' zwykle pozwalała zarobić. Jednak ze względu na zmienność kursów, aktywny handel kusi możliwością szybszego i większego powiększenia majątku. Niestety, handel manualny w rękach niedoświadczonej osoby zmienia się w nieodpowiedzialny hazard i może skutkować szybką utratą inwestycji. Projekt 'Pudełko szybkiego zarabiania pieniędzy' z kursu Zaawansowanego Zarządzania Informacją ma na celu implementację czysto algorytmicznego handlu w sposób uniemożliwiający złe decyzje spowodowane chciwością czy paniką. Jednocześnie służy jako elektroniczna wersja konta oszczędnościowego opartego na technologii blockchain, eliminując jeden z wektorów ataku, przez dostarczenie konkretnego rozwiązania sprzętowego portfela.</p>"
     p6:
       title: "Linux KVM - wparcie dla wirtualizacji w kontekście serwerów ARM"
