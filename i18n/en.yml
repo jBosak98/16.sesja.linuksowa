@@ -139,12 +139,12 @@ agenda:
       photo: "/img/ludzie/wysocki.jpg"
       desc: "<p>Many hardware components of modern computer systems, like processors, System-on-a-Chip (SoC) circuits and I/O peripherals, offer features targeted at improving their energy efficiency.  Many of these features can be used by Linux, either by default or if they are enabled through a configuration mechanism of some sort.  I will describe some of these features and explain how they are used by the Linux kernel or how it can be configured to use them.</p>"
     p6:
-      title: "Bitrise & OpenSTF"
+      title: "Bitrise.io & OpenSTF"
       time: "15:30-16:30"
       lang: "[pl]"
       author: "Karol Wrótniak"
       photo: "/img/ludzie/karol.jpg"
-      desc: "<p>Prezentacja ma na celu przedstawienie OpenSTF - otwartej farmy testowej dla urządzeń z Androidem oraz Bitrise.io - platformy do Continuous Integration. Powiem w jaki sposób połączyć je ze sobą, jak ich używamy, do czego oprócz testów jeszcze mogą służyć oraz jak przebiegały kontrybucje do ich projektów open source.</p>"
+      desc: "<p>The talk will introduce OpenSTF - Open Smartphone Test Farm for Android devices and Bitrise.io - Continuous Integration Platform As A Service. I will tell how to connect each other, how we use them in our daily work at Droids On Roids and what else they can be used for. Moreover I will tell about contributions to those open source projects.</p>"
     p7:
       title: "Wstęp do tunelowania ruchu sieciowego"
       time: "16:30-17:30"
@@ -165,6 +165,8 @@ speakers:
     content: "Senior Software Developer at Luxoft / Nauto working with algorithms for processing signals from sensors placed in cars (mainly cameras)."
   p8:
     content: "<p>Senior Software Engineer at Semihalf. An electronics engineer by education, an operating systems programmer by profession. For many years tied to the subject of Linux and ARMv8, in particular with KVM, PCI, and ACPI subsystems. An avid fan of ski jumping and football.</p>"
+  p11:
+    content: "Karol Wrótniak is an Android Developer for over 6 years. Programming is his passion and work. He develops apps and libraries at Droids On Roids. In the free time he realizes his own ideas. Moreover he is a blogger and open source contributor, especially in testing-related projects like Bitrise.io and OpenSTF. You can find him on GitHub: https://github.com/koral--"
   p13:
     content: "<p>A graduate of the Embedded Robotics specialization and former lab07/C-3 admin on WUST. Currently working as Node.js developer for SpyroSoft. In addition to the back-end for IoT, he is also interested in Linux for embedded systems and DevOps purposes.</p>"
 
