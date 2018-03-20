@@ -42,8 +42,8 @@ agenda:
     time: "08:30-09:45"
     title: "<i>Egzamin LPI</i>"
   saturday:
-    date: "7 kwietnia"
-    day: ".Sobota"
+    date: "7th April 2018"
+    day: ".Saturday"
     p1:
       title: "Deep Learning - the road from futurological curiosity to industry"
       time: "10:00-11:00"
@@ -66,7 +66,7 @@ agenda:
       photo: "/img/ludzie/maczukin.jpg"
       desc: "Opowiadając historię rozwoju CI/CD na GitLab.com chciał bym zaprezentować z jakimi problemami się spotkaliśmy, jakie rozwiązania wprowadziliśmy i na co próbujemy się przygotować dążąc do postawionego sobie celu: udostępnienia systemu, który obsłuży milion zadań CI/CD każdego dnia."
     p4:
-      title: Przerwa obiadowa
+      title: Dinner
       time: "13:00-14:30"
       lang: ""
       author: ""
@@ -102,8 +102,8 @@ agenda:
       photo: "/img/ludzie/rogowski.jpg"
       desc: "<p>How 'the most advanced operating system in the world' fares in usability comparing to Linux...</p>"
   sunday:
-    date: "8 kwietnia"
-    day: ".Niedziela"
+    date: "8th April 2018"
+    day: ".Sunday"
     p1:
       title: "Vim"
       time: "10:00-11:00"
@@ -126,7 +126,7 @@ agenda:
       photo: "/img/ludzie/kamiltrzcinski.jpg"
       desc: "<p>The talk will explain how the GitLab CI is built and how to use it efficiently. You will understand what are the relations between executor and docker, job and container, but also see how to simply and efficiently prepare and debug your jobs. You will be presented with a few techniques how to improve the performance of your CI in common workflows for the benefit of your team. Everyone wants this docker build and rspec to run faster, right?</p>"
     p4:
-      title: Przerwa obiadowa
+      title: Dinner
       time: "13:00-14:30"
       lang: ""
       author: ""

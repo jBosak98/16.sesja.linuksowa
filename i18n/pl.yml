@@ -42,7 +42,7 @@ agenda:
     time: "08:30-09:45"
     title: "<i>Egzamin LPI</i>"
   saturday:
-    date: "7 kwietnia"
+    date: "7 kwietnia 2018"
     day: ".Sobota"
     p1:
       title: "Deep Learning - droga od ciekawostki futurologicznej do przemysłu"
@@ -106,7 +106,7 @@ agenda:
       author: ""
       desc: ""
   sunday:
-    date: "8 kwietnia"
+    date: "8 kwietnia 2018"
     day: ".Niedziela"
     p1:
       title: "Vim"
@@ -249,17 +249,17 @@ live:
     header: "Transmisja"
     content: "Ze wszystkich prelekcji podczas 14. Sesji Linuksowej dostępna była transmisja na żywo"
   p2:
-    header: "Youtube"
+    header: "YouTube"
     content: "Nagrania można obejrzeć za  pośrednicwem kanału Akademickiego Stowarzyszenia Informatycznego w serwisie YouTube"
   p3:
     header: "Playlista"
     content: "W ciągu kilku dni po konferencji udostępnimy pocięte filmy w formie listy odtwarzania. "
   p4:
-    content: "13. Sesja Linuksowa odbyła się w dniach 2-3 kwietnia 2016 roku w Strefie Kultury Studenckiej Politechniki Wrocławskiej."
+    content: "14. Sesja Linuksowa odbyła się w dniach 2-3 kwietnia 2016 roku w Strefie Kultury Studenckiej Politechniki Wrocławskiej."
   p5:
-     content: "Numer edycji zobowiązuje - podczas 13. Sesji uczestnicy mieli okazję wysłuchać trzynastu prelekcji. Swoją obecnością ponownie zaszczycił nas Klaus Knopper."
+     content: "Numer edycji zobowiązuje - podczas 14. Sesji uczestnicy mieli okazję wysłuchać trzynastu prelekcji. Swoją obecnością ponownie zaszczycił nas Klaus Knopper."
   p6:
-    content: 'Agendę, pregelenetów i więcej informacji odnośnie poprzedniej edycji konferencji można znaleźć pod adresem <a href="http://13.sesja.linuksowa.pl">13.sesja.linuksowa.pl</a>'
+    content: 'Agendę, pregelenetów i więcej informacji odnośnie poprzedniej edycji konferencji można znaleźć pod adresem <a href="http://14.sesja.linuksowa.pl">13.sesja.linuksowa.pl</a>'
 sponsorship:
     content: "Jesteś zainteresowany współpracą z nami? Zapoznaj się z naszą ofertą sponsorską!"
     link: "Oferta sponsorska"
