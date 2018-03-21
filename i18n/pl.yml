@@ -5,6 +5,7 @@ meta:
   locale: "pl_PL"
 navigation:
   logo: "/img/logo-male-pl.png"
+  register: "Zapisy"
   about: "O Sesji"
   cfp: "Call for Papers"
   previous: "Poprzednia edycja"
@@ -28,6 +29,11 @@ navigation:
   back_to_home: "Powrót do strony głównej"
 description:
   logo: "/img/logo-duze-pl.png"
+register:
+  title: "Zapisy"
+  p1: "Konferencja jest darmowa i otwarta dla każdego chętnego. Jednak mając na uwadze ograniczoną ilość miejsc na sali konferencyjnej, pierwszeństwo będą posiadały osoby zarejestrowane."
+  p2: "Aby zarejestrować swój udział w konferencji, prosimy skorzystać z poniższego formularza Google:"
+  button: "Rejestracja"
 contact:
   form:
     name: "Imię i nazwisko"
