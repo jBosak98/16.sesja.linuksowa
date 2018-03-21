@@ -23,6 +23,7 @@
           %img{:src => t.navigation.logo}/
         %span#menu-button.fa-bars
         #menu-container.mobile-hidden
+          %a{:href => "#register"}=t.navigation.register
           %a{:href => "#about"}=t.navigation.about
           %a{:href => "#14sesjalinuksowa"}=t.navigation.live
           %a{:href => "#agenda"}=t.navigation.agenda
@@ -51,14 +52,19 @@
             %img{:alt => "", :src => "/img/squares-twitter.png"}/
           %a{:href => "https://plus.google.com/+AkademickieStowarzyszenieInformatycznePWR"}
             %img{:alt => "", :src => "/img/squares-google-plus.png"}/
-
-    #con-callforpapers.con-bg
-      %span#callforpapers.anchor-jump-link
+    .con-bg#con-callforpapers
+      %span.anchor-jump-link#register
       .con-content
-        %h2.spacer
-        %h2=t.cfp.p1.header
-        %p=t.cfp.p1.content
-
+        %h2.bg-text=t.register.title
+        %h2.spacer &nbsp;
+        .half
+          %p=t.register.p1
+        .half
+          %p=t.register.p2
+          %br/
+          %center
+            %a.button{ href: "https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link" }
+              =t.register.button
     #con-about.con-bg
       %span#about.anchor-jump-link
       .con-content

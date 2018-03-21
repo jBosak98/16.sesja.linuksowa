@@ -5,6 +5,7 @@ meta:
   locale: "en_US"
 navigation:
   logo: "/img/logo-male-en.png"
+  register: "Registration"
   about: "About"
   cfp: "Call for Papers"
   agenda: "Agenda"
@@ -28,6 +29,11 @@ navigation:
   back_to_home: "Back to home page"
 description:
   logo: "/img/logo-duze-en.png"
+register:
+  title: "Registration"
+  p1: "The conference is free of charge and open for everyone interested. However, having in mind the limited number of seats in the conference room, registered persons will have a priority over entrance."
+  p2: "In order to register your attendance in the conference, please fill the Google form below:"
+  button: "Register"
 contact:
   form:
     name: "Name and surname"
