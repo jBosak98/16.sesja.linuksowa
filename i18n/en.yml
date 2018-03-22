@@ -65,12 +65,12 @@ agenda:
       photo: "/img/ludzie/unknown.jpg"
       desc: "Ansible is software that automates servers provisioning, configuration management, and application deployment on any OS supporting Python language. Presentation is about lessons learnt during establishing new project in NOKIA, from the first playbook to OpenStack cloud management using Ansible Tower."
     p3:
-      title: "Jak zaprojektować rozwiązanie CI/CD, obsługujące milion zadań każdego dnia"
+      title: "How to design a CI/CD solution handling a million of tasks every day"
       time: "12:00-13:00"
       lang: "[pl]"
       author: "Tomasz Maczukin"
       photo: "/img/ludzie/maczukin.jpg"
-      desc: "Opowiadając historię rozwoju CI/CD na GitLab.com chciał bym zaprezentować z jakimi problemami się spotkaliśmy, jakie rozwiązania wprowadziliśmy i na co próbujemy się przygotować dążąc do postawionego sobie celu: udostępnienia systemu, który obsłuży milion zadań CI/CD każdego dnia."
+      desc: "I would like to use the story of CI/CD development at GitLab.com to explain the problems we faced, the solutions we introduced and what we prepare for while striving to achieve the goal we gave ourselves: providing a system that handles a million of CI/CD tasks every day."
     p4:
       title: Dinner
       time: "13:00-14:30"
@@ -163,6 +163,8 @@ speakers:
     content: "Author of Knoppix - first LiveCD Linux distribution and Adrianne Knoppix - distribution aimed at people with impaired sigh"
   p2:
     content: "<p>Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge. He's focusing lately on the 'container revolution' and building best CI product in the world. In his spare time, he likes to run, cycle and play good games, although not all at the same time.</p>"
+  p4:
+    content: "<p>Programmer, software architect, SRE. Involved in IT since 2002. Working commercially since 2009. The first time I've installed Linux was in 2004 and since 2007 it is the only OS on my computers. I mostly use Debian/Ubuntu. Associated with GitLab since December 2015 and almost since the beginning involved in CI/CD. Currently, I'm supporting the efficient operation of CI/CD infrastructure at GitLab.com.</p>"
   p5:
     content: "<p>AGH University of Science and Technology in Kraków alumnus, sysadmin at Codewise, Fedora contributor and a cyclist.</p>"
   p6:
