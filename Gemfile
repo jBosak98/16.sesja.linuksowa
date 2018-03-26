@@ -6,6 +6,7 @@ gem 'sinatra-r18n', require: 'sinatra/r18n'
 gem 'uglifier'
 gem 'haml'
 gem 'pony'
+gem 'rack-protection', '~> 1.5.5'
 
 group :development do
   gem 'pry-byebug'

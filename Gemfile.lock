@@ -37,8 +37,8 @@ GEM
       byebug (~> 9.1)
       pry (~> 0.10)
     r18n-core (2.1.8)
-    rack (1.6.8)
-    rack-protection (1.5.3)
+    rack (1.6.9)
+    rack-protection (1.5.5)
       rack
     rails-assets-bootstrap (3.3.7)
       rails-assets-jquery (>= 1.9.1, < 4)
@@ -91,6 +91,7 @@ DEPENDENCIES
   haml
   pony
   pry-byebug
+  rack-protection (~> 1.5.5)
   rails-assets-bootstrap!
   rails-assets-jquery!
   sinatra
