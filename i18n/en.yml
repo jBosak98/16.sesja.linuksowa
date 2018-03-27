@@ -164,7 +164,7 @@ speakers:
   p2:
     content: "<p>Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge. He's focusing lately on the 'container revolution' and building best CI product in the world. In his spare time, he likes to run, cycle and play good games, although not all at the same time.</p>"
   p4:
-    content: "<p>Programmer, software architect, SRE. Involved in IT since 2002. Working commercially since 2009. The first time I've installed Linux was in 2004 and since 2007 it is the only OS on my computers. I mostly use Debian/Ubuntu. Associated with GitLab since December 2015 and almost since the beginning involved in CI/CD. Currently, I'm supporting the efficient operation of CI/CD infrastructure at GitLab.com.</p>"
+    content: "<p>Programmer, software architect, SRE. Involved in IT since 2002. Working commercially since 2009.T The first time I've installed Linux was in 2004 and since 2007 it is the only OS on my computers. I mostly use Debian/Ubuntu. Associated with GitLab since December 2015 and almost since the beginning involved in CI/CD. Currently, I'm supporting the efficient operation of CI/CD infrastructure at GitLab.com.</p>"
   p5:
     content: "<p>AGH University of Science and Technology in Kraków alumnus, sysadmin at Codewise, Fedora contributor and a cyclist.</p>"
   p6:

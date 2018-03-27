@@ -42,7 +42,7 @@ contact:
     submit: "Wyślij"
 agenda:
   speaker: "Prelegent:"
-  extended_text: "Aby przejśc do rozszerzonej agendy (z opisami prelekcji), kliknij tutaj."
+  extended_text: "Aby przejść do rozszerzonej agendy (z opisami prelekcji), kliknij tutaj."
   lpi:
     photo: "/img/loga/logo-lpi.png"
     time: "08:30-09:45"

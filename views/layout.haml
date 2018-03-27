@@ -300,15 +300,42 @@
         %h2=t.navigation.sponsorship
         %h3=t.sponsorship.content
         %a.button{:href => t.sponsorship.link_href}=t.sponsorship.link
-    #con-organizatorzy.con-bg
-      %span#organizatorzy.anchor-jump-link
+    #con-sponsorzy.con-bg
+      %span#sponsorzy.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.navigation.sponsors
+        %h2.spacer  
+        .loga
+          .logo-axit
+            %a{:href => "http://kariera.axit.pl/"}
+              %img{:src => "/img/loga/AXIT - new logo.jpg"}/
+          .logo-nokia
+            %a{:href => "http://nokiawroclaw.pl"}
+              %img{:src => "/img/loga/logo-nokia.svg"}/
+          .logo-cc
+            %a{:href => "https://clearcode.pl/"}
+              %img{:src => "/img/loga/cc-logo-horizontal.png"}/
+          .logo-semihalf
+            %a{:href => "http://www.semihalf.com/"}
+              %img{:src => "/img/loga/semihalf.png"}/
+          .logo-mokyoit
+            %a{:href => "http://mokyokit.com//"}
+              %img{:src => "/img/loga/mok_yok_it.png"}/
+          .logo-gl
+            %a{:href => "https://www.globallogic.com/pl/"}
+              %img{:src => "/img/loga/logo-gl.svg"}/
       .con-content
         %h2.bg-text=t.navigation.orgs
         %h2.spacer  
-        .loga
-          .logo-asi
-            %a{:href => "http://asi.wroclaw.pl"}
-              %img{:src => "/img/loga/logo-asi.png"}/
+        .loga.organizatorzy
+          %a{:href => "http://asi.wroclaw.pl"}
+            %img{:src => "/img/loga/logo-asi.png"}/
+          %a{:href => "http://www.pwr.edu.pl"}
+            %img{:src => "/img/loga/logo-pwr.png"}/
+          %a{:href => "http://wireless-group.pwr.wroc.pl/"}
+            %img{:src => "/img/loga/logo-wg.png"}/
+          %a{:href => "http://wireless-group.pwr.wroc.pl/"}
+            %img{:src => "/img/loga/logo-nomad.png"}/
       #con-kontakt.con-bg
         %span#kontakt.anchor-jump-link
         .con-content

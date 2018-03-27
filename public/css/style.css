@@ -640,7 +640,21 @@ a img{
 	}
 
 .logo-nokia img{
+	min-width: 30%;
+}
+
+.logo-axit img{
 	min-width: 50%;
+}
+
+.logo-semihalf img{
+	width: 520px;
+  height: 117px;
+}
+
+.logo-mokyoit img{
+	width: 520px;
+  height: 117px;
 }
 
 .logo-spacer{
