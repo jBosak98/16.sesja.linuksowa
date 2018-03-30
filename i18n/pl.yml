@@ -63,7 +63,7 @@ agenda:
       time: "11:00-12:00"
       lang: "[pl]"
       author: "Tomasz Szandała"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/Szandala.jpg"
       desc: "Ansible to oprogramowanie, które pozwala zautomatyzować zarządzanie konfiguracją sprzętową na dowolnym systemami operacyjnym, za pomocą języka Python. Prezentacja będzie opowieścią o lekcjach zdobytych podczas rozwoju nowego projektu w firmie NOKIA. Od pierwszego playbooka, do zarządzania chmurą OpenStackową z pomocą Ansible Tower."
     p3:
       title: "Jak zaprojektować rozwiązanie CI/CD, obsługujące milion zadań każdego dnia"
@@ -201,7 +201,7 @@ speakers:
     content: "Jestem programistą i miłośnikiem otwartego oprogramowania. Byłym członkiem w ASI i absolwentem Politechniki Wrocławskiej. Po za informatyką lubię się przemieszczać różnymi środkami transportu - od własnych nóg, przez rower, narty... do pociągów."
   p10:
     name: "Tomasz Szandała"
-    photo: "/img/ludzie/unknown.jpg"
+    photo: "/img/ludzie/szandala.jpg"
     content: "<p>Pracownik firmy Nokia, obecnie inżynier w dziale Software Configuration Managment we Wrocławiu. Ponadto doktorant Wydziału Elektroniki Politechniki Wrocławskiej oraz v-ce prezes koła naukowego Creation and Development Group -KREDEK. Na co dzień pisze w bashu, Pythonie, Groovym i oczywiście Yaml’u 😉</p>"
   p11:
     name: "Karol Wrótniak"

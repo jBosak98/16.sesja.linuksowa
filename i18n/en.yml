@@ -62,7 +62,7 @@ agenda:
       time: "11:00-12:00"
       lang: "[pl]"
       author: "Tomasz Szandała"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/szandala.jpg"
       desc: "Ansible is software that automates servers provisioning, configuration management, and application deployment on any OS supporting Python language. Presentation is about lessons learnt during establishing new project in NOKIA, from the first playbook to OpenStack cloud management using Ansible Tower."
     p3:
       title: "How to design a CI/CD solution handling a million of tasks every day"
