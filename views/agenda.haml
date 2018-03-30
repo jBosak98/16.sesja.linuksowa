@@ -236,10 +236,8 @@
           %span=t.speakers.p13.content
     #con-footer.con-bg
       .con-content
-        © 2016
+        .year=t.year
         %a{:href => "http://asi.wroclaw.pl"}=t.asi
-        |
-        %a{:href => "http://pwr.edu.pl"}=t.pwr
     -# / Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
     %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
     %script{:src => "/js/jquery-2.1.1.min.js"}

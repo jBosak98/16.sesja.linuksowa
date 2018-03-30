@@ -84,7 +84,7 @@
       %span#agenda.anchor-jump-link
       .con-content
         %h2.bg-text="Agenda"
-        %h2.spacer="&nbsp;"
+        %h2.spacer &nbsp;
         #agenda-sobota
           .half
             %h3
@@ -213,7 +213,7 @@
       %span#prelegenci.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.speakers
-        %h2.spacer="&nbsp;"
+        %h2.spacer &nbsp;
         .third
           %img{:src => t.speakers.p1.photo}
           %h3=t.speakers.p1.name
@@ -266,12 +266,11 @@
           %img{:src => t.speakers.p13.photo}
           %h3=t.speakers.p13.name
           %span=t.speakers.p13.content
-
-
     #con-dojazd.con-bg
       %span#dojazd.anchor-jump-link
       .con-content
-        %h2.spacer
+        %h2.bg-text=t.navigation.dojazd
+        %h2.spacer &nbsp;
         .third
           %h2=t.dojazd.p1.header
           %p=t.dojazd.p1.content
@@ -297,7 +296,7 @@
       %span#sponsorzy.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.sponsors
-        %h2.spacer  
+        %h2.spacer &nbsp;
         .loga
           .logo-axit
             %a{:href => "http://kariera.axit.pl/"}
@@ -321,7 +320,7 @@
       %span#organizatorzy.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.orgs
-        %h2.spacer  
+        %h2.spacer &nbsp;
         .loga
           .logo-asi
             %a{:href => "http://asi.wroclaw.pl"}
@@ -337,7 +336,7 @@
       %span#kontakt.anchor-jump-link
       .con-content
         %h2.bg-text=t.navigation.contact
-        %h2.spacer  
+        %h2.spacer &nbsp;
         %form{:action => "/", :method => "POST", :role => "form"}
           %input#name.form-control{:name => "name", :placeholder => t.contact.form.name, :type => "text"}/
           %input#email.form-control{:name => "adres", :placeholder => t.contact.form.email, :type => "email"}/
@@ -345,7 +344,7 @@
           %input#sendemail{:type => "submit", :value => t.contact.form.submit}/
     #con-footer.con-bg
       .con-content
-        © 2017
+        %span.year=t.year
         %a{:href => "http://asi.wroclaw.pl"}=t.asi
     -# / Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
     %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
