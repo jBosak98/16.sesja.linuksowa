@@ -80,6 +80,22 @@
           %center
             %a.button{ href: "https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link" }
               =t.register.button
+    #con-live.con-bg
+      %span#live.anchor-jump-link
+      .con-content
+        %h2.bg-text=t.live.title
+        %h2.spacer &nbsp;
+        .embed-container
+          %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/dMU8aw8bz1Q"}
+        .third
+          %h2=t.live.p1.header
+          %p=t.live.p1.content
+        .third
+          %h2=t.live.p2.header
+          %p=t.live.p2.content
+        .third
+          %h2=t.live.p3.header
+          %p=t.live.p3.content
     #con-agenda.con-bg
       %span#agenda.anchor-jump-link
       .con-content
