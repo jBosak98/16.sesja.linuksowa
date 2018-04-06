@@ -194,16 +194,16 @@ cfp:
     header: "Registration"
     content: "Registration you can find <a href='https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link'>here</a></p><p> The number of places is limited ;)</p>"
 live:
-  title: "Talks from 14th Linux Session"
+  title: "Live stream"
   p1:
     header: "Transmission"
-    content: "From all the lectures during the 14th Linux Session we will be streaming live video feed"
+    content: "From all the lectures during the 15th Linux Session we will be streaming live video feed"
   p2:
     header: "Youtube"
-    content: "Streaming will be done using ASI channel on YouTube"
+    content: "Streaming will be done using ASI channel on Youtube"
   p3:
     header: "Playlist"
-    content: "All the video content will be edited for better viewing experience and published a few days after the conference. Video content from last year is provided below."
+    content: "All the video content will be edited for better viewing experience and published a few days after the conference."
   p4:
     content: "13th Linux Session took place at Wrocław University of Technology, 2nd - 3rd May 2016."
   p5:

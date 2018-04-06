@@ -250,16 +250,16 @@ cfp:
     header: "Zapisy"
     content: "Zgłoszenia przyjmujemy przez - <a href='https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link'>Formularze Google</a></p><p> Ilość miejsc ograniczona ;)</p>"
 live:
-  title: "Nagrania z 14 Sesji Linuksowej"
+  title: "Transmisja na żywo"
   p1:
     header: "Transmisja"
-    content: "Ze wszystkich prelekcji podczas 14. Sesji Linuksowej dostępna była transmisja na żywo"
+    content: "Ze wszystkich prelekcji podczas 15. Sesji Linuksowej dostępna będzie transmisja na żywo"
   p2:
-    header: "YouTube"
-    content: "Nagrania można obejrzeć za  pośrednicwem kanału Akademickiego Stowarzyszenia Informatycznego w serwisie YouTube"
+    header: "Youtube"
+    content: "Streaming odbędzie się za pośrednicwem kanału Akademickiego Stowarzyszenia Informatycznego w serwisie YouTube"
   p3:
     header: "Playlista"
-    content: "W ciągu kilku dni po konferencji udostępnimy pocięte filmy w formie listy odtwarzania. "
+    content: "W ciągu kilku dni po konferencji udostępnimy pocięte filmy w formie listy odtwarzania."
   p4:
     content: "14. Sesja Linuksowa odbyła się w dniach 2-3 kwietnia 2016 roku w Strefie Kultury Studenckiej Politechniki Wrocławskiej."
   p5:
