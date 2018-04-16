@@ -250,7 +250,7 @@ cfp:
     header: "Zapisy"
     content: "Zgłoszenia przyjmujemy przez - <a href='https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link'>Formularze Google</a></p><p> Ilość miejsc ograniczona ;)</p>"
 live:
-  title: "Transmisja na żywo"
+  title: "Nagrania"
   p1:
     header: "Transmisja"
     content: "Ze wszystkich prelekcji podczas 15. Sesji Linuksowej dostępna będzie transmisja na żywo"
@@ -261,11 +261,11 @@ live:
     header: "Playlista"
     content: "W ciągu kilku dni po konferencji udostępnimy pocięte filmy w formie listy odtwarzania."
   p4:
-    content: "14. Sesja Linuksowa odbyła się w dniach 2-3 kwietnia 2016 roku w Strefie Kultury Studenckiej Politechniki Wrocławskiej."
+    content: "15. Sesja Linuksowa odbyła się w dniach 7-8 kwietnia 2018 roku w Centrum Kongresowym Politechniki Wrocławskiej."
   p5:
-     content: "Numer edycji zobowiązuje - podczas 14. Sesji uczestnicy mieli okazję wysłuchać trzynastu prelekcji. Swoją obecnością ponownie zaszczycił nas Klaus Knopper."
+     content: "Podczas 15. Sesji uczestnicy mieli okazję wysłuchać trzynastu prelekcji. Swoją obecnością ponownie zaszczycił nas Klaus Knopper."
   p6:
-    content: 'Agendę, pregelenetów i więcej informacji odnośnie poprzedniej edycji konferencji można znaleźć pod adresem <a href="http://14.sesja.linuksowa.pl">13.sesja.linuksowa.pl</a>'
+    content: 'Agendę, pregelenetów i więcej informacji odnośnie poprzedniej edycji konferencji można znaleźć pod adresem <a href="http://15.sesja.linuksowa.pl">15.sesja.linuksowa.pl</a>'
 sponsorship:
     content: "Jesteś zainteresowany współpracą z nami? Zapoznaj się z naszą ofertą sponsorską!"
     link: "Oferta sponsorska"
