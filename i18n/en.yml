@@ -194,7 +194,7 @@ cfp:
     header: "Registration"
     content: "Registration you can find <a href='https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link'>here</a></p><p> The number of places is limited ;)</p>"
 live:
-  title: "Live stream"
+  title: "Playlist"
   p1:
     header: "Transmission"
     content: "From all the lectures during the 15th Linux Session we will be streaming live video feed"
@@ -205,11 +205,11 @@ live:
     header: "Playlist"
     content: "All the video content will be edited for better viewing experience and published a few days after the conference."
   p4:
-    content: "13th Linux Session took place at Wrocław University of Technology, 2nd - 3rd May 2016."
+    content: "15th Linux Session took place at Wrocław University of Technology, April 7th-8th 2018."
   p5:
     content: "Last year we held 13 talks. We also have been visited again by Klaus Knopper - the creator of Knoppix Linux"
   p6:
-    content: 'More infomration can be found at <a href="http://13.sesja.linuksowa.pl/en.html">13.sesja.linuksowa.pl</a>'
+    content: 'More infomration can be found at <a href="http://15.sesja.linuksowa.pl/en">15.sesja.linuksowa.pl</a>'
 dojazd:
   p1:
     header: "Congress Center of the Wrocław University of Science and Technology (bulding D20)"

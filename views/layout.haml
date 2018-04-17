@@ -24,7 +24,7 @@
         %span#menu-button.fa-bars
         #menu-container.mobile-hidden
           %a{:href => "#about"}=t.navigation.about
-          %a{:href => "#register"}=t.navigation.register
+          %a{:href => "#live"}=t.navigation.live
           %a{:href => "#agenda"}=t.navigation.agenda
           %a{:href => "#sponsorzy"}=t.navigation.sponsors
           %a{:href => "#kontakt"}=t.navigation.contact
@@ -67,35 +67,22 @@
           %img{:alt => "Nasz cel", :src => "/img/ikony/cel.png"}/
           %h2=t.about.p3.header
           %p=t.about.p3.content
-    #con-callforpapers.con-bg
-      %span.anchor-jump-link#register
-      .con-content
-        %h2.bg-text=t.register.title
-        %h2.spacer &nbsp;
-        .half
-          %p=t.register.p1
-        .half
-          %p=t.register.p2
-          %br/
-          %center
-            %a.button{ href: "https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link" }
-              =t.register.button
     #con-live.con-bg
       %span#live.anchor-jump-link
       .con-content
         %h2.bg-text=t.live.title
         %h2.spacer &nbsp;
         .embed-container
-          %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/9i_wSUXHAlw"}
+          %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/videoseries?list=PLTvZBPQxCI8F4SeKLEZ3M9TnC5KHyk7zI&amp;ecver=2"}
         .third
-          %h2=t.live.p1.header
-          %p=t.live.p1.content
+          %h2=t.live.p4.header
+          %p=t.live.p4.content
         .third
-          %h2=t.live.p2.header
-          %p=t.live.p2.content
+          %h2=t.live.p5.header
+          %p=t.live.p5.content
         .third
-          %h2=t.live.p3.header
-          %p=t.live.p3.content
+          %h2=t.live.p6.header
+          %p=t.live.p6.content
     #con-agenda.con-bg
       %span#agenda.anchor-jump-link
       .con-content
