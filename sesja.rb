@@ -1,10 +1,11 @@
-class SesjaLinuksowa < Sinatra::Application
+# frozen_string_literal: true
 
+class SesjaLinuksowa < Sinatra::Application
   configure do
     enable :sessions
 
     # Nie zapomnij zmienić tego!
-    set :edition => "15"
+    set edition: "15"
     set :hide_talk_submission_form, true
 
     register Sinatra::R18n
@@ -14,12 +15,13 @@ class SesjaLinuksowa < Sinatra::Application
     set :assets_js_compressor, :uglifier
     set :locales, %w[pl en]
     set :default_locale, 'pl'
-    set :locale_pattern, /^\/?(#{Regexp.union(settings.locales)})(\/.+)$/
+
     helpers do
       def locale
-	@locale || settings.default_locale
+        @locale || settings.default_locale
       end
     end
+
     register Sinatra::AssetPipeline
     R18n::I18n.default = "pl"
 
@@ -32,23 +34,20 @@ class SesjaLinuksowa < Sinatra::Application
     register Sinatra::Partial
     set :partial_template_engine, :haml
 
-    set :haml, :format => :html5
+    set :haml, format: :html5
 
-    set :default_to => "sesja@linuksowa.pl"
+    set default_to: "sesja@linuksowa.pl"
     if development?
-      set :email_options, {
-        via: :smtp,
-        via_options: {
-          address: "localhost",
-          port: "1025"
-        }
-      }
+      set :email_options,
+          via: :smtp,
+          via_options: {
+            address: "localhost",
+            port: "1025"
+          }
     else
-      set :email_options, {
-        from: "asiwww@tramwaj.asi.pwr.wroc.pl"
-      }
+      set :email_options,
+          from: "asiwww@tramwaj.asi.pwr.wroc.pl"
     end
-
   end
 
   if settings.edition.empty?
@@ -57,7 +56,7 @@ class SesjaLinuksowa < Sinatra::Application
 
   configure :development do
     use BetterErrors::Middleware
-    BetterErrors.application_root = File.expand_path('..', __FILE__)
+    BetterErrors.application_root = File.expand_path(__dir__)
   end
 
   get '/' do
@@ -75,7 +74,6 @@ class SesjaLinuksowa < Sinatra::Application
   end
 
   post '/' do
-
     # Antispam filter lol
     redirect '/' unless params[:email].nil?
 
@@ -94,7 +92,7 @@ class SesjaLinuksowa < Sinatra::Application
       body << "Opis prelegenta: #{params[:aboutyou]}\n"
     else
       Pony.subject_prefix("[FORMULARZ KONTAKTOWY] ")
-      body = "#{params[:content]}"
+      body = params[:content].to_s
     end
     Pony.mail(to: settings.default_to, subject: subject, body: body)
     redirect '/'
@@ -107,5 +105,4 @@ class SesjaLinuksowa < Sinatra::Application
   error do
     haml :error
   end
-
 end

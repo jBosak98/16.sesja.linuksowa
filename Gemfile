@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
+
 gem 'sinatra', require: 'sinatra/base'
 gem 'sinatra-partial', require: 'sinatra/partial'
 gem 'sinatra-asset-pipeline', require: 'sinatra/asset_pipeline'
@@ -12,10 +15,13 @@ gem "sprockets", ">= 3.7.2"
 gem 'rack-protection', '~> 1.5.5'
 
 group :development do
+  gem 'pry'
   gem 'pry-byebug'
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'thin'
+
+  gem 'rubocop'
 end
 
 source 'https://rails-assets.org' do
