@@ -122,7 +122,7 @@ DEPENDENCIES
   rails-assets-jquery!
   rubocop
   sinatra
-  sinatra-asset-pipeline
+  sinatra-asset-pipeline (~> 1.0)
   sinatra-partial
   sinatra-r18n
   sprockets (>= 3.7.2)

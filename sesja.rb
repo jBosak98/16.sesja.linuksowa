@@ -9,13 +9,9 @@ class SesjaLinuksowa < Sinatra::Application
     set :hide_talk_submission_form, true
 
     register Sinatra::R18n
-
-    set :assets_precompile, %w(application.js application.css *.png *.jpg *.svg *.eot *.ttf *.woff)
-    set :assets_css_compressor, :sass
-    set :assets_js_compressor, :uglifier
+    R18n::I18n.default = "pl"
     set :locales, %w[pl en]
     set :default_locale, 'pl'
-
     helpers do
       def locale
         @locale || settings.default_locale
@@ -23,8 +19,6 @@ class SesjaLinuksowa < Sinatra::Application
     end
 
     register Sinatra::AssetPipeline
-    R18n::I18n.default = "pl"
-
     if defined?(RailsAssets)
       RailsAssets.load_paths.each do |path|
         settings.sprockets.append_path(path)

@@ -2,10 +2,10 @@
 
 source 'https://rubygems.org'
 
-gem 'sinatra', require: 'sinatra/base'
-gem 'sinatra-partial', require: 'sinatra/partial'
-gem 'sinatra-asset-pipeline', require: 'sinatra/asset_pipeline'
-gem 'sinatra-r18n', require: 'sinatra/r18n'
+gem 'sinatra'
+gem 'sinatra-partial', require: "sinatra/partial"
+gem 'sinatra-r18n', require: "sinatra/r18n"
+gem 'sinatra-asset-pipeline', '~> 1.0', require: ["sinatra/asset_pipeline", "sinatra/asset_pipeline/task"]
 gem 'uglifier'
 gem 'haml'
 gem 'pony'
