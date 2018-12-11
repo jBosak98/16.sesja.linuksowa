@@ -1,0 +1,979 @@
+/*
+ * 2015-2017 Kajetan Krykwiński
+ * kitor.pl
+ */
+
+body, html{
+	min-width: 320px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	}
+
+body{
+	font: 14pt 'Open Sans', 'Segoe UI', sans-serif;
+}
+
+a{
+	color: #323f49;
+	text-decoration: none;
+	transition: text-decoration .25s ease-in-out;
+	font-weight: 600;
+	}
+
+a:hover{
+	text-decoration: underline;
+	}
+
+a:visited{
+
+	}
+
+	/* OLD IE FIX */
+a img{
+	border: none;
+}
+
+/*
+ * Responsywny kontener filmów z youtuba
+ */
+
+.embed-container {
+    position: 		relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 	30px; /* IE6 workaround*/
+    height: 		0;
+    overflow: 		hidden;
+	margin-bottom:	10px;
+	border-radius: 	2px;
+	z-index: 		1;
+	}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: 		absolute;
+    top: 			0;
+    left: 			0;
+    width: 			100%;
+    height: 		100%;
+	}
+
+/* preload obrazków do zmienaiarki */
+
+.image-preload{
+	width: 0;
+	height: 0;
+	display: none;
+	}
+
+/* ogólne regu³y poszczególnych sekcji*/
+
+.con-bg{
+	width: 100%;
+	position: relative;
+	overflow:	hidden;
+	}
+
+.con-content{
+	position: relative;
+	max-width:	1280px;
+	margin: 0 auto;
+	padding: 0 0.5em;
+	overflow:	hidden;
+	}
+
+/* 	hack, aby klikniecie pozycji w menu
+	przewijalo w dobre miejsce (tj top strony równo z menu, a nie z oknem)
+	http://pixelflips.com/blog/anchor-links-with-a-fixed-header */
+.anchor-jump-link{
+	display: block;
+	height: 4em; /*same height as header*/
+	margin-top: -4em; /*same height as header*/
+	visibility: hidden;
+	}
+
+/* nag³ówki sekcji*/
+.bg-text,
+.spacer{
+	margin:		0 0.1em 0.25em 0.1em;
+	font-size:	3em;
+	font-weight: normal;
+	color: 		rgba(0,0,0,0.4);
+	}
+
+.bg-text{
+	display:	block;
+	position:	absolute;
+	top:		0;
+	left:		0;
+	}
+
+/* po³ówki, 1/3, */
+.half{
+	width: 46%;
+	padding: 0 2%;
+	float: left;
+	}
+
+.third,
+.quater{
+	max-width: 31% !important;
+	padding: 1%;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 12pt;
+	text-align: justify;
+	}
+
+.quater{
+	max-width: 22%;
+}
+
+.two-thirds{
+    width: 62%;
+    padding: 1%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+.half img,
+.third img{
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+ 	vertical-align: middle;
+	}
+
+.third h2{
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 0;
+	}
+
+.third h3{
+	text-align: center;
+	}
+
+/* header, kontener menu */
+
+#con-head{
+	position: fixed;
+	top:0;
+	z-index: 9001;
+	background-color: rgba(200,200,200,0.7);
+	transition: background-color .25s ease-in-out;
+	padding-bottom: 0.75em;
+	}
+
+#con-head.head-solid{
+	background-color: rgba(200,200,200,1.0);
+	}
+
+#con-head .con-content{
+	text-align: right;
+	}
+
+#con-head img{
+	width: auto;
+	height:	3em;
+	padding: 0.5em;
+	padding-bottom: 0;
+	float:	left;
+	}
+
+/* menu */
+
+#menu-container{
+	text-align: right;
+	overflow: hidden;
+	margin-right: 0.1em;
+	}
+
+
+#menu-container a{
+	color:	#222;
+	padding: 0.75em 1em;
+	margin-top: 0.5em;
+	text-decoration: none;
+	border-radius: 0.5em;
+	transition: background-color .25s ease-in-out;
+	display: inline-block;
+	overflow: hidden;
+	}
+
+
+#menu-container a:hover{
+	background-color: #D5D5D5;
+	color: #555;
+	}
+
+#menu-container span.mobile-only{
+	padding-left: 0.5em;
+	display: none;
+	}
+
+#menu-container a.lang-switch{
+	height: 1.5em;
+	}
+
+#menu-container a.lang-switch img{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	padding: 0;
+	max-height: 100%;
+	}
+
+#menu-button{
+	display: none;
+	font-family: FontAwesome;
+	font-size: 2em;
+	padding: 0.5em;
+	color: #323f49;
+}
+
+/* opis sesji, grafika zmieniarka */
+
+
+#con-description{
+	height:	100vh;
+/*	padding-top: 4em; 	/* fix verical center, equal to header height */
+	position: relative;
+	box-sizing: border-box;
+	display: table;
+/*	transition: background-image 1s ease-in-out; */
+	}
+
+#con-description .main-bg-container{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+#con-description .con-content{
+	background-color: rgba(0,0,0,0.5);
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	font-weight: bold;
+	text-shadow: 0.2em 0.2em 1em #000;
+	z-index: 30;
+	}
+
+
+#logo-container{
+	max-width: 1230px;
+	margin: 0 auto;
+	}
+
+#logo-container.logo-en{
+	max-width: 1190px !important;
+	}
+
+#logo-container img{
+	width: 100%;
+	}
+
+.social{
+	width: 100%;
+	margin-top : 10pt;
+	}
+
+.social a,
+.social span{
+	display: inline-block;
+	overflow: hidden;
+	width: 75pt;
+	max-width: 15%;
+	margin: 0pt 10pt;
+	}
+
+.social a img,
+.social span img{
+	width: 100%;
+	height: auto;
+	opacity: 0.7;
+	transition: opacity .25s ease-in-out;
+
+	}
+
+.social a:hover img{
+	opacity: 1.0;
+	}
+
+#con-description h1{
+	font-size: 5em;
+	margin: 0.5em;
+	}
+
+#con-description h2{
+	font-size: 2em;
+	}
+
+#con-description h2 a{
+	color: #e0001a;
+	}
+
+/* kontener opisów (O sesji) */
+
+
+#con-live{
+	background: #EEE;
+	}
+
+#con-prelegenci{
+	background: #EEE;
+	}
+
+#con-agenda{
+	margin-bottom: 1em;
+}
+
+#con-warsztaty{
+	background: #EEE;
+	}
+
+
+#con-about .third{
+	text-align: center;
+	}
+
+#con-about .third p{
+	text-align: justify;
+	}
+
+#con-about img{
+	max-width: 40%;
+	height: auto;
+	}
+
+#con-about h2{
+	margin-top: 0.5em;
+	}
+
+/* kontener agendy (Agenda) */
+
+#con-agenda h3{
+	color:	#323f49;
+	text-align: center;
+	}
+
+#con-agenda .extended-link{
+	text-align: center;
+	padding-top: 1em;
+	font-weight: bold;
+}
+
+#con-agenda .extended-link a{
+	color: #F00;
+}
+
+#con-agenda h3 .data,
+.extended-agenda h3 .data{
+	color:	#DBA100;
+	}
+
+#agenda-sobota{
+	overflow: hidden;
+}
+
+#agenda-sobota .half{
+	text-align: center;
+}
+
+#agenda-sobota .half .prelekcja{
+	max-width: 100%;
+	}
+
+.prelekcja .lang{
+	color: #999;
+	font-style: italic;
+	font-weight: normal;
+	}
+.prelekcja{
+	max-width: 95%;
+	min-height: 2em;
+	display: block;
+	overflow: hidden;
+	padding: 0.75em 0.5em;
+	margin: 0em auto;
+	border-bottom: 1px dotted #666;
+	border-radius: 0.5em 0 0 0;
+	text-align: left;
+	line-height: 1.5em;
+	transition: background-color .25s ease-in-out;
+	}
+
+.prelekcja:hover{
+	background-color: #EEE;
+	}
+
+.godzina{
+	min-width: 5em;
+	float: left;
+	}
+
+.tytul{
+	font-size: 1.15em;
+	min-height: 1.5em;
+	overflow: hidden;
+	font-weight: bold;
+	}
+
+.opis{
+	overflow: hidden;
+	padding-left: 0.5em;
+	font-size: 0.85em;
+	}
+
+.autor{
+	font-size: 1em;
+	display: block;
+	font-weight: normal;
+	font-style: italic;
+	}
+
+.extended-agenda{
+	text-align: center;
+	}
+
+.extended-agenda .prelekcja{
+	max-width: initial;
+	padding: 0;
+	margin: 0.75em 0.5em;
+	}
+
+.extended-agenda .prelekcja:hover{
+	background-color: initial;
+	}
+
+.extended-agenda .autor{
+	font-weight: bold;
+	}
+
+.extended-agenda .opis{
+	padding: 0;
+	margin-left: 19em;
+	overflow: hidden;
+	}
+
+.extended-agenda .opis > div{
+	padding-left: 10pt;
+	}
+
+.extended-agenda .godzina{
+	float: none;
+	font-size: 1.1em;
+	}
+
+.extended-agenda .godzina,
+.extended-agenda .tytul{
+	background-color: #F9F9F9;
+	}
+
+.extended-agenda .tytul{
+	font-size: 1.5em;
+	min-height: initial;
+	}
+
+.extended-agenda img{
+	max-width: 16em;
+	float: left;
+	border-radius: 1em 0 0 0;
+	}
+
+.extended-agenda p{
+	text-align: justify;
+	}
+
+/* kontener prelegentów (Prelegenci) */
+
+#con-prelegenci{
+	background-color: #EEE;
+	margin-top: 1em;
+	}
+
+#con-prelegenci .third img{
+		border-radius: 1em 0 0 0;
+}
+
+/* kontener Call for Papers */
+
+
+#con-callforpapers{
+	background-color: #EEE;
+//	background: #eee url('/img/bg_pingwin.png') right top no-repeat;
+	}
+
+#con-organizatorzy{
+	background-color: #EEE;
+}
+
+/* kontener organizatorów (Nasz zespół) */
+
+#con-naszzespol{
+	background-color: #EEE;
+	}
+
+#con-naszzespol .third img{
+		border-radius: 1em 0 0 0;
+}
+
+#con-naszzespol .third{
+	text-align: center;
+	}
+
+#con-naszzespol .funkcja{
+	color: #E53935;
+	text-align: center;
+	font-style: italic;
+	}
+
+#con-naszzespol h3{
+	margin-bottom: 0.5em;
+	}
+
+
+
+/* kontener wspó³pracy (Wspó³praca) */
+#con-wspolpraca{
+	height:	40vh;
+	display: table;
+	background: url('/img/tla/bg_oferta.jpg') center no-repeat;
+	background-size: cover;
+	}
+
+#con-wspolpraca .con-content{
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	text-shadow: 0.3em 0.3em 1.5em #000;
+	}
+
+#con-wspolpraca h2{
+	margin-top: 0;
+}
+
+#con-wspolpraca h3{
+	font-weight: normal;
+}
+
+/* kontener loga sponsorów i patronatów (Sponsorzy) */
+
+.loga{
+	overflow: hidden;
+	text-align: center;
+}
+
+.loga img{
+	border-radius: 0 !important;
+	max-width: 100%;
+}
+
+.loga .half{
+		padding-bottom: 1em;
+		}
+
+.loga .quater img{
+	max-height: 100%;
+	width: auto;
+}
+
+.logo-hackerspace{
+	max-height: 6em !important;
+}
+
+.loga.organizatorzy a{
+	padding: 0 0.5em;
+	}
+
+.half.logo-marszalek {
+  width: 100%;
+  padding-bottom: 0;
+}
+
+.patronaty-honorowe{
+    padding-bottom: 1em;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.8;
+    width: 100%;
+    overflow: hidden;
+}
+
+#con-sponsorzy{
+//	background-color: #EEE;
+	}
+
+#con-sponsorzy .loga div{
+	padding-bottom: 2em;
+	}
+
+.logo-zloty,
+.logo-asi{
+	text-align: center;
+	width: 100%;
+	padding-bottom: 2em;
+}
+
+.logo-zloty img,
+.logo-asi img{
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	}
+
+.logo-zloty a{
+	display: inline-block;
+	vertical-align: middle;
+	overflow: hidden;
+	}
+
+.logo-nokia img{
+	min-width: 30%;
+}
+
+.logo-axit img{
+	min-width: 50%;
+}
+
+.logo-semihalf img{
+	width: 520px;
+  height: 117px;
+}
+
+.logo-mokyoit img{
+	width: 520px;
+  height: 117px;
+}
+
+.logo-spacer{
+	width: 3em;
+	display: inline-block;
+}
+
+#con-sponsorzy .half img,
+#con-sponsorzy img.third,
+#con-sponsorzy .tieto img{
+	width: auto;
+	max-height: 100%;
+}
+
+#con-sponsorzy img.third,
+#con-sponsorzy img.quater{
+	height: auto;
+	max-height: 8em;
+	vertical-align: middle;
+}
+
+/* kontener formularza kontaktowego (Kontakt) */
+#con-kontakt{
+ 	/* background-color: #EEE;  */
+	background: #FFF url('/img/bg_pingwin.png') right top no-repeat;
+	}
+
+#con-kontakt .con-content{
+	padding-bottom: 0.5em;
+}
+
+#map{
+	height: 60vh;
+}
+
+#con-kontakt form{
+	margin: 0 auto;
+	width: 50%;
+}
+
+/* wyglad formularza, rowniez anchorów z klasa .button */
+input[type="text"],
+input[type="email"],
+textarea{
+	width: 100%;
+	height: 2em;
+	line-height: 1.5em;
+	border-radius: 2px;
+	}
+
+input,
+textarea,
+a.button{
+	padding: 0.2em;
+	margin: 1px 0px;
+	border: 1px solid #CCC;
+	font-family: inherit;
+	font-size: 0.8em;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	}
+
+input[type="submit"],
+a.button{
+	height: 2.5em;
+	padding: 0.2em 0.5em;
+	background: #F5F5F5;
+	border-radius: 2px;
+	font-weight: bold;
+	}
+
+input[type="submit"]:hover,
+a.button:hover{
+	background:		#CCC;
+	text-decoration: none;
+	}
+
+a.button{
+	color: #000;
+	text-shadow: none;
+	margin: 0.2em;
+	padding: 0.5em;
+}
+
+textarea {
+	height: 10em;
+	}
+
+/* stopka */
+#con-footer{
+	text-align: center;
+	background-color: rgba(200,200,200,1.0);
+}
+
+#con-footer .con-content{
+	padding: 0.5em;
+	font-size: 0.8em;
+}
+
+
+@media only screen and (max-width: 1150px)
+	{
+	#menu-container{
+		max-width: 60%;
+		display: inline-block;
+		}
+
+	#menu-container a {
+		margin-top: 0.1em;
+		padding: 0.25em 1em;
+		font-size: 0.9em;
+		}
+
+	#agenda-sobota .half{
+		width: 100%;
+		padding: 0;
+		float: none;
+		}
+
+	#agenda-sobota .prelekcja{
+		width: 95%;
+		}
+
+	form{
+		width: 75%;
+		}
+	}
+
+@media only screen and (max-width: 1240px){
+	.quater{
+		  max-width: 47%;
+	}
+	.extended-agenda{
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (max-width: 1050px)
+	{
+	.third{		/* zmiana 1/3 w 1/2 */
+		max-width: 47% !important;
+		}
+	}
+
+@media only screen and (max-width: 900px)
+	{
+	.extended-agenda img{
+		display: none;
+		}
+	.extended-agenda .opis{
+		margin-left: 0em;
+	}
+	}
+
+@media only screen and (max-width: 750px)
+	{
+	#con-head .con-content{
+		padding: 0;
+	}
+
+
+	/* mobilne menu */
+	#menu-container{
+		max-width: 100%;
+		display: block;
+		text-align: left;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: auto;
+		background-color: rgba(30,30,30,0.85);
+	}
+
+	#menu-container a{
+		color: #CCC;
+		display: block;
+		border-radius: 0;
+		padding: 0.5em 1em;
+		border-bottom: 1px solid #555;
+		}
+
+	#menu-button{
+		display: block;
+	}
+
+	.mobile-only{
+		display: initial !important;
+	}
+
+	#menu-container.mobile-hidden{
+		display: none;
+	}
+
+	#con-head{
+		padding-bottom: 0;
+	}
+
+	#con-head img{
+		padding-bottom: 0.5em;
+	}
+
+	form{
+		width: 95%;
+	}
+}
+
+@media only screen and (max-width: 700px)
+	{
+	.third{		/* zmiana 1/3 w ca³¹ szerokoæ */
+  		max-width: 100%;
+		}
+
+	#con-prelegenci .third,
+	#con-naszzespol .third{
+		max-width: 47%;
+		}
+
+	#con-description h1{
+		font-size: 2em;
+		}
+
+	#con-description h2{
+		font-size: 1em;
+		}
+
+	#con-agenda .con-content{
+		padding-top: 3em;
+		}
+
+	.prelekcja{
+		max-width: 100%;
+		width: 95%;
+		}
+
+	.logo-tieto{
+		width: auto;
+		}
+	}
+
+@media only screen and (max-width: 550px)
+	{
+	#con-prelegenci .third,
+	#con-naszzespol .third{
+		max-width: 100%;
+		}
+
+	.loga.organizatorzy a{
+		padding: 0.5em 0;
+		}
+
+	/* fix na paddingi */
+	.loga.organizatorzy a:after{
+		content: "\00a0";
+		display: block;
+		}
+	}
+
+@media only screen and (max-width: 450px)
+	{
+
+	.third{		/* zmiana 1/3 w ca³¹ szerokoæ */
+		width: 95%;
+		max-width: initial !important;
+  		height: auto !important;
+		padding-bottom: 0.5em;
+		}
+
+	#con-sponsorzy img.third,
+	#con-sponsorzy img.quater{
+		width: auto;
+		height: auto;
+		max-width: 100%;
+		//max-height: 4em;
+		padding-left: 0;
+		padding-right: 0;
+		margin: 0 auto;
+		display: block
+	}
+
+	body{
+		font-size: 12pt;
+		}
+
+	#con-head{
+		transition: all 0 ease 0;
+		}
+
+
+	.loga .half{
+		width: 95%;
+		padding: 2%;
+		}
+
+	h2,
+	h2.bg-text,
+	h2.spacer{
+		font-size: 2em;
+		}
+	}
+
+@media only screen and (max-width: 350px)
+	{
+
+	.godzina{
+		float: none;
+		text-align: center;
+		}
+
+	#con-prelegenci .third
+	#con-naszzespol .third{
+		width: 100%;
+		max-width: 100%;
+		padding: 0;
+		}
+
+	#con-prelegenci .third img{
+		border-radius: 0;
+		}
+
+	}

@@ -4,7 +4,7 @@ class SesjaLinuksowa < Sinatra::Application
     enable :sessions
 
     # Nie zapomnij zmienić tego!
-    set :edition => ""
+    set :edition => "15"
     set :hide_talk_submission_form, true
 
     register Sinatra::R18n
@@ -12,6 +12,14 @@ class SesjaLinuksowa < Sinatra::Application
     set :assets_precompile, %w(application.js application.css *.png *.jpg *.svg *.eot *.ttf *.woff)
     set :assets_css_compressor, :sass
     set :assets_js_compressor, :uglifier
+    set :locales, %w[pl en]
+    set :default_locale, 'pl'
+    set :locale_pattern, /^\/?(#{Regexp.union(settings.locales)})(\/.+)$/
+    helpers do
+      def locale
+	@locale || settings.default_locale
+      end
+    end
     register Sinatra::AssetPipeline
     R18n::I18n.default = "pl"
 
@@ -56,6 +64,12 @@ class SesjaLinuksowa < Sinatra::Application
     redirect "/pl"
   end
 
+  before('/:locale/*') { @locale = params[:locale] }
+
+  get '/:locale/agenda' do
+    haml :agenda, locals: { edition: settings.edition, hide_talk_submission_form: settings.hide_talk_submission_form }, layout: false
+  end
+
   get '/:locale/?' do
     haml :index, locals: { edition: settings.edition, hide_talk_submission_form: settings.hide_talk_submission_form }
   end
@@ -63,7 +77,7 @@ class SesjaLinuksowa < Sinatra::Application
   post '/' do
 
     # Antispam filter lol
-    redirect '/' unless params[:email].empty?
+    redirect '/' unless params[:email].nil?
 
     require 'pony'
     Pony.options = settings.email_options
@@ -82,7 +96,7 @@ class SesjaLinuksowa < Sinatra::Application
       Pony.subject_prefix("[FORMULARZ KONTAKTOWY] ")
       body = "#{params[:content]}"
     end
-    Pony.mail(:to => settings.default_to, :subject => subject, :body => body)
+    Pony.mail(to: settings.default_to, subject: subject, body: body)
     redirect '/'
   end
 

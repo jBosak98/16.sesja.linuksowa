@@ -1,15 +1,277 @@
 meta:
-  name: "Sesja Linuksowa"
+  name: "15. Sesja Linuksowa"
   author: "Akademickie Stowarzyszenie Informatyczne"
   description: "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
   locale: "pl_PL"
-forms:
-  name: "Imię i nazwisko"
-  email: "Adres email"
-  question: "O co chciałbyś nas zapytać?"
-  topic: "Temat prelekcji?"
-  abstract: "Opcjonalne ale mile widziane."
-  duration: "Jak długa będzie Twoja prelekcja? Wielokrotności 30 minut."
-  description: "Krótki opis prelekcji, będzie umieszczony na stronie." 
-  aboutyou: "Krótki opis prelegenta, będzie umieszczony na stronie."
-  submit: "Wyślij"
+navigation:
+  logo: "/img/logo-male-pl.png"
+  register: "Zapisy"
+  about: "O Sesji"
+  cfp: "Call for Papers"
+  previous: "Poprzednia edycja"
+  agenda: "Agenda"
+  workshops: "Warsztaty"
+  dojazd: "Dojazd"
+  sponsorship: "Współpraca"
+  sponsors: "Sponsorzy"
+  speakers: "Prelegenci"
+  orgs: "Organizatorzy"
+  live: "Nagrania"
+  contact: "Kontakt"
+  lpi: "Egzaminy LPI"
+  patrons: "Patroni"
+  home_url: "/pl"
+  agenda_url: "/pl/agenda"
+  lang_url: "/en"
+  lang_agenda_url: "/en/agenda"
+  lang_flag: "/img/icon-us.png"
+  lang_text: "English version"
+  back_to_home: "Powrót do strony głównej"
+description:
+  logo: "/img/logo-duze-pl.png"
+register:
+  title: "Zapisy"
+  p1: "Konferencja jest darmowa i otwarta dla każdego chętnego. Jednak mając na uwadze ograniczoną ilość miejsc na sali konferencyjnej, pierwszeństwo będą posiadały osoby zarejestrowane."
+  p2: "Aby zarejestrować swój udział w konferencji, prosimy skorzystać z poniższego formularza Google:"
+  button: "Rejestracja"
+contact:
+  form:
+    name: "Imię i nazwisko"
+    email: "Email"
+    content: "Pytania? Sugestie? Wpisz je tutaj!"
+    submit: "Wyślij"
+agenda:
+  speaker: "Prelegent:"
+  extended_text: "Aby przejść do rozszerzonej agendy (z opisami prelekcji), kliknij tutaj."
+  lpi:
+    photo: "/img/loga/logo-lpi.png"
+    time: "08:30-09:45"
+    title: "<i>Egzamin LPI</i>"
+  saturday:
+    date: "7 kwietnia 2018"
+    day: ".Sobota"
+    p1:
+      title: "Deep Learning - droga od ciekawostki futurologicznej do przemysłu"
+      time: "10:00-11:00"
+      lang: "[pl]"
+      author: "Filip Drapejkowski"
+      photo: "/img/ludzie/drapej.jpg"
+      desc: "<p>Głębokie uczenie jest podzbiorem Uczenia Maszynowego, to zaś jest podzbiorem Sztucznej Inteligencji. Większość metod i koncepcji związanych ze sztuczną inteligencją jest starsza od komputerów jako takich. Niemniej jednak, dopiero ostatnio Głębokie Uczenie dotarło do regularnego przemysłu i zrewolucjonizowało go.
+</p><p>Przyjrzyjmy się historii Głębokiego Uczenia oraz temu, jak zmieniło ono nasze postrzeganie biznesu, maszyn i komputerów. Potem, spróbujmy zrozumieć w jaki sposób Wolne Oprogramowanie pozwoliło tej rewolucji na zaistnienie, oraz jak Polska gospodarka może je wykorzystać, aby stać się atrakcyjną dla badaczy oraz inżynierów z całego Świata.</p>"
+    p2:
+      title: "Ansible, by wszystkimi rządzić"
+      time: "11:00-12:00"
+      lang: "[pl]"
+      author: "Tomasz Szandała"
+      photo: "/img/ludzie/Szandala.jpg"
+      desc: "Ansible to oprogramowanie, które pozwala zautomatyzować zarządzanie konfiguracją sprzętową na dowolnym systemami operacyjnym, za pomocą języka Python. Prezentacja będzie opowieścią o lekcjach zdobytych podczas rozwoju nowego projektu w firmie NOKIA. Od pierwszego playbooka, do zarządzania chmurą OpenStackową z pomocą Ansible Tower."
+    p3:
+      title: "Jak zaprojektować rozwiązanie CI/CD, obsługujące milion zadań każdego dnia"
+      time: "12:00-13:00"
+      lang: "[pl]"
+      author: "Tomasz Maczukin"
+      photo: "/img/ludzie/maczukin.jpg"
+      desc: "Opowiadając historię rozwoju CI/CD na GitLab.com chciał bym zaprezentować z jakimi problemami się spotkaliśmy, jakie rozwiązania wprowadziliśmy i na co próbujemy się przygotować dążąc do postawionego sobie celu: udostępnienia systemu, który obsłuży milion zadań CI/CD każdego dnia."
+    p4:
+      title: Przerwa obiadowa
+      time: "13:00-14:30"
+      lang: ""
+      author: ""
+      desc: ""
+    p5:
+      title: "Projekt pudełka do szybkiego zarabiania pieniędzy. Zautomatyzowany handel Bitcoinem na Raspberry Pi."
+      time: "14:30-15:30"
+      lang: "[en]"
+      author: "Klaus Knopper"
+      photo: "/img/ludzie/klausknopper.jpg"
+      desc: "<p>Cel: Wytworzenie pudełka handlującego Bitcoinem przy pomocy w pełni automatycznych algorytmów w bezpiecznym środowisku sprzętowym.</p><p> Bitcoin zyskał na popularności jako pierwsza i obecnie najdroższa kryptowaluta. Strategia 'kup wcześnie i trzymaj' zwykle pozwalała zarobić. Jednak ze względu na zmienność kursów, aktywny handel kusi możliwością szybszego i większego powiększenia majątku. Niestety, handel manualny w rękach niedoświadczonej osoby zmienia się w nieodpowiedzialny hazard i może skutkować szybką utratą inwestycji. Projekt 'Pudełko szybkiego zarabiania pieniędzy' z kursu Zaawansowanego Zarządzania Informacją ma na celu implementację czysto algorytmicznego handlu w sposób uniemożliwiający złe decyzje spowodowane chciwością czy paniką. Jednocześnie służy jako elektroniczna wersja konta oszczędnościowego opartego na technologii blockchain, eliminując jeden z wektorów ataku, przez dostarczenie konkretnego rozwiązania sprzętowego portfela.</p>"
+    p6:
+      title: "Linux KVM - wsparcie dla wirtualizacji w kontekście serwerów ARM"
+      time: "15:30-16:30"
+      lang: "[pl]"
+      author: "Tomasz Nowicki"
+      desc: "<p>Na rynku serwerów coraz częściej możemy spotkać maszyny oparte o architekturę ARM. Chociaż na tle konkurencji wciąż znajdują się w mniejszości, to na rynku utrzymują tendencję wzrostową. Warto zatem przyjrzeć się bliżej architekturze i poznać możliwości sprzętowe.W tematyce wirtualizacji serwery ARM nie mogą odstawać od znanej nam architektury x86_64 dlatego na przestrzeni ostatnich kilku lat doczekaliśmy się kilku znaczących rozszerzeń ukierunkowanych w tym celu. W prezentacji chciałbym przybliżyć architekturę ARMv8 i metody wirtualizacji CPU oraz urządzeń peryferyjnych na przykładzie KVM. Omówię też sposoby optymalizacji, które mogą się przydać podczas zarządzania wirtualnymi maszynami.</p>"
+    p7:
+      title: "Embedded Linux build systems - wszechstronne porównanie"
+      time: "16:30-17:30"
+      lang: "[pl]"
+      author: "Cezary Dynak"
+      photo: "/img/ludzie/cezary.jpg"
+      desc: "<p>Buildroot, OpenWRT, LTIB, PTXDist, Yocto Project - pewnie słyszałeś o przynajmniej jednym z tych narzędzi, ale czy znasz je wszystkie? Czy kiedykolwiek samodzielnie skompilowałeś całą dystrybucje Linuksa, nie tylko samo jądro lub pojedynczą paczkę? W tej prezentacji chciałbym przedstawić możliwości oraz porównać dostępne narzędzia zbiorczo określane jako 'Embedded Linux build systems'.</p> <p>Na przykład: Jaki jest czas i koszt pełnego procesu kompilacji na maszynach o rożnej mocy? Ile przestrzeni potrzebujemy na systemie hosta i jak małe obrazy systemu docelowego możemy uzyskać? Przedstawię również jak przy pomocy kilku komend i wykorzystaniu półproduktów budowania dystrybucji stworzyć bazowy obraz Dockera. Ten pomysł wydaje się idealnie pasować do obecnych trendów 'edge computing'.</p>"
+    p8:
+      title: "OSX for Linux Power Users"
+      time: "17:30-18:30"
+      lang: "[pl]"
+      author: "Adam Rogowski"
+      photo: "/img/ludzie/rogowski.jpg"
+      desc: "<p>How 'the most advanced operating system in the world' fares in usability comparing to Linux...</p>"
+    p9:
+      title: "Lightning talks "
+      time: "18:30-19:00"
+      lang: "[pl]"
+      author: ""
+      desc: ""
+  sunday:
+    date: "8 kwietnia 2018"
+    day: ".Niedziela"
+    p1:
+      title: "Vim"
+      time: "10:00-11:00"
+      lang: "[pl]"
+      author: "Błażej Święcicki"
+      photo: "/img/ludzie/mewp.jpg"
+      desc: "<p>Każdy kto używa vima, robi to trochę inaczej. To jest na tyle rozbudowany edytor tekstu, że można by o nim opowiadać pewnie w nieskończoność. Ja opowiem o tym, jak sam go używam - zarówno od podstaw, pokazując wbudowane komendy, które ułatwiają życie, jak i opowiem trochę o kilku pluginach, z których korzystam.</p>"
+    p2:
+      title: "Uwierzytelnienie i autoryzacja przy pomocy Oauth2, Nginxa i Pythona"
+      time: "11:00-12:00"
+      lang: "[pl]"
+      author: "Maciej Lasyk"
+      photo: "/img/ludzie/lasyk.jpg"
+      desc: "<p>Jednym z problemów, z którymi borykamy się w naszych sieciach są aplikacje, które nie potrafią skorzystać z centralnego repozytorium tożsamości implementując własne rozwiązania i powodując, iż użytkownik posiada wiele kont w różnych serwisach w ramach jednej instytucji. Czasem też niektóre aplikacje w ogóle nie zapewniają jakiejkolwiek autentykacji pozostawiając swoje zasoby otwarte dla całej sieci wewnętrznej (lub co gorsza - internecie).</p><p> W trakcie prezentacji przedstawię w jaki sposób można zabezpieczyć tego rodzaju serwisy przy użyciu znanych nam rozwiązań (Nginx, trochę Pythona z domieszką pragmatyzmu). Implementację Oauth2 omówię na podstawie Google i Githuba.</p><p> Na deser - połączę wszystkie powyższe pomysły w jedną całość zgodną z moimi prezentacjami na Sesji z poprzednich lat - pokażę wam w jaki sposób zrealizować w Rundecku logowanie za pomocą Oautha hostując zasoby w kontenerach systemd-nspawn ;)</p>"
+    p3:
+      title: "Zrozumieć Gitlab CI"
+      time: "12:00-13:00"
+      lang: "[pl]"
+      author: "Kamil Trzciński"
+      photo: "/img/ludzie/kamiltrzcinski.jpg"
+      desc: "<p>Ta prelekcja wyjaśni jak zbudowany jest GitLab CI oraz jak go używać efektywnie. Zrozumiesz jaka jest relacja między wykonawcą a dockerem, zadaniem a kontenerem. Zobaczysz jak prosto i szybko przygotować i naprawić twojego pipeline. Dodatkowo, dowiesz się kilku technik jak usprawnić wydajność CI w popularnych zastosowaniach. Każdy chce aby jego docker build czy rspec wykonywał się szybciej, prawda?</p>"
+    p4:
+      title: Przerwa obiadowa
+      time: "13:00-14:30"
+      lang: ""
+      author: ""
+      desc: ""
+    p5:
+      title: "Energy-efficiency Features in Hardware and Linux "
+      time: "14:30-15:30"
+      lang: "[pl]"
+      author: "Rafał Wysocki"
+      photo: "/img/ludzie/wysocki.jpg"
+      desc: "<p>Many hardware components of modern computer systems, like processors, System-on-a-Chip (SoC) circuits and I/O peripherals, offer features targeted at improving their energy efficiency.  Many of these features can be used by Linux, either by default or if they are enabled through a configuration mechanism of some sort.  I will describe some of these features and explain how they are used by the Linux kernel or how it can be configured to use them.</p>"
+    p6:
+      title: "Bitrise.io & OpenSTF"
+      time: "15:30-16:30"
+      lang: "[pl]"
+      author: "Karol Wrótniak"
+      photo: "/img/ludzie/karol.jpg"
+      desc: "<p>Prezentacja ma na celu przedstawienie OpenSTF - otwartej farmy testowej dla urządzeń z Androidem oraz Bitrise.io - platformy do Continuous Integration. Powiem w jaki sposób połączyć je ze sobą, jak ich używamy, do czego oprócz testów jeszcze mogą służyć oraz jak przebiegały kontrybucje do ich projektów open source.</p>"
+    p7:
+      title: "Wstęp do tunelowania ruchu sieciowego"
+      time: "16:30-17:30"
+      lang: "[pl]"
+      author: "Jakub Juszczakiewicz"
+      photo: "/img/ludzie/siewca.jpg"
+      desc: "<p>Na prelekcji przedstawię podstawy konfiguracji VLANów i OpenVPNa jako przykłady tunelowania ruchu sieciowego które każdy może zrobić. Opowiem czym są VLANy, jak je skonfigurować (głównie na Linuksie) i dlaczego warto z nich korzystać w sieciach lokalnych. Podobnie przestawię możliwości OpenVPNa. Dodatkowo będzie trochę informacji o konfiguracji IPTables i interfejsów-mostów sieciowych.</p>"
+speakers:
+  p1:
+    name: "Klaus Knopper"
+    photo: "/img/ludzie/klausknopper.jpg"
+    content: "Twórca Knoppixa - pierwszej dystrybucji typu LiveCD oraz Adriane Knoppix - systemu dla osób niewidomych i z zaburzeniami widzenia. "
+  p2:
+    name: "Kamil Trzciński"
+    photo: "/img/ludzie/kamiltrzcinski.jpg"
+    content: "<p>Kamil jest entuzjastą programowania niskopoziomowego z wieloletnim doświadczeniem w wytwarzaniu aplikacji na wszystkie platformy. Jest też ekspertem z zakresu bezpieczeństwa, wirtualizacji i grafiki. Posługuje się wieloma językami programowania i posiada dogłębną wiedzę na temat architektury systemów operacyjnych. Ostatnio skupia się na rewolucji kontenerowej i tworzeniu najlepszego produktu CI na świecie. W wolnych chwilach lubi biegać, jeździć na rowerze i grać w dobre gry, chociaż nie wszystko na raz.</p>"
+  p3:
+    name: "Rafał Wysocki"
+    photo: "/img/ludzie/wysocki.jpg"
+    content: "Opiekun podsystemów PM i ACPI  w jądrze Linuksa. Pracuje w Intel Open Source Technology Center, gdzie zajmuje się głównie rozwiązywaniem problemów związanych z jądrem Linuksa.<br />W roku 1996 ukończył studia magisterskie z fizyki teoretycznej  na Wydziale Fizyki Uniwersytetu Warszawskiego, a w roku 2002 uzyskał stopień naukowy doktora w dziedzinie fizyki na tym samym wydziale."
+  p4:
+    name: "Tomasz Maczukin"
+    photo: "/img/ludzie/maczukin.jpg"
+    content: "<p>Programista, projektant oprogramowania, SRE. Z IT związany od 2002 roku, zawodowo od 2009. Linuksa pierwszy raz zainstalowałem w 2004 roku, a od 2007 to jedyny system, który napędza posiadane przeze mnie komputery. Korzystam głównie z Debiana/Ubuntu. Z GitLabem związany od grudnia 2015 i prawie od samego początku zajmuję się CI/CD. Obecnie dbam o sprawne działanie infrastruktury napędzającej CI/CD na GitLab.com</p>"
+  p5:
+    name: "Maciej 'Docent' Lasyk"
+    photo: "/img/ludzie/lasyk.jpg"
+    content: "<p>Absolwent AGH w Krakowie, administrator w firmie Codewise w wolnym czasie rozwijający dystrybuję Fedora oraz zapalony cyklista</p>"
+  p6:
+    name: "Błażej 'Mewp' Święcicki"
+    photo: "/img/ludzie/mewp.jpg"
+    content: "<p>Sysadmin, programista, linuksiarz i były prezes Akademickiego Stowarzyszenia Informatycznego. Zagorzały przeciwnik Facebooka i innych zcentralizowanych usług w chmurze.</p>"
+  p7:
+    name: "Filip Drapejkowski"
+    photo: "/img/ludzie/drapej.jpg"
+    content: "Senior Software Developer w Luxoft/Nauto pracujący z algorytmami do przetwarzania sygnałów z sensorów umieszczanych w samochodach (głównie kamery)."
+  p8:
+    name: "Tomasz Nowicki"
+    photo: "/img/ludzie/nowicki.jpg"
+    content: "<p>Starszy Inżynier Oprogramowania w firmie Semihalf. Z wykształcenia elektronik, zawodowo programista systemów operacyjnych.  Wieloletnio związany z tematyką Linux i ARMv8, w szczególności z podsystemami KVM, PCI, i ACPI. W wolnych chwilach kibic skoków narciarskich i piłki nożnej.</p>"
+  p9:
+    name: "Jakub 'Siewca' Juszczakiewicz"
+    photo: "/img/ludzie/siewca.jpg"
+    content: "Jestem programistą i miłośnikiem otwartego oprogramowania. Byłym członkiem w ASI i absolwentem Politechniki Wrocławskiej. Po za informatyką lubię się przemieszczać różnymi środkami transportu - od własnych nóg, przez rower, narty... do pociągów."
+  p10:
+    name: "Tomasz Szandała"
+    photo: "/img/ludzie/szandala.jpg"
+    content: "<p>Pracownik firmy Nokia, obecnie inżynier w dziale Software Configuration Managment we Wrocławiu. Ponadto doktorant Wydziału Elektroniki Politechniki Wrocławskiej oraz v-ce prezes koła naukowego Creation and Development Group -KREDEK. Na co dzień pisze w bashu, Pythonie, Groovym i oczywiście Yaml’u 😉</p>"
+  p11:
+    name: "Karol Wrótniak"
+    photo: "/img/ludzie/karol.jpg"
+    content: "<p>Karol Wrótniak zajmuje się Androidem od ponad 6 lat. Programowanie to jego pasja i praca. Na co dzień buduje aplikacje i biblioteki w Droids on Roids. Po godzinach realizuje własne pomysły. Autor postów na blogu Droids On Roids - https://www.thedroidsonroids.com/blog. Zaangażowany w wiele projektów open source, w szczególności te związane z testami. Kontrybutor OpenSTF i Bitrise.io - projektów, który są tematem prezentacji. Najłatwiej znaleźć go na GitHubie: https://github.com/koral--</p>"
+  p12:
+    name: "Adam Rogowski"
+    photo: "/img/ludzie/rogowski.jpg"
+    content: "Game Developer. Były członek Akademickiego Stowarzyszenia Informatycznego."
+  p13:
+    name: "Cezary Dynak"
+    photo: "/img/ludzie/cezary.jpg"
+    content: "Absolwent specjalności Embedded Robotics oraz były admin lab07/C-3 na PWr. Obecnie pracuje jako Node.js developer dla firmy SpyroSoft. Poza back-endem dla IoT interesuje się również Linuksem pod kątem systemów wbudowanych i DevOps."
+about:
+  p1:
+    header: "Czym jest sesja?"
+    content: "Jest to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
+  p2:
+    header: "Jak to wygląda?"
+    content: "Udział w Sesji jest darmowy. Co roku na konferencji spotykają się pasjonaci informatyki z całej Polski, aby pogłębić swoją wiedzę i podjąć dyskusję w interesujących ich dziedzinach."
+  p3:
+    header: "Nasz cel"
+    content: "Naszym celem jest promowanie idei wolnego oprogramowania. Wiemy, że Open Source jest coraz bardziej popularny w rozwiązaniach komercyjnych, jak i domowych. I zależy nam na jego popularyzacji."
+dojazd:
+  p1:
+    header: "Centrum Kongresowe Politechniki Wrocławskiej (budynek D20)"
+    content: "Centrum Kongresowe znajduje się na terenie kampusu Politechniki Wrocławskiej, przy ulicy Janiszewskiego 8."
+  p2:
+    header: "Komunikacją miejską"
+    content: "Udajemy się dowolną linią jadącą na węzeł Plac Grunwaldzki, a następnie pokonujemy pieszo około 500 metrów."
+  p3:
+    header: "Samochodem"
+    content: "W obrębie kampusu Politechniki Wrocławskiej dostępne jest wiele miejsc parkingowych."
+lpi:
+  p1:
+    header: "Szczegóły"
+    content: "W trakcie tegorocznej Sesji Linuksowej organizujemy egzaminy Linux Professional Institute. Uczestnicy płacą tylko połowę ceny, czyli 90 Euro (60 EUR dla egzaminu Linux Essentials)."
+  p2:
+    header: "Przygotowanie"
+    content: "Uczestnicy egzaminu proszeni są o zgłoszenie się z ważnym dokumentem tożsamości ze zdjęciem oraz obowiązkowo LPI-ID, które można otrzymać rejestrując się na stronie <a href='https://cs.lpi.org/caf/Xamman/register'>LINK</a>"
+  p3:
+    header: "Więcej informacji"
+    content: "Dokładne informacje o egzaminie zostały zebrane w <a href='pdf/lpi_pl.pdf'>tym dokumencie.</a><br /><center><img style='max-width: 40%' src='/img/loga/logo-lpi.png'></center>"
+cfp:
+  p1:
+    header: "Zapisy"
+    content: "Zgłoszenia przyjmujemy przez - <a href='https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link'>Formularze Google</a></p><p> Ilość miejsc ograniczona ;)</p>"
+live:
+  title: "Nagrania"
+  p1:
+    header: "Transmisja"
+    content: "Ze wszystkich prelekcji podczas 15. Sesji Linuksowej dostępna będzie transmisja na żywo"
+  p2:
+    header: "Youtube"
+    content: "Streaming odbędzie się za pośrednicwem kanału Akademickiego Stowarzyszenia Informatycznego w serwisie YouTube"
+  p3:
+    header: "Playlista"
+    content: "W ciągu kilku dni po konferencji udostępnimy pocięte filmy w formie listy odtwarzania."
+  p4:
+    content: "15. Sesja Linuksowa odbyła się w dniach 7-8 kwietnia 2018 roku w Centrum Kongresowym Politechniki Wrocławskiej."
+  p5:
+     content: "Podczas 15. Sesji uczestnicy mieli okazję wysłuchać trzynastu prelekcji. Swoją obecnością ponownie zaszczycił nas Klaus Knopper."
+  p6:
+    content: 'Agendę, pregelenetów i więcej informacji odnośnie poprzedniej edycji konferencji można znaleźć pod adresem <a href="http://15.sesja.linuksowa.pl">15.sesja.linuksowa.pl</a>'
+sponsorship:
+    content: "Jesteś zainteresowany współpracą z nami? Zapoznaj się z naszą ofertą sponsorską!"
+    link: "Oferta sponsorska"
+    link_href: "pdf/offer_pl.pdf"
+
+title: "15. Sesja Linuksowa | Wrocław, Polska"
+pwr: "Politechnika Wrocławska"
+asi: "Akademickie Stowarzyszenie Informatyczne"
+year: '© 2018'
