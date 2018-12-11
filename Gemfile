@@ -22,6 +22,7 @@ group :development do
   gem 'thin'
 
   gem 'rubocop'
+  gem 'overcommit'
 end
 
 source 'https://rails-assets.org' do
