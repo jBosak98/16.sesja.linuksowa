@@ -87,9 +87,11 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
+  ffi (>= 1.9.24)
   haml
   pony
   pry-byebug
+  rack (>= 1.6.11)
   rack-protection (~> 1.5.5)
   rails-assets-bootstrap!
   rails-assets-jquery!
@@ -97,6 +99,7 @@ DEPENDENCIES
   sinatra-asset-pipeline
   sinatra-partial
   sinatra-r18n
+  sprockets (>= 3.7.2)
   thin
   uglifier
 
