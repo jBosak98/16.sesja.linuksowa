@@ -13,6 +13,7 @@ gem "rack", ">= 1.6.11"
 gem "ffi", ">= 1.9.24"
 gem "sprockets", ">= 3.7.2"
 gem 'rack-protection', '~> 1.5.5'
+gem 'rb-readline'
 
 group :development do
   gem 'pry'
