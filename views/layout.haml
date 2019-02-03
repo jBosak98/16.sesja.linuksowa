@@ -7,15 +7,14 @@
     %meta{:content => t.meta.name, :property => "og:site_name"}/
     %meta{:content => t.meta.locale, :property => "og:locale"}/
     %meta{:content => "website", :property => "og:type"}/
-    %meta{:content => t.title, :property => "og:title"}/
-    %meta{:content => "http://15.sesja.linuksowa.pl/", :property => "og:url"}/
+    %meta{:content => "#{edition}. #{t.title}", :property => "og:title"}/
+    %meta{:content => "http://#{edition}.sesja.linuksowa.pl/", :property => "og:url"}/
     %meta{:content => t.meta.description, :property => "og:description"}/
-    %meta{:content => "http://15.sesja.linuksowa.pl/img/logo-opengraph-pl.png", :property => "og:image"}/
-    %link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700&subset=latin-ext,latin", :rel => "stylesheet", :type => "text/css"}/
+    %meta{:content => "http://#{edition}.sesja.linuksowa.pl/img/logo-opengraph-pl.png", :property => "og:image"}/
+    %link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}
     %link{:href => "/css/font-awesome.min.css", :rel => "stylesheet", :type => "text/css"}/
-    %title=t.title
-  %body
+    %title="#{edition}. #{t.title}"
+  %body{:onload => "init()"}
     %img.image-preload{:src => "/img/tla/1.jpg"}/
     #con-head.con-bg
       .con-content
@@ -25,8 +24,8 @@
         #menu-container.mobile-hidden
           %a{:href => "#about"}=t.navigation.about
           %a{:href => "#live"}=t.navigation.live
-          %a{:href => "#agenda"}=t.navigation.agenda
-          %a{:href => "#sponsorzy"}=t.navigation.sponsors
+          -#%a{:href => "#agenda"}=t.navigation.agenda
+          -#%a{:href => "#sponsorzy"}=t.navigation.sponsors
           %a{:href => "#kontakt"}=t.navigation.contact
           %a.lang-switch{:href => t.navigation.lang_url}
             %img{:alt => "", :src => t.navigation.lang_flag}
@@ -42,7 +41,7 @@
           %span
             %img{:src => "/img/squares-empty.png"}/
         #logo-container
-          %img{:alt => "14. Sesja Linuksowa", :src => t.description.logo}/
+          %img{:alt => "#{edition}. Sesja Linuksowa", :src => t.description.logo}/
         .social
           %a{:href => "https://www.facebook.com/sesjalinuksowa"}
             %img{:alt => "", :src => "/img/squares-facebook.png"}/
@@ -74,57 +73,6 @@
         %h2.spacer &nbsp;
         .embed-container
           %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/videoseries?list=PLTvZBPQxCI8F4SeKLEZ3M9TnC5KHyk7zI&amp;ecver=2"}
-    #con-agenda.con-bg
-      %span#agenda.anchor-jump-link
-      .con-content
-        %h2.bg-text="Agenda"
-        %h2.spacer &nbsp;
-
-        %h1 TBA
-
-        #agenda-sobota
-        -#  .half
-        -#    %h3
-        -#      %span.data=t.agenda.saturday.date
-        -#      =t.agenda.saturday.day
-        -#    .prelekcja
-        -#      .godzina=t.agenda.saturday.p1.time
-        -#      .opis
-        -#        .tytul
-        -#          =t.agenda.saturday.p1.title
-        -#          %span.lang=t.agenda.saturday.p1.lang
-        -#        .autor=t.agenda.saturday.p1.author
-
-        #agenda-niedziela
-        -#  .half
-        -#    %h3
-        -#      %span.data=t.agenda.sunday.date
-        -#      =t.agenda.sunday.day
-        -#    .prelekcja
-        -#      .godzina=t.agenda.sunday.p1.time
-        -#      .opis
-        -#        .tytul
-        -#          =t.agenda.sunday.p1.title
-        -#          %span.lang=t.agenda.sunday.p1.lang
-        -#        .autor=t.agenda.sunday.p1.author
-
-        #Link-do-rozszerzonej-agendy
-        -#.extended-link
-        -#  %a{:href => t.navigation.agenda_url}=t.agenda.extended_text
-
-    #con-prelegenci.con-bg
-      %span#prelegenci.anchor-jump-link
-      .con-content
-        %h2.bg-text=t.navigation.speakers
-        %h2.spacer &nbsp;
-
-        %h1 TBA
-
-        #Prelegenci
-        -#.third
-        -#  %img{:src => t.speakers.p1.photo}
-        -#  %h3=t.speakers.p1.name
-        -#  %span=t.speakers.p1.content
 
     #con-dojazd.con-bg
       %span#dojazd.anchor-jump-link
@@ -140,7 +88,9 @@
         .third
           %h2=t.dojazd.p3.header
           %p=t.dojazd.p3.content
-      #map
+
+    #slmap{:style => "height: 550px"}
+    
     #con-organizatorzy.con-bg
       %span#organizatorzy.anchor-jump-link
       .con-content
@@ -152,20 +102,7 @@
         %h2=t.navigation.sponsorship
         %h3=t.sponsorship.content
         %a.button{:href => t.sponsorship.link_href}=t.sponsorship.link
-    #con-sponsorzy.con-bg
-      %span#sponsorzy.anchor-jump-link
-      .con-content
-        %h2.bg-text=t.navigation.sponsors
-        %h2.spacer &nbsp;
-        .loga
-
-        %h1 TBA
-
-        #Loga-sponsorow
-        -#  .logo-axit
-        -#    %a{:href => "http://kariera.axit.pl/"}
-        -#      %img{:src => "/img/loga/AXIT - new logo.jpg"}/
-
+    
     #con-organizatorzy.con-bg
       %span#organizatorzy.anchor-jump-link
       .con-content
@@ -196,7 +133,6 @@
       .con-content
         %span.year=t.year
         %a{:href => "http://asi.wroclaw.pl"}=t.asi
-    -# / Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
-    %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
     %script{:src => "/js/jquery-2.1.1.min.js"}
+    %script{:src => "/openlayers/OpenLayers.js"}
     %script{:src => "/js/style.js"}
