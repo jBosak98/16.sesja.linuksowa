@@ -11,11 +11,10 @@
     %meta{:content => "http://#{edition}.sesja.linuksowa.pl/", :property => "og:url"}/
     %meta{:content => t.meta.description, :property => "og:description"}/
     %meta{:content => "http://#{edition}.sesja.linuksowa.pl/img/logo-opengraph-pl.png", :property => "og:image"}/
-    %link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700&subset=latin-ext,latin", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}
     %link{:href => "/css/font-awesome.min.css", :rel => "stylesheet", :type => "text/css"}/
     %title="#{edition}. #{t.title}"
-  %body
+  %body{:onload => "init()"}
     %img.image-preload{:src => "/img/tla/1.jpg"}/
     #con-head.con-bg
       .con-content
@@ -89,7 +88,9 @@
         .third
           %h2=t.dojazd.p3.header
           %p=t.dojazd.p3.content
-      #map
+
+    #slmap{:style => "height: 550px"}
+    
     #con-organizatorzy.con-bg
       %span#organizatorzy.anchor-jump-link
       .con-content
@@ -132,7 +133,6 @@
       .con-content
         %span.year=t.year
         %a{:href => "http://asi.wroclaw.pl"}=t.asi
-    -# / Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/
-    %script{:src => "https://maps.googleapis.com/maps/api/js?sensor=false", :type => "text/javascript"}
     %script{:src => "/js/jquery-2.1.1.min.js"}
+    %script{:src => "/openlayers/OpenLayers.js"}
     %script{:src => "/js/style.js"}

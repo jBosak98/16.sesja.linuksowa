@@ -162,24 +162,19 @@ $(document).ready(function() {
   });
 });
 */
-//mapy googla
-google.maps.event.addDomListener(window, "load", init);
+
+//OpenLayers map
 function init()
 {
-  var mapOptions = {
-    zoom: 15,
-    center: new google.maps.LatLng(51.110424, 17.059968),
-    disableDefaultUI: true,
-    scrollwheel: false,
-    draggable: false,
-  };
-  var mapElement = document.getElementById("map");
-  var map = new google.maps.Map(mapElement, mapOptions);
-  var image = "/img/map-marker.png";
-  var myLatLng = new google.maps.LatLng(51.110424, 17.059968);
-  var beachMarker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    icon: image
-  })
+  var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+  var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+  var position = new OpenLayers.LonLat(17.059632, 51.110267).transform(fromProjection, toProjection);
+  var zoom = 16; 
+
+  slmap = new OpenLayers.Map("slmap");
+  slmap.addLayer(new OpenLayers.Layer.OSM());
+  var markers = new OpenLayers.Layer.Markers("Markers");
+  slmap.addLayer(markers);
+  markers.addMarker(new OpenLayers.Marker(position));
+  slmap.setCenter(position, zoom);
 };
