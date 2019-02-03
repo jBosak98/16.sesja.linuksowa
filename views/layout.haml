@@ -7,14 +7,14 @@
     %meta{:content => t.meta.name, :property => "og:site_name"}/
     %meta{:content => t.meta.locale, :property => "og:locale"}/
     %meta{:content => "website", :property => "og:type"}/
-    %meta{:content => t.title, :property => "og:title"}/
-    %meta{:content => "http://15.sesja.linuksowa.pl/", :property => "og:url"}/
+    %meta{:content => "#{edition}. #{t.title}", :property => "og:title"}/
+    %meta{:content => "http://#{edition}.sesja.linuksowa.pl/", :property => "og:url"}/
     %meta{:content => t.meta.description, :property => "og:description"}/
-    %meta{:content => "http://15.sesja.linuksowa.pl/img/logo-opengraph-pl.png", :property => "og:image"}/
+    %meta{:content => "http://#{edition}.sesja.linuksowa.pl/img/logo-opengraph-pl.png", :property => "og:image"}/
     %link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700&subset=latin-ext,latin", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "/css/font-awesome.min.css", :rel => "stylesheet", :type => "text/css"}/
-    %title=t.title
+    %title="#{edition}. #{t.title}"
   %body
     %img.image-preload{:src => "/img/tla/1.jpg"}/
     #con-head.con-bg
@@ -25,8 +25,8 @@
         #menu-container.mobile-hidden
           %a{:href => "#about"}=t.navigation.about
           %a{:href => "#live"}=t.navigation.live
-          %a{:href => "#agenda"}=t.navigation.agenda
-          %a{:href => "#sponsorzy"}=t.navigation.sponsors
+          -#%a{:href => "#agenda"}=t.navigation.agenda
+          -#%a{:href => "#sponsorzy"}=t.navigation.sponsors
           %a{:href => "#kontakt"}=t.navigation.contact
           %a.lang-switch{:href => t.navigation.lang_url}
             %img{:alt => "", :src => t.navigation.lang_flag}
@@ -42,7 +42,7 @@
           %span
             %img{:src => "/img/squares-empty.png"}/
         #logo-container
-          %img{:alt => "14. Sesja Linuksowa", :src => t.description.logo}/
+          %img{:alt => "#{edition}. Sesja Linuksowa", :src => t.description.logo}/
         .social
           %a{:href => "https://www.facebook.com/sesjalinuksowa"}
             %img{:alt => "", :src => "/img/squares-facebook.png"}/

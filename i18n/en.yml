@@ -1,5 +1,5 @@
 meta:
-  name: "15th Linux Session"
+  name: "16th Linux Session"
   author: "Academic IT Association"
   description: "Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux."
   locale: "en_US"
@@ -235,6 +235,7 @@ sponsorship:
     link: "Sponsorship offer"
     link_href: "pdf/offer_en.pdf"
 
-title: "15th Linux Session | Wrocław, Poland"
+title: "Linux Session | Wrocław, Poland"
 pwr: "Wrocław University of Technology"
 asi: "Academic IT Association"
+year: '© 2019'
