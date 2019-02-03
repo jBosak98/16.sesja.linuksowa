@@ -74,57 +74,6 @@
         %h2.spacer &nbsp;
         .embed-container
           %iframe{:allowfullscreen => "", :frameborder => "0", :src => "https://www.youtube.com/embed/videoseries?list=PLTvZBPQxCI8F4SeKLEZ3M9TnC5KHyk7zI&amp;ecver=2"}
-    #con-agenda.con-bg
-      %span#agenda.anchor-jump-link
-      .con-content
-        %h2.bg-text="Agenda"
-        %h2.spacer &nbsp;
-
-        %h1 TBA
-
-        #agenda-sobota
-        -#  .half
-        -#    %h3
-        -#      %span.data=t.agenda.saturday.date
-        -#      =t.agenda.saturday.day
-        -#    .prelekcja
-        -#      .godzina=t.agenda.saturday.p1.time
-        -#      .opis
-        -#        .tytul
-        -#          =t.agenda.saturday.p1.title
-        -#          %span.lang=t.agenda.saturday.p1.lang
-        -#        .autor=t.agenda.saturday.p1.author
-
-        #agenda-niedziela
-        -#  .half
-        -#    %h3
-        -#      %span.data=t.agenda.sunday.date
-        -#      =t.agenda.sunday.day
-        -#    .prelekcja
-        -#      .godzina=t.agenda.sunday.p1.time
-        -#      .opis
-        -#        .tytul
-        -#          =t.agenda.sunday.p1.title
-        -#          %span.lang=t.agenda.sunday.p1.lang
-        -#        .autor=t.agenda.sunday.p1.author
-
-        #Link-do-rozszerzonej-agendy
-        -#.extended-link
-        -#  %a{:href => t.navigation.agenda_url}=t.agenda.extended_text
-
-    #con-prelegenci.con-bg
-      %span#prelegenci.anchor-jump-link
-      .con-content
-        %h2.bg-text=t.navigation.speakers
-        %h2.spacer &nbsp;
-
-        %h1 TBA
-
-        #Prelegenci
-        -#.third
-        -#  %img{:src => t.speakers.p1.photo}
-        -#  %h3=t.speakers.p1.name
-        -#  %span=t.speakers.p1.content
 
     #con-dojazd.con-bg
       %span#dojazd.anchor-jump-link
@@ -152,20 +101,7 @@
         %h2=t.navigation.sponsorship
         %h3=t.sponsorship.content
         %a.button{:href => t.sponsorship.link_href}=t.sponsorship.link
-    #con-sponsorzy.con-bg
-      %span#sponsorzy.anchor-jump-link
-      .con-content
-        %h2.bg-text=t.navigation.sponsors
-        %h2.spacer &nbsp;
-        .loga
-
-        %h1 TBA
-
-        #Loga-sponsorow
-        -#  .logo-axit
-        -#    %a{:href => "http://kariera.axit.pl/"}
-        -#      %img{:src => "/img/loga/AXIT - new logo.jpg"}/
-
+    
     #con-organizatorzy.con-bg
       %span#organizatorzy.anchor-jump-link
       .con-content
