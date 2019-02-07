@@ -192,7 +192,7 @@ about:
 cfp:
   p1:
     header: "We are looking for speakers"
-    content: "<p>You can find <u>contact form bellow</u></p><p> The number of places is limited ;)</p>"
+    content: "<p>You can find <u>contact form below</u>.</p><p> The number of places is limited ;)</p>"
 live:
   title: "Playlist"
   p1:
