@@ -247,8 +247,8 @@ lpi:
     content: "Dokładne informacje o egzaminie zostały zebrane w <a href='pdf/lpi_pl.pdf'>tym dokumencie.</a><br /><center><img style='max-width: 40%' src='/img/loga/logo-lpi.png'></center>"
 cfp:
   p1:
-    header: "Zapisy"
-    content: "Zgłoszenia przyjmujemy przez - <a href='https://docs.google.com/forms/d/e/1FAIpQLSdd03q0yuKPSboCvtapF-DKVTswKCltbkq2NN0SeCnS0Q8YwA/viewform?usp=sf_link'>Formularze Google</a></p><p> Ilość miejsc ograniczona ;)</p>"
+    header: "Szukamy prelegentów"
+    content: "<p>Zgłoszenia przyjmujemy przez <u>formularz kontaktowy na dole strony</u></p><p> Ilość miejsc ograniczona ;)</p>"
 live:
   title: "Nagrania"
   p1:
