@@ -248,7 +248,7 @@ lpi:
 cfp:
   p1:
     header: "Szukamy prelegentów"
-    content: "<p>Zgłoszenia przyjmujemy przez <a href="https://goo.gl/forms/4SBgcZhy3ZukVUhG2" target="_blank">formularz Google</a> oraz <a href="#kontakt">formularz kontaktowy na dole strony</a></p><p> Ilość miejsc ograniczona ;)</p>"
+    content: "<p>Zgłoszenia przyjmujemy przez <a href='https://goo.gl/forms/4SBgcZhy3ZukVUhG2' target='_blank'>formularz Google</a> oraz <a href='#kontakt'>formularz kontaktowy na dole strony</a></p><p> Ilość miejsc ograniczona ;)</p>"
 live:
   title: "Nagrania"
   p1:
