@@ -48,8 +48,8 @@ agenda:
     time: "08:30-09:45"
     title: "<i>Egzamin LPI</i>"
   saturday:
-    date: "7 kwietnia 2018"
-    day: ".Sobota"
+    date: "6 kwietnia 2019"
+    day: "- Sobota"
     p1:
       title: "Deep Learning - droga od ciekawostki futurologicznej do przemysłu"
       time: "10:00-11:00"
@@ -112,8 +112,8 @@ agenda:
       author: ""
       desc: ""
   sunday:
-    date: "8 kwietnia 2018"
-    day: ".Niedziela"
+    date: "7 kwietnia 2019"
+    day: "- Niedziela"
     p1:
       title: "Vim"
       time: "10:00-11:00"
