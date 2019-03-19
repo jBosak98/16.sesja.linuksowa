@@ -51,117 +51,155 @@ agenda:
     date: "6 kwietnia 2019"
     day: "- Sobota"
     p1:
-      title: "Deep Learning - droga od ciekawostki futurologicznej do przemysłu"
-      time: "10:00-11:00"
+      title: "Prelekcja Antmicro"
+      time: "09:00-10:00"
       lang: "[pl]"
+      author: "Antmicro - Michael Gielda"
+      photo: "/img/ludzie/unknown.jpg"
+      desc: "-"
+    p2:
+      title: "Deep Learning revolution - are we subjects or objects?"
+      time: "10:00-11:00"
+      lang: "[en]"
       author: "Filip Drapejkowski"
       photo: "/img/ludzie/drapej.jpg"
-      desc: "<p>Głębokie uczenie jest podzbiorem Uczenia Maszynowego, to zaś jest podzbiorem Sztucznej Inteligencji. Większość metod i koncepcji związanych ze sztuczną inteligencją jest starsza od komputerów jako takich. Niemniej jednak, dopiero ostatnio Głębokie Uczenie dotarło do regularnego przemysłu i zrewolucjonizowało go.
-</p><p>Przyjrzyjmy się historii Głębokiego Uczenia oraz temu, jak zmieniło ono nasze postrzeganie biznesu, maszyn i komputerów. Potem, spróbujmy zrozumieć w jaki sposób Wolne Oprogramowanie pozwoliło tej rewolucji na zaistnienie, oraz jak Polska gospodarka może je wykorzystać, aby stać się atrakcyjną dla badaczy oraz inżynierów z całego Świata.</p>"
-    p2:
-      title: "Ansible, by wszystkimi rządzić"
+      desc: "The greatest technological and social revolution in human history is happening right now. Advancements in IT and AI (with Deep Learning as most prominent example), as well as in medicine and biotechnology transform humankind in unprecedented way. But are we subjects of this revolution, or are we mere objects? In this lecture I explain nature of deep learning, possible gains, possible threats and how Free and Open Software can mitigate them."
+    p3:
+      title: "Jak zmienia się jądro Linuksa"
       time: "11:00-12:00"
       lang: "[pl]"
-      author: "Tomasz Szandała"
-      photo: "/img/ludzie/Szandala.jpg"
-      desc: "Ansible to oprogramowanie, które pozwala zautomatyzować zarządzanie konfiguracją sprzętową na dowolnym systemami operacyjnym, za pomocą języka Python. Prezentacja będzie opowieścią o lekcjach zdobytych podczas rozwoju nowego projektu w firmie NOKIA. Od pierwszego playbooka, do zarządzania chmurą OpenStackową z pomocą Ansible Tower."
-    p3:
-      title: "Jak zaprojektować rozwiązanie CI/CD, obsługujące milion zadań każdego dnia"
+      author: "Rafał Wysocki"
+      photo: "/img/ludzie/wysocki.jpg"
+      desc: "Jądro Linuksa jest teraz jednym z najczęściej używanych programów komputerowych na świecie. Jednocześnie i głównie z tego powodu jest to także jeden z największych i najszybciej rozwijających się projektów informatycznych w historii. Utrzymanie tak wysokiego tempa rozwoju przy równoczesnym zachowaniu otwartości projektu na kontrubucje od wszystkich jego użytkowników i braku sformalizowanej struktury organizacyjnej służącej do kierowania nim jest możliwe głównie dzięki specyficznemu podziałowi zadań przy wprowadzaniu i integrowaniu zmian oraz dystrybucji poprawek. Nie bez znaczenia jest także infrastruktura wspierająca jego rozwój, zbudowana w dużej mierze w oparciu o dobrowolną współpracę wielu różnych podmiotów realizujących zadania służące ich własnym celom, lecz również przynoszące korzyści całemu projektowi. Moja prezentacja będzie poświęcona tym zagadnieniom."
+    p4:
+      title: "Zuul v3 - CI/CD nowej generacji"
       time: "12:00-13:00"
       lang: "[pl]"
-      author: "Tomasz Maczukin"
-      photo: "/img/ludzie/maczukin.jpg"
-      desc: "Opowiadając historię rozwoju CI/CD na GitLab.com chciał bym zaprezentować z jakimi problemami się spotkaliśmy, jakie rozwiązania wprowadziliśmy i na co próbujemy się przygotować dążąc do postawionego sobie celu: udostępnienia systemu, który obsłuży milion zadań CI/CD każdego dnia."
-    p4:
-      title: Przerwa obiadowa
-      time: "13:00-14:30"
+      author: "Nokia - Tomasz Szandała"
+      photo: "/img/ludzie/szandala.jpg"
+      desc: "Zuul v3 to system służący automatyzacji CI/CD, współpracujący z Gerritem lub GitHubem, mogący automatycznie scalać zmiany zaproponowane przez deweloperów. Architektura mikro-serwisów, zaprojektowana przez OpenStack Foundation, pozwala na doskonałe skalowanie rozwiązania. Kolejnym atutem rozwiązania jest przejrzysta konfiguracja zapisana w plikach Yaml i skryptach Ansible, umieszczona bezpośrednio w repozytoriach, które znajdują się pod opieką Zuula."
+    p5:
+      title: "Przerwa obiadowa"
+      time: "13:00-14:00"
       lang: ""
       author: ""
       desc: ""
-    p5:
-      title: "Projekt pudełka do szybkiego zarabiania pieniędzy. Zautomatyzowany handel Bitcoinem na Raspberry Pi."
-      time: "14:30-15:30"
-      lang: "[en]"
-      author: "Klaus Knopper"
-      photo: "/img/ludzie/klausknopper.jpg"
-      desc: "<p>Cel: Wytworzenie pudełka handlującego Bitcoinem przy pomocy w pełni automatycznych algorytmów w bezpiecznym środowisku sprzętowym.</p><p> Bitcoin zyskał na popularności jako pierwsza i obecnie najdroższa kryptowaluta. Strategia 'kup wcześnie i trzymaj' zwykle pozwalała zarobić. Jednak ze względu na zmienność kursów, aktywny handel kusi możliwością szybszego i większego powiększenia majątku. Niestety, handel manualny w rękach niedoświadczonej osoby zmienia się w nieodpowiedzialny hazard i może skutkować szybką utratą inwestycji. Projekt 'Pudełko szybkiego zarabiania pieniędzy' z kursu Zaawansowanego Zarządzania Informacją ma na celu implementację czysto algorytmicznego handlu w sposób uniemożliwiający złe decyzje spowodowane chciwością czy paniką. Jednocześnie służy jako elektroniczna wersja konta oszczędnościowego opartego na technologii blockchain, eliminując jeden z wektorów ataku, przez dostarczenie konkretnego rozwiązania sprzętowego portfela.</p>"
     p6:
-      title: "Linux KVM - wsparcie dla wirtualizacji w kontekście serwerów ARM"
-      time: "15:30-16:30"
+      title: "Szybkie sieci w Linuksie - jak to się robi przy pomocy DPDK."
+      time: "14:00-15:00"
       lang: "[pl]"
-      author: "Tomasz Nowicki"
-      desc: "<p>Na rynku serwerów coraz częściej możemy spotkać maszyny oparte o architekturę ARM. Chociaż na tle konkurencji wciąż znajdują się w mniejszości, to na rynku utrzymują tendencję wzrostową. Warto zatem przyjrzeć się bliżej architekturze i poznać możliwości sprzętowe.W tematyce wirtualizacji serwery ARM nie mogą odstawać od znanej nam architektury x86_64 dlatego na przestrzeni ostatnich kilku lat doczekaliśmy się kilku znaczących rozszerzeń ukierunkowanych w tym celu. W prezentacji chciałbym przybliżyć architekturę ARMv8 i metody wirtualizacji CPU oraz urządzeń peryferyjnych na przykładzie KVM. Omówię też sposoby optymalizacji, które mogą się przydać podczas zarządzania wirtualnymi maszynami.</p>"
+      author: "Semihalf - Maciej Czekaj"
+      photo: "/img/ludzie/unknown.jpg"
+      desc: "Jak poradzić sobie z 40Gbit lub 100Gbit Ethernetem w Linuksie?<br>
+W obecnej dekadzie obserwujemy gwałtowny rozwój sieci światłowodowych,<br>
+któremu towarzyszy stosunkowo powolny wzrost mocy obliczeniowych.<br> 
+Powoduje to konieczność wynajdywania nowych paradygmatów programowania sieciowego.<br>
+Jednym z nich jest programowanie sprzętu w przestrzeni użytkownika, które korzysta z mechanizmów sprzętowej wirtualizacji takich, jak VFIO używane w Qemu/KVM. Na wykładzie opowiemy w skrócie,  jak można to osiągać przy pomocy biblioteki DPDK."
     p7:
-      title: "Embedded Linux build systems - wszechstronne porównanie"
-      time: "16:30-17:30"
+      title: "Tajemnicze właściwości GIFów"
+      time: "15:00-16:00"
       lang: "[pl]"
-      author: "Cezary Dynak"
-      photo: "/img/ludzie/cezary.jpg"
-      desc: "<p>Buildroot, OpenWRT, LTIB, PTXDist, Yocto Project - pewnie słyszałeś o przynajmniej jednym z tych narzędzi, ale czy znasz je wszystkie? Czy kiedykolwiek samodzielnie skompilowałeś całą dystrybucje Linuksa, nie tylko samo jądro lub pojedynczą paczkę? W tej prezentacji chciałbym przedstawić możliwości oraz porównać dostępne narzędzia zbiorczo określane jako 'Embedded Linux build systems'.</p> <p>Na przykład: Jaki jest czas i koszt pełnego procesu kompilacji na maszynach o rożnej mocy? Ile przestrzeni potrzebujemy na systemie hosta i jak małe obrazy systemu docelowego możemy uzyskać? Przedstawię również jak przy pomocy kilku komend i wykorzystaniu półproduktów budowania dystrybucji stworzyć bazowy obraz Dockera. Ten pomysł wydaje się idealnie pasować do obecnych trendów 'edge computing'.</p>"
+      author: "Karol Wrótniak"
+      photo: "/img/ludzie/karol.jpg"
+      desc: "Na prezentacji opowiem o formacie GIF oraz implementacji jego obsługi. Jakie dane można w nim przechowywać, w jaki sposób można je interpretować, jakie są ograniczenia i na jakie niespodzianki można natrafić."
     p8:
-      title: "OSX for Linux Power Users"
-      time: "17:30-18:30"
+      title: "Jenkins Declarative Pipelines with Kubernetes"
+      time: "16:00-17:00"
       lang: "[pl]"
-      author: "Adam Rogowski"
-      photo: "/img/ludzie/rogowski.jpg"
-      desc: "<p>How 'the most advanced operating system in the world' fares in usability comparing to Linux...</p>"
+      author: "Vladimir Mitiouchev"
+      photo: "/img/ludzie/unknown.jpg"
+      desc: "Jenkins jest dynamicznie rozwijającym się produktem do budowania projektów oraz realizacji CI/CD. Jego największą zaletą (oraz jednocześnie słabością) jest niezliczona ilość pluginów. Wbrew obiegowej opinii, ma on dużo większe możliwości niż Gitlab-CI, a równocześnie bez problemu z Gitlabem się integruje. W prelekcji zajmiemy się relatywnie nową funkcjonalnością w Jenkins2 - deklaratywnymi pipelinami, oraz wykorzystaniem w nich Kubernetesa."
     p9:
-      title: "Lightning talks "
-      time: "18:30-19:00"
+      title: "O bezpieczeństwie kontenerów linuksowych"
+      time: "17:00-18:00"
       lang: "[pl]"
-      author: ""
-      desc: ""
+      author: "Maciej Lasyk"
+      photo: "/img/ludzie/lasyk.jpg"
+      desc: "Celem prezentacji jest przedstawienie obecnego stanu kontenerów linuksowych oraz różnych form izolacji procesów z punktu widzenia bezpieczeństwa. Omówię w jaki sposób nie należy uruchamiać Dockera ani kontenerów, którymi on zarządza oraz przedstawię alternatywne metody konteneryzacji (Podman, systemd). Dodatkowo pokażę w jaki sposób można bez kontenerów, a jedynie za pomocą systemd wyizolować proces w taki sposób, aby nie przeszkadzał on innym oraz nie miał dostępu do zasobów, do których nie powinien. Będzie kilka dem na żywo, trochę Basha, Pythona i jako bonus omówię kwestię bezpieczeństwa związaną z znanym obrazem kontenerowym Alpine Linux."
+    p10:
+      title: "Podstawy konfiguracji sieci w Linuksie"
+      time: "18:00-19:00"
+      lang: "[pl]"
+      author: "Jakub Juszczakiewicz"
+      photo: "/img/ludzie/siewca.jpg"
+      desc: "Systemy oparte na Linuksie znajdują zastosowanie na najróżniejszych 
+platformach w niezliczonej liczbie zadań. Praktycznie każdy z tych 
+zastosowań wymaga działającej sieci - czy to LAN, czy internetu. 
+Powstało wiele narzędzi wspomagających konfigurowanie sieci, ale... co 
+zrobić, jak coś pójdzie nie tak? Przedstawię podstawowe metody i sposoby 
+radzenia sobie w takiej sytuacji, gdy mamy fizyczny dostęp konsoli na 
+urządzeniu."
   sunday:
     date: "7 kwietnia 2019"
     day: "- Niedziela"
     p1:
-      title: "Vim"
+      title: "Wydajne filtrowanie pakietów przy pomocy jądra Linuksa i BPF"
       time: "10:00-11:00"
       lang: "[pl]"
-      author: "Błażej Święcicki"
-      photo: "/img/ludzie/mewp.jpg"
-      desc: "<p>Każdy kto używa vima, robi to trochę inaczej. To jest na tyle rozbudowany edytor tekstu, że można by o nim opowiadać pewnie w nieskończoność. Ja opowiem o tym, jak sam go używam - zarówno od podstaw, pokazując wbudowane komendy, które ułatwiają życie, jak i opowiem trochę o kilku pluginach, z których korzystam.</p>"
+      photo: "/img/ludzie/unknown.jpg"
+      author: "Michał Rostecki"
+      desc: "BPF (Berkeley Packet Filter) to interpreter, który pozwala na monitorowanie, filtrowanie i modyfikowanie pakietów sieciowych przy pomocy bytecode'u. Czyli de facto, pozwala on na pisanie programów filtrujących ruch. Daje nam to większą wydajność i elastyczność niż inne znane w Linuksie mechanizmy filtrujące - netfilter czy iptables. Istnieje wiele jego implementacji, ale w tej prelekcji skupię się na tej, która jest zawarta w jądrze Linuksa. Prezentacja poruszy też temat projektów, które korzystają z BPF - na przykład bpfilter (następca nftables i iptables) i Cilium (plugin CNI, filtrujący ruch sieciowy dla kontenerów)."
     p2:
-      title: "Uwierzytelnienie i autoryzacja przy pomocy Oauth2, Nginxa i Pythona"
+      title: "Wprowadzenie do Warp10 – Metryki bez barier"
       time: "11:00-12:00"
       lang: "[pl]"
-      author: "Maciej Lasyk"
-      photo: "/img/ludzie/lasyk.jpg"
-      desc: "<p>Jednym z problemów, z którymi borykamy się w naszych sieciach są aplikacje, które nie potrafią skorzystać z centralnego repozytorium tożsamości implementując własne rozwiązania i powodując, iż użytkownik posiada wiele kont w różnych serwisach w ramach jednej instytucji. Czasem też niektóre aplikacje w ogóle nie zapewniają jakiejkolwiek autentykacji pozostawiając swoje zasoby otwarte dla całej sieci wewnętrznej (lub co gorsza - internecie).</p><p> W trakcie prezentacji przedstawię w jaki sposób można zabezpieczyć tego rodzaju serwisy przy użyciu znanych nam rozwiązań (Nginx, trochę Pythona z domieszką pragmatyzmu). Implementację Oauth2 omówię na podstawie Google i Githuba.</p><p> Na deser - połączę wszystkie powyższe pomysły w jedną całość zgodną z moimi prezentacjami na Sesji z poprzednich lat - pokażę wam w jaki sposób zrealizować w Rundecku logowanie za pomocą Oautha hostując zasoby w kontenerach systemd-nspawn ;)</p>"
+      photo: "/img/ludzie/unknown.jpg"
+      author: "Filip Dorosz"
+      desc: "Odkryj wspaniały świat <a href=\"https://www.warp10.io/\" target=\"_blank\">Warp10!</a> Platformy zbudowanej do zarządzania i przetwarzania szeregów czasowych. Poznaj podstawy WarpScriptu – języka programowania opartego na stosie, ułatwiającego ich analizę. W trakcie prezentacji zostaną poruszone takie zagadnienia jak:
+        <ul>
+          <li>A komu to potrzebne, a dlaczego?</li>
+          <li>Dlaczego Warp10 jest super.</li>
+          <li>Jak wysyłać metryki.</li>
+          <li>Jak postawić swoją instancję Warp10.</li>
+          <li>Podstawy przetwarzania danych w WarpScriptcie.</li>
+          <li>Jak rozszerzyć Warp10 o własne funkcje.</li>
+          <li>Jak używamy Warp10 w OVH.</li>
+          <li>Jak zaangażować się w rozwój platformy.</li>
+        </ul>"
     p3:
-      title: "Zrozumieć Gitlab CI"
+      title: "API Gateway w blasku księżyca"
       time: "12:00-13:00"
       lang: "[pl]"
-      author: "Kamil Trzciński"
-      photo: "/img/ludzie/kamiltrzcinski.jpg"
-      desc: "<p>Ta prelekcja wyjaśni jak zbudowany jest GitLab CI oraz jak go używać efektywnie. Zrozumiesz jaka jest relacja między wykonawcą a dockerem, zadaniem a kontenerem. Zobaczysz jak prosto i szybko przygotować i naprawić twojego pipeline. Dodatkowo, dowiesz się kilku technik jak usprawnić wydajność CI w popularnych zastosowaniach. Każdy chce aby jego docker build czy rspec wykonywał się szybciej, prawda?</p>"
+      author: "Marcin Stożek"
+      photo: "/img/ludzie/unknown.jpg"
+      desc: "Czy wiesz co potrafi zrobić twój serwer reverse-proxy? Wydaje Ci się, że żeby zrobić sprytny routing / uwierzytelnianie / autoryzację (niepotrzebne skreślić) między serwisami musisz go napisać w Javie lub jako moduł w C? A co jeżeli odpalanie JVM tylko po to, żeby do każdego żądania http dokleić jeden nagłówek to armata na wróbla? Zwłaszcza, że prawie na pewno gdzieś tam po drodze mijasz nginx...
+Zapraszam Cię do świata idealnej symbiozy nginx i Lua."
     p4:
-      title: Przerwa obiadowa
-      time: "13:00-14:30"
+      title: "Przerwa obiadowa"
+      time: "13:00-14:00"
       lang: ""
       author: ""
       desc: ""
     p5:
-      title: "Energy-efficiency Features in Hardware and Linux "
-      time: "14:30-15:30"
+      title: "Czysty serwer"
+      time: "14:00-15:00"
       lang: "[pl]"
-      author: "Rafał Wysocki"
-      photo: "/img/ludzie/wysocki.jpg"
-      desc: "<p>Many hardware components of modern computer systems, like processors, System-on-a-Chip (SoC) circuits and I/O peripherals, offer features targeted at improving their energy efficiency.  Many of these features can be used by Linux, either by default or if they are enabled through a configuration mechanism of some sort.  I will describe some of these features and explain how they are used by the Linux kernel or how it can be configured to use them.</p>"
+      author: "Jarek Ratajski"
+      photo: "/img/ludzie/unknown.jpg"
+      desc: "Haskell, CQRS/ES i elementy  DDD na linuksie<br><br>
+Serwery REST w Haskellu to raczej nie jest mainstreamowa technologia...
+Ale jeśli spróbujemy to szybko poznajemy zalety w stosunku do imperatywnym rozwiązań (np. w Javie i Scali). Szczególnie jest to widoczne jeśli korzystamy z event sourcingu oraz staramy się programować z wykorzystanem zasad DDD.
+To wszystko na przykładzie sieciowej gierki w Węża."
     p6:
-      title: "Bitrise.io & OpenSTF"
-      time: "15:30-16:30"
+      title: "Monolit? Mikroserwisy? A czy to ważne?"
+      time: "15:00-16:00"
       lang: "[pl]"
-      author: "Karol Wrótniak"
-      photo: "/img/ludzie/karol.jpg"
-      desc: "<p>Prezentacja ma na celu przedstawienie OpenSTF - otwartej farmy testowej dla urządzeń z Androidem oraz Bitrise.io - platformy do Continuous Integration. Powiem w jaki sposób połączyć je ze sobą, jak ich używamy, do czego oprócz testów jeszcze mogą służyć oraz jak przebiegały kontrybucje do ich projektów open source.</p>"
+      author: "Bartłomiej Kuczyński"
+      photo: "/img/ludzie/unknown.jpg"
+      desc: "Rozmowy o architekturze można obecnie podsumować w prosty sposób – zaczynasz projekt, zrób mikroserwisy. Pytanie, czy jest to dobre podejście? Czy każdy problem należy rozwiązywać za pomocą „aplikacji chmurowej w architekturze mikroserwisowej”? Oczywiście nie! Zatem dlaczego tak robimy? Czy istnieje inne podejście do problemu? Czy klasyczne monolity mają sens? W czasie prelekcji podyskutujemy na ten temat. Rozbierzemy na elementy pierwsze kilka klasycznych aplikacji i problemów w systemach monolitycznych. Przyjrzymy się, jak można tworzyć programy i przy okazji nie utonąć w rachunkach za usługi."
     p7:
-      title: "Wstęp do tunelowania ruchu sieciowego"
-      time: "16:30-17:30"
+      title: "Własny serwer email - jak i dlaczego"
+      time: "16:00-17:00"
       lang: "[pl]"
-      author: "Jakub Juszczakiewicz"
-      photo: "/img/ludzie/siewca.jpg"
-      desc: "<p>Na prelekcji przedstawię podstawy konfiguracji VLANów i OpenVPNa jako przykłady tunelowania ruchu sieciowego które każdy może zrobić. Opowiem czym są VLANy, jak je skonfigurować (głównie na Linuksie) i dlaczego warto z nich korzystać w sieciach lokalnych. Podobnie przestawię możliwości OpenVPNa. Dodatkowo będzie trochę informacji o konfiguracji IPTables i interfejsów-mostów sieciowych.</p>"
+      author: "Błażej Święcicki"
+      photo: "/img/ludzie/mewp.jpg"
+      desc: "Stawianie i utrzymywanie serwera pocztowego to zadanie, którego mało kto chce się podjąć. Kojarzy się to z dużą ilością pracy przy bardzo skomplikowanym systemie. Jak jest naprawdę? Ta prelekcja pokaże jak działa email w praktyce, co jest faktycznie trudne, a co można osiągnąć dość niewielkim wysiłkiem. A przede wszystkim - jak mieć pocztę u siebie."
+    p8:
+      title: "Lightning talki"
+      time: "17:00-"
+      lang: ""
+      author: ""
+      desc: ""
 speakers:
   p1:
     name: "Klaus Knopper"
