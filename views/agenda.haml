@@ -25,7 +25,6 @@
         #menu-container.mobile-hidden
           %a{:href => t.navigation.home_url}=t.navigation.back_to_home
           %a{:href => "#agenda"}=t.navigation.agenda
-          %a{:href => "#warsztaty"}=t.navigation.workshops
           %a{:href => "#prelegenci"}=t.navigation.speakers
           %a.lang-switch{:href => t.navigation.lang_agenda_url}
             %img{:alt => "", :src => t.navigation.lang_flag}
@@ -124,7 +123,7 @@
               %span.lang=t.agenda.saturday.p10.lang
             .godzina=t.agenda.saturday.p10.time
             .abstrakt=t.agenda.saturday.p10.desc
-            .autor=t.agenda.speaker + " " + t.agenda.saturday.p10.author    
+            .autor=t.agenda.speaker + " " + t.agenda.saturday.p10.author
         %h3
           %span.data=t.agenda.sunday.date
           =t.agenda.sunday.day
@@ -194,7 +193,7 @@
               =t.agenda.sunday.p8.title
               %span.lang=t.agenda.sunday.p8.lang
             .godzina=t.agenda.sunday.p8.time
-             
+
     #con-prelegenci.con-bg
       %span#prelegenci.anchor-jump-link
       .con-content
