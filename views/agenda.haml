@@ -66,20 +66,20 @@
             .abstrakt=t.agenda.saturday.p3.desc
             .autor=t.agenda.speaker + " " + t.agenda.saturday.p3.author
         .prelekcja
+          %img{:src => t.agenda.saturday.p4.photo}
           .opis
             .tytul
               =t.agenda.saturday.p4.title
               %span.lang=t.agenda.saturday.p4.lang
             .godzina=t.agenda.saturday.p4.time
+            .abstrakt=t.agenda.saturday.p4.desc
+            .autor=t.agenda.speaker + " " + t.agenda.saturday.p4.author
         .prelekcja
-          %img{:src => t.agenda.saturday.p5.photo}
           .opis
             .tytul
               =t.agenda.saturday.p5.title
               %span.lang=t.agenda.saturday.p5.lang
             .godzina=t.agenda.saturday.p5.time
-            .abstrakt=t.agenda.saturday.p5.desc
-            .autor=t.agenda.speaker + " " + t.agenda.saturday.p5.author
         .prelekcja
           %img{:src => t.agenda.saturday.p6.photo}
           .opis
@@ -107,13 +107,24 @@
             .godzina=t.agenda.saturday.p8.time
             .abstrakt=t.agenda.saturday.p8.desc
             .autor=t.agenda.speaker + " " + t.agenda.saturday.p8.author
-
         .prelekcja
+          %img{:src => t.agenda.saturday.p9.photo}
           .opis
             .tytul
               =t.agenda.saturday.p9.title
               %span.lang=t.agenda.saturday.p9.lang
             .godzina=t.agenda.saturday.p9.time
+            .abstrakt=t.agenda.saturday.p9.desc
+            .autor=t.agenda.speaker + " " + t.agenda.saturday.p9.author
+        .prelekcja
+          %img{:src => t.agenda.saturday.p10.photo}
+          .opis
+            .tytul
+              =t.agenda.saturday.p10.title
+              %span.lang=t.agenda.saturday.p10.lang
+            .godzina=t.agenda.saturday.p10.time
+            .abstrakt=t.agenda.saturday.p10.desc
+            .autor=t.agenda.speaker + " " + t.agenda.saturday.p10.author    
         %h3
           %span.data=t.agenda.sunday.date
           =t.agenda.sunday.day
@@ -177,6 +188,13 @@
             .godzina=t.agenda.sunday.p7.time
             .abstrakt=t.agenda.sunday.p7.desc
             .autor=t.agenda.speaker + " " + t.agenda.sunday.p7.author
+        .prelekcja
+          .opis
+            .tytul
+              =t.agenda.sunday.p8.title
+              %span.lang=t.agenda.sunday.p8.lang
+            .godzina=t.agenda.sunday.p8.time
+             
     #con-prelegenci.con-bg
       %span#prelegenci.anchor-jump-link
       .con-content
