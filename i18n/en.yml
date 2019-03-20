@@ -202,25 +202,69 @@ To wszystko na przykładzie sieciowej gierki w Węża."
       desc: ""
 speakers:
   p1:
-    content: "Author of Knoppix - first LiveCD Linux distribution and Adrianne Knoppix - distribution aimed at people with impaired sigh"
+    name: "Michael Gielda"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "-"
   p2:
-    content: "<p>Kamil is a low-level programming enthusiast with years of experience in building apps for all platforms. He is also a security, virtualization and graphics expert with a variety of programming languages in his toolkit together with deep operating systems architecture knowledge. He's focusing lately on the 'container revolution' and building best CI product in the world. In his spare time, he likes to run, cycle and play good games, although not all at the same time.</p>"
+    name: "Filip Drapejkowski"
+    photo: "/img/ludzie/drapej.jpg"
+    content: "Senior Software Developer in Luxoft focused on automotive Deep Learning consultancy for Nauto. Wroclaw University of Science and Technology graduate, alumni member of ASI. Passionate about Computer Vision, Data Science, Machine Learning, Robotics and  Edge computing. Climber, wannabe kitesurfer and motorcycle adventurer in free time."
+  p3:
+    name: "Rafał Wysocki"
+    photo: "/img/ludzie/wysocki.jpg"
+    content: "W rozwijaniu jądra Linuksa biorę udział od 2005 r. Zaczynałem od rozwijania kodu wspierającego usypianie systemu oraz hibernację i w 2009 roku zostałem opiekunem tego (niewielkiego) fragmentu jądra. Zajmuję się tym do dziś, a oprócz tego jestem opiekunem kilku innych części składowych jądra Linuksa, głównie związanych z tak zwaną efektywnością energetyczną. Od 2012 roku pracuję w firmie Intel, obecnie w jednostce organizacyjnej o nazwie Linux Systems Engineering, przede wszystkim nad rozwijaniem jądra Linuksa. Przedtem współpracowałem z SUSE (dystrybujcja Linuksa dla przedsiębiorstw) i Renesas Electronics (układy scalone typu System-on-a-Chip i podzespoły elektroniczne) oraz pracowałem na Wydziale Fizyki Uniwersytetu Warszawskiego, a także w XXVII L.O. im. T. Czackiego w Warszawie, między innymi jako administrator systemów komputerowych. Z wykształcenia jestem fizykiem, mam stopień naukowy doktora, który otrzymałem na Wydziale Fizyki UW w 2002 r."
   p4:
-    content: "<p>Programmer, software architect, SRE. Involved in IT since 2002. Working commercially since 2009.T The first time I've installed Linux was in 2004 and since 2007 it is the only OS on my computers. I mostly use Debian/Ubuntu. Associated with GitLab since December 2015 and almost since the beginning involved in CI/CD. Currently, I'm supporting the efficient operation of CI/CD infrastructure at GitLab.com.</p>"
+    name: "Tomasz Szandała"
+    photo: "/img/ludzie/szandala.jpg"
+    content: "Inżynier oprogramowania w firmie NOKIA, oraz doktorant Katedry Informatyki Technicznej na Politechnice Wrocławskiej. Na co dzień zajmuje się administracją setek repozytoriów, utrzymywaniem kilku Jenkinsów oraz bohaterskim rozwiązywaniem problemów, których nie mają inne projekty :-)"
   p5:
-    content: "<p>AGH University of Science and Technology in Kraków alumnus, sysadmin at Codewise, Fedora contributor and a cyclist.</p>"
+    name: "Maciej Czekaj"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "Wiodący inżynier oprogramowania w firmie Semihalf. Zajmuje się systemami wbudowanymi Linux/ARM, stosami sieciowymi i wirtualizacją. Współtworzył m.in. aplikację do zarządzania siecią SDN na bazie DPDK: Contrail Virtual Router. Aktualnie realizuje doktorat wdrożeniowy przy AGH w Krakowie na temat metod akceleracji ruchu sieciowego. Autor wielu artykułów w prasie branżowej z zakresu programowania niskopoziomowego i sieci."
   p6:
-    content: "Sysadmin, programmer, Linux fan and former Academic IT Association president. Staunch opponent of Facebook and other centralized services."
+    name: "Karol Wrótniak"
+    photo: "/img/ludzie/karol.jpg"
+    content: "Karol Wrótniak zajmuje się Androidem od ponad 7 lat. Programowanie to jego pasja i praca. Na co dzień buduje aplikacje i biblioteki w Droids on Roids oraz pomaga zespołowi QA w automatyzacji testów i rozwiązywaniu trudnych przypadków. Po godzinach realizuje własne pomysły. Autor postów na blogu Droids On Roids - <a href=\"https://www.thedroidsonroids.com/blog\">https://www.thedroidsonroids.com/blog</a>. Prelegent na konferencjach i meetupach. Zaangażowany w wiele projektów open source, w szczególności te związane z testami."
   p7:
-    content: "Senior Software Developer at Luxoft / Nauto working with algorithms for processing signals from sensors placed in cars (mainly cameras)."
+    name: "Vladimir Mitiouchev"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "Admin z długim (>12 lat) stażem, z doświadczeniem w najróżniejszych dziedzinach. Od 5 lat pracuje w AVSystem w roli admina, R&D oraz specjalisty od sieci i wdrożeń Kubernetesa. W wolnym czasie gra na gitarze i programuje IoT w micropythonie. "
   p8:
-    content: "<p>Senior Software Engineer at Semihalf. An electronics engineer by education, an operating systems programmer by profession. For many years tied to the subject of Linux and ARMv8, in particular with KVM, PCI, and ACPI subsystems. An avid fan of ski jumping and football.</p>"
+    name: "Maciej Lasyk"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "Akrobata w firmie Codewise. W wolnym czasie rozwija kilka projektów open - source'owych (patrz Github). Serce w dużej części oddał Pythonowi oraz Fedorze (ale oczywiście w pierwszej kolejności rodzinie XD). Od kilku lat jest w skomplikowanym związku z systemd oraz Selinuxem. Uwielbia hackathony, restartować serwery, których inni się boją dotykać i automatyzuje wszystko co ma sens automatyzować. Używa na codzień wszystkich popularnych chmur, ale najlepiej odnajduje się w tej, którą stworzył u siebie w piwnicy. Żyje sportami - dzięki czemu czasem trochę kuśtyka ;) Lubi udowadniać, że nie ma rzeczy niemożliwych - ukończył najtrudniejszy triathlon na świecie oraz zarządza sporym clustrem Cassandry hostowanym na Dockerach (sic!). Biega po górach, woli biegówki niż zwykłe narty oraz pływanie z dala od brzegu."
+  p9:
+    name: "Jakub 'Siewca' Juszczakiewicz"
+    photo: "/img/ludzie/siewca.jpg"
+    content: "Jestem programistą i miłośnikiem otwartego oprogramowania. Byłym członkiem w ASI i absolwentem Politechniki Wrocławskiej. Po za informatyką lubię się przemieszczać różnymi środkami transportu - od własnych nóg, przez rower, narty... do pociągów."
+  p10:
+    name: "Michał Rostecki"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "Programista w firmie SUSE. Dziś kontrybujący głównie w projekcie Cilium - implementacji CNI (Container Network Interface), który filtruje ruch sieciowy dla kontenerów przy pomocy BPF. Dawniej kontrybutor OpenStacka."
   p11:
-    content: "Karol Wrótniak is an Android Developer for over 6 years. Programming is his passion and work. He develops apps and libraries at Droids On Roids. In the free time he realizes his own ideas. Moreover he is a blogger and open source contributor, especially in testing-related projects like Bitrise.io and OpenSTF. You can find him on GitHub: https://github.com/koral--"
+    name: "Filip Dorosz"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "DevOps w OVH w zespole Ceph. Zapalony Linuxiarz i propagator Otwartego Oprogramowania. Interesuję się tematami związanymi z bezpieczeństwem teleinformatycznym, lubię dank memy, a wolnych chwilach prowadzę prywatne \"data center\""
+  p12:
+    name: "Marcin Stożek"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "Za dnia jestem programistą i devopsem, po nocach czytam co słychać na Hacker News. Wierny fan pracy zdalnej.<br>
+Programowanie zaczynałem od zeszytu w kratkę, w którym w drugiej klasie podstawówki na piechotę wyliczałem bajty potrzebne do wyświetlenia obrazka na C64.<br>
+Od tego czasu brałem udział w wielu projektach z różnych dziedzin, od bezpieczeństwa w kolejkach po Hadoopa, od monolitu do mikroserwisów.<br>
+Szerzę zarazę automatyzacji, GNU/Linuksa oraz Vima. Niekoniecznie w tej kolejności."
   p13:
-    content: "<p>A graduate of the Embedded Robotics specialization and former lab07/C-3 admin on WUST. Currently working as Node.js developer for SpyroSoft. In addition to the back-end for IoT, he is also interested in Linux for embedded systems and DevOps purposes.</p>"
-
-
+    name: "Jarek Ratajski"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "Programista, Nekromanta,  Anarchitekt"
+  p14:
+    name: "Bartłomiej Kuczyński"
+    photo: "/img/ludzie/unknown.jpg"
+    content: "Programista, architekt z doskoku, standardowy nerd i posiadacz brody. Od 15 lat zawodowo zajmujący się psuciem oprogramowania w różnych instytucjach finansowych. Obecnie związany z JLupin Platform jako ewangelista tego rozwiązania."  
+  p15:
+    name: "Błażej Święcicki"
+    photo: "/img/ludzie/mewp.jpg"
+    content: "Sysadmin, programista, linuksiarz i były prezes Akademickiego Stowarzyszenia Informatycznego. Zagorzały przeciwnik Facebooka i innych zcentralizowanych usług w chmurze."
+    
 about:
   p1:
     header: "What is Linux Session?"
