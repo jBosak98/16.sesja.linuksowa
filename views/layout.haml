@@ -24,7 +24,7 @@
         #menu-container.mobile-hidden
           %a{:href => "#about"}=t.navigation.about
           %a{:href => "#live"}=t.navigation.live
-          -#%a{:href => "#agenda"}=t.navigation.agenda
+          %a{:href => "#agenda"}=t.navigation.agenda
           -#%a{:href => "#sponsorzy"}=t.navigation.sponsors
           %a{:href => "#kontakt"}=t.navigation.contact
           %a.lang-switch{:href => t.navigation.lang_url}
@@ -66,14 +66,6 @@
           %img{:alt => "Nasz cel", :src => "/img/ikony/cel.png"}/
           %h2=t.about.p3.header
           %p=t.about.p3.content
-
-    #con-cfp.con-bg
-      %span#cfp.anchor-jump-link
-      .con-content
-        %h2.bg-text=t.navigation.cfp
-        %h2.spacer &nbsp;
-        %h2=t.cfp.p1.header
-        %h4=t.cfp.p1.content
 
     #con-live.con-bg
       %span#live.anchor-jump-link
