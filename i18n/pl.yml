@@ -51,12 +51,12 @@ agenda:
     date: "6 kwietnia 2019"
     day: "- Sobota"
     p1:
-      title: "Prelekcja Antmicro"
+      title: "Enabling AI at the edge using open source"
       time: "09:00-10:00"
-      lang: "[pl]"
-      author: "Antmicro - Michael Gielda"
-      photo: "/img/ludzie/unknown.jpg"
-      desc: "-"
+      lang: "[pl/en]"
+      author: "Antmicro -  Karol Gugała"
+      photo: "/img/ludzie/karolg.jpg"
+      desc: "(TBA)"
     p2:
       title: "Deep Learning revolution - are we subjects or objects?"
       time: "10:00-11:00"
@@ -90,10 +90,10 @@ agenda:
       lang: "[pl]"
       author: "Semihalf - Maciej Czekaj"
       photo: "/img/ludzie/unknown.jpg"
-      desc: "Jak poradzić sobie z 40Gbit lub 100Gbit Ethernetem w Linuksie?<br>
-W obecnej dekadzie obserwujemy gwałtowny rozwój sieci światłowodowych,<br>
-któremu towarzyszy stosunkowo powolny wzrost mocy obliczeniowych.<br> 
-Powoduje to konieczność wynajdywania nowych paradygmatów programowania sieciowego.<br>
+      desc: "Jak poradzić sobie z 40Gbit lub 100Gbit Ethernetem w Linuksie?
+W obecnej dekadzie obserwujemy gwałtowny rozwój sieci światłowodowych,
+któremu towarzyszy stosunkowo powolny wzrost mocy obliczeniowych.
+Powoduje to konieczność wynajdywania nowych paradygmatów programowania sieciowego.
 Jednym z nich jest programowanie sprzętu w przestrzeni użytkownika, które korzysta z mechanizmów sprzętowej wirtualizacji takich, jak VFIO używane w Qemu/KVM. Na wykładzie opowiemy w skrócie,  jak można to osiągać przy pomocy biblioteki DPDK."
     p7:
       title: "Tajemnicze właściwości GIFów"
@@ -122,12 +122,12 @@ Jednym z nich jest programowanie sprzętu w przestrzeni użytkownika, które kor
       lang: "[pl]"
       author: "Jakub Juszczakiewicz"
       photo: "/img/ludzie/siewca.jpg"
-      desc: "Systemy oparte na Linuksie znajdują zastosowanie na najróżniejszych 
-platformach w niezliczonej liczbie zadań. Praktycznie każdy z tych 
-zastosowań wymaga działającej sieci - czy to LAN, czy internetu. 
-Powstało wiele narzędzi wspomagających konfigurowanie sieci, ale... co 
-zrobić, jak coś pójdzie nie tak? Przedstawię podstawowe metody i sposoby 
-radzenia sobie w takiej sytuacji, gdy mamy fizyczny dostęp konsoli na 
+      desc: "Systemy oparte na Linuksie znajdują zastosowanie na najróżniejszych
+platformach w niezliczonej liczbie zadań. Praktycznie każdy z tych
+zastosowań wymaga działającej sieci - czy to LAN, czy internetu.
+Powstało wiele narzędzi wspomagających konfigurowanie sieci, ale... co
+zrobić, jak coś pójdzie nie tak? Przedstawię podstawowe metody i sposoby
+radzenia sobie w takiej sytuacji, gdy mamy fizyczny dostęp konsoli na
 urządzeniu."
   sunday:
     date: "7 kwietnia 2019"
@@ -202,9 +202,9 @@ To wszystko na przykładzie sieciowej gierki w Węża."
       desc: ""
 speakers:
   p1:
-    name: "Michael Gielda"
-    photo: "/img/ludzie/unknown.jpg"
-    content: "-"
+    name: "Karol Gugała"
+    photo: "/img/ludzie/karolg.jpg"
+    content: "Karol is a Team Leader at Antmicro. His team focuses on complex systems development from CPU designs, through OS development up to edge AI applications. Prior to joining Antmicro in 2011, Karol worked at the Poznan University of Technology as a researcher. His research focused on acceleration of neural tissue simulations."
   p2:
     name: "Filip Drapejkowski"
     photo: "/img/ludzie/drapej.jpg"
@@ -220,7 +220,11 @@ speakers:
   p5:
     name: "Maciej Czekaj"
     photo: "/img/ludzie/unknown.jpg"
-    content: "Wiodący inżynier oprogramowania w firmie Semihalf. Zajmuje się systemami wbudowanymi Linux/ARM, stosami sieciowymi i wirtualizacją. Współtworzył m.in. aplikację do zarządzania siecią SDN na bazie DPDK: Contrail Virtual Router. Aktualnie realizuje doktorat wdrożeniowy przy AGH w Krakowie na temat metod akceleracji ruchu sieciowego. Autor wielu artykułów w prasie branżowej z zakresu programowania niskopoziomowego i sieci."
+    content: "Wiodący inżynier oprogramowania w firmie Semihalf. Zajmuje się
+    w systemami wbudowanymi Linux/ARM, stosami sieciowymi i wirtualizacją,
+    commiter DPDK . Współtworzył m.in. aplikację do zarządzania siecią SDN na bazie DPDK: Contrail Virtual Router.
+    Aktualnie realizuje doktorat wdrożeniowy przy AGH w Krakowie na temat metod akceleracji ruchu sieciowego.
+    Autor wielu artykułów w prasie branżowej z zakresu programowania niskopoziomowego i sieci."
   p6:
     name: "Karol Wrótniak"
     photo: "/img/ludzie/karol.jpg"
@@ -259,7 +263,7 @@ Szerzę zarazę automatyzacji, GNU/Linuksa oraz Vima. Niekoniecznie w tej kolejn
   p14:
     name: "Bartłomiej Kuczyński"
     photo: "/img/ludzie/unknown.jpg"
-    content: "Programista, architekt z doskoku, standardowy nerd i posiadacz brody. Od 15 lat zawodowo zajmujący się psuciem oprogramowania w różnych instytucjach finansowych. Obecnie związany z JLupin Platform jako ewangelista tego rozwiązania."  
+    content: "Programista, architekt z doskoku, standardowy nerd i posiadacz brody. Od 15 lat zawodowo zajmujący się psuciem oprogramowania w różnych instytucjach finansowych. Obecnie związany z JLupin Platform jako ewangelista tego rozwiązania."
   p15:
     name: "Błażej Święcicki"
     photo: "/img/ludzie/mewp.jpg"
