@@ -56,7 +56,8 @@ agenda:
       lang: "[pl/en]"
       author: "Antmicro -  Karol Gugała"
       photo: "/img/ludzie/karolg.jpg"
-      desc: "(TBA)"
+      desc: "With even the smallest of platforms becoming capable of AI/ML - via embedded GPUs, dedicated deep learning accelerators or FPGAs - omnipresent and always on edge computation is no longer theory. And with a growing awareness of and investment in open source, a new wave of free and open platforms, software, hardware and tooling is changing the collaboration patterns and work methodologies for AI.<br/><br/>
+During the talk we will explain the importance of edge AI and discuss some of the crucial open technologies propelling the development of deep and machine learning forward - from open FPGA projects, through open edge processing platforms, to the global game-changer in computer architecture - RISC-V."
     p2:
       title: "Deep Learning revolution - are we subjects or objects?"
       time: "10:00-11:00"
@@ -107,7 +108,7 @@ Jednym z nich jest programowanie sprzętu w przestrzeni użytkownika, które kor
       time: "16:00-17:00"
       lang: "[pl]"
       author: "Vladimir Mitiouchev"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/vovcia.jpg"
       desc: "Jenkins jest dynamicznie rozwijającym się produktem do budowania projektów oraz realizacji CI/CD. Jego największą zaletą (oraz jednocześnie słabością) jest niezliczona ilość pluginów. Wbrew obiegowej opinii, ma on dużo większe możliwości niż Gitlab-CI, a równocześnie bez problemu z Gitlabem się integruje. W prelekcji zajmiemy się relatywnie nową funkcjonalnością w Jenkins2 - deklaratywnymi pipelinami, oraz wykorzystaniem w nich Kubernetesa."
     p9:
       title: "O bezpieczeństwie kontenerów linuksowych"
@@ -231,7 +232,7 @@ speakers:
     content: "Karol Wrótniak zajmuje się Androidem od ponad 7 lat. Programowanie to jego pasja i praca. Na co dzień buduje aplikacje i biblioteki w Droids on Roids oraz pomaga zespołowi QA w automatyzacji testów i rozwiązywaniu trudnych przypadków. Po godzinach realizuje własne pomysły. Autor postów na blogu Droids On Roids - <a href=\"https://www.thedroidsonroids.com/blog\">https://www.thedroidsonroids.com/blog</a>. Prelegent na konferencjach i meetupach. Zaangażowany w wiele projektów open source, w szczególności te związane z testami."
   p7:
     name: "Vladimir Mitiouchev"
-    photo: "/img/ludzie/unknown.jpg"
+    photo: "/img/ludzie/vovcia.jpg"
     content: "Admin z długim (>12 lat) stażem, z doświadczeniem w najróżniejszych dziedzinach. Od 5 lat pracuje w AVSystem w roli admina, R&D oraz specjalisty od sieci i wdrożeń Kubernetesa. W wolnym czasie gra na gitarze i programuje IoT w micropythonie. "
   p8:
     name: "Maciej Lasyk"
