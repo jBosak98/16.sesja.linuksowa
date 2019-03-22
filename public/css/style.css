@@ -679,11 +679,21 @@ a img{
 /* kontener patronatów medialnych  */
 #con-patroni{
 	background-color: #EEE;
-}
-
-#con-patroni .loga div{
 	padding-bottom: 2em;
 }
+
+.loga.patroni{
+	text-align: center;
+}
+
+.loga.patroni a{
+	padding: 0 0.5em;
+	}
+
+.loga.patroni img{
+	vertical-align: middle;
+}
+
 
 /* kontener formularza kontaktowego (Kontakt) */
 #con-kontakt{
