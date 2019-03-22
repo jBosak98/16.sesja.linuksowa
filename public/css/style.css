@@ -515,13 +515,13 @@ a img{
 	}
 
 #con-organizatorzy{
-	background-color: #EEE;
+	background-color: #FFF;
 }
 
 /* kontener organizatorów (Nasz zespół) */
 
 #con-naszzespol{
-	background-color: #EEE;
+	background-color: #FFF;
 	}
 
 #con-naszzespol .third img{
@@ -676,10 +676,19 @@ a img{
 	vertical-align: middle;
 }
 
+/* kontener patronatów medialnych  */
+#con-patroni{
+	background-color: #EEE;
+}
+
+#con-patroni .loga div{
+	padding-bottom: 2em;
+}
+
 /* kontener formularza kontaktowego (Kontakt) */
 #con-kontakt{
  	/* background-color: #EEE;  */
-	background: #FFF url('/img/bg_pingwin.png') right top no-repeat;
+	background: #EEE url('/img/bg_pingwin.png') right top no-repeat;
 	}
 
 #con-kontakt .con-content{
