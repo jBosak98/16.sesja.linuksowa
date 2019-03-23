@@ -34,6 +34,7 @@ register:
   p1: "Konferencja jest darmowa i otwarta dla każdego chętnego. Jednak mając na uwadze ograniczoną ilość miejsc na sali konferencyjnej, pierwszeństwo będą posiadały osoby zarejestrowane."
   p2: "Aby zarejestrować swój udział w konferencji, prosimy skorzystać z poniższego formularza Google:"
   button: "Rejestracja"
+  name: "Link do formularza rejestracyjnego"
 contact:
   form:
     name: "Imię i nazwisko"
