@@ -26,7 +26,8 @@
           %a{:href => "#about"}=t.navigation.about
           %a{:href => "#live"}=t.navigation.live
           %a{:href => "#agenda"}=t.navigation.agenda
-          -#%a{:href => "#sponsorzy"}=t.navigation.sponsors
+          %a{:href => "#sponsorzy"}=t.navigation.sponsors
+          %a{:href => "#patroni"}=t.navigation.patrons
           %a{:href => "#kontakt"}=t.navigation.contact
           %a.lang-switch{:href => t.navigation.lang_url}
             %img{:alt => "", :src => t.navigation.lang_flag}
@@ -81,6 +82,10 @@
       .con-content
         %h2.bg-text="Agenda"
         %h2.spacer &nbsp;
+
+        #Link-do-zapisow
+        .extended-link
+          %a{:href => "https://goo.gl/forms/83ZwwYgWiO4PXXQ53"}=t.register.name
 
         #agenda-sobota
           .half
@@ -339,13 +344,11 @@
       .con-content
         %h2.bg-text=t.navigation.patrons
         %h2.spacer &nbsp;
-        .loga
-          .logo-programista
-            %a{:href => "https://programistamag.pl"}
-              %img{:src => "/img/loga/patron-programista.png", :width => "600"}
-          .logo-jug
-            %a{:href => "http://wroclaw.jug.pl"}
-              %img{:src => "/img/loga/patron-jug.svg", :width => "600"}
+        .loga.patroni
+          %a{:href => "http://wroclaw.jug.pl"}
+            %img{:src => "/img/loga/patron-jug.svg", :height => "125"}
+          %a{:href => "https://programistamag.pl"}
+            %img{:src => "/img/loga/patron-programista.png", :width => "400"}
     #con-organizatorzy.con-bg
       %span#organizatorzy.anchor-jump-link
       .con-content
