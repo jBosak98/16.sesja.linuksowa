@@ -14,6 +14,7 @@
     %link{:href => "/css/style.css", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700&subset=latin-ext,latin", :rel => "stylesheet", :type => "text/css"}/
     %link{:href => "/css/font-awesome.min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "/img/favicon.ico", :rel => "shortcut icon", :type => "image/x-icon"}/
     %title=t.title
   %body
     %img.image-preload{:src => "img/tla/1.jpg"}/
@@ -251,6 +252,15 @@
           %img{:src => t.speakers.p13.photo}
           %h3=t.speakers.p13.name
           %span=t.speakers.p13.content
+        .third
+          %img{:src => t.speakers.p14.photo}
+          %h3=t.speakers.p14.name
+          %span=t.speakers.p14.content 
+        .third
+          %img{:src => t.speakers.p15.photo}
+          %h3=t.speakers.p15.name
+          %span=t.speakers.p15.content
+
     #con-footer.con-bg
       .con-content
         .year=t.year

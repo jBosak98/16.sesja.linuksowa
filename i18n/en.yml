@@ -163,7 +163,7 @@ urządzeniu."
       time: "12:00-13:00"
       lang: "[pl]"
       author: "Marcin Stożek"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/stozek.jpg"
       desc: "Czy wiesz co potrafi zrobić twój serwer reverse-proxy? Wydaje Ci się, że żeby zrobić sprytny routing / uwierzytelnianie / autoryzację (niepotrzebne skreślić) między serwisami musisz go napisać w Javie lub jako moduł w C? A co jeżeli odpalanie JVM tylko po to, żeby do każdego żądania http dokleić jeden nagłówek to armata na wróbla? Zwłaszcza, że prawie na pewno gdzieś tam po drodze mijasz nginx...
 Zapraszam Cię do świata idealnej symbiozy nginx i Lua."
     p4:
@@ -187,7 +187,7 @@ To wszystko na przykładzie sieciowej gierki w Węża."
       time: "15:00-16:00"
       lang: "[pl]"
       author: "Bartłomiej Kuczyński"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/kuczynski.jpg"
       desc: "Rozmowy o architekturze można obecnie podsumować w prosty sposób – zaczynasz projekt, zrób mikroserwisy. Pytanie, czy jest to dobre podejście? Czy każdy problem należy rozwiązywać za pomocą „aplikacji chmurowej w architekturze mikroserwisowej”? Oczywiście nie! Zatem dlaczego tak robimy? Czy istnieje inne podejście do problemu? Czy klasyczne monolity mają sens? W czasie prelekcji podyskutujemy na ten temat. Rozbierzemy na elementy pierwsze kilka klasycznych aplikacji i problemów w systemach monolitycznych. Przyjrzymy się, jak można tworzyć programy i przy okazji nie utonąć w rachunkach za usługi."
     p7:
       title: "Własny serwer email - jak i dlaczego"
@@ -253,7 +253,7 @@ speakers:
     content: "DevOps w OVH w zespole Ceph. Zapalony Linuxiarz i propagator Otwartego Oprogramowania. Interesuję się tematami związanymi z bezpieczeństwem teleinformatycznym, lubię dank memy, a wolnych chwilach prowadzę prywatne \"data center\""
   p12:
     name: "Marcin Stożek"
-    photo: "/img/ludzie/unknown.jpg"
+    photo: "/img/ludzie/stozek.jpg"
     content: "Za dnia jestem programistą i devopsem, po nocach czytam co słychać na Hacker News. Wierny fan pracy zdalnej.<br>
 Programowanie zaczynałem od zeszytu w kratkę, w którym w drugiej klasie podstawówki na piechotę wyliczałem bajty potrzebne do wyświetlenia obrazka na C64.<br>
 Od tego czasu brałem udział w wielu projektach z różnych dziedzin, od bezpieczeństwa w kolejkach po Hadoopa, od monolitu do mikroserwisów.<br>
