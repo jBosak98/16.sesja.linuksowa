@@ -138,7 +138,7 @@ urządzeniu."
       title: "Wydajne filtrowanie pakietów przy pomocy jądra Linuksa i BPF"
       time: "10:00-11:00"
       lang: "[pl]"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/rostecki.png"
       author: "Michał Rostecki"
       desc: "BPF (Berkeley Packet Filter) to interpreter, który pozwala na monitorowanie, filtrowanie i modyfikowanie pakietów sieciowych przy pomocy bytecode'u. Czyli de facto, pozwala on na pisanie programów filtrujących ruch. Daje nam to większą wydajność i elastyczność niż inne znane w Linuksie mechanizmy filtrujące - netfilter czy iptables. Istnieje wiele jego implementacji, ale w tej prelekcji skupię się na tej, która jest zawarta w jądrze Linuksa. Prezentacja poruszy też temat projektów, które korzystają z BPF - na przykład bpfilter (następca nftables i iptables) i Cilium (plugin CNI, filtrujący ruch sieciowy dla kontenerów)."
     p2:
@@ -245,7 +245,7 @@ speakers:
     content: "Jestem programistą i miłośnikiem otwartego oprogramowania. Byłym członkiem w ASI i absolwentem Politechniki Wrocławskiej. Po za informatyką lubię się przemieszczać różnymi środkami transportu - od własnych nóg, przez rower, narty... do pociągów."
   p10:
     name: "Michał Rostecki"
-    photo: "/img/ludzie/unknown.jpg"
+    photo: "/img/ludzie/rostecki.png"
     content: "Programista w firmie SUSE. Dziś kontrybujący głównie w projekcie Cilium - implementacji CNI (Container Network Interface), który filtruje ruch sieciowy dla kontenerów przy pomocy BPF. Dawniej kontrybutor OpenStacka."
   p11:
     name: "Filip Dorosz"
