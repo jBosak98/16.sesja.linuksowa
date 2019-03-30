@@ -237,7 +237,7 @@ speakers:
     content: "Admin z długim (>12 lat) stażem, z doświadczeniem w najróżniejszych dziedzinach. Od 5 lat pracuje w AVSystem w roli admina, R&D oraz specjalisty od sieci i wdrożeń Kubernetesa. W wolnym czasie gra na gitarze i programuje IoT w micropythonie. "
   p8:
     name: "Maciej Lasyk"
-    photo: "/img/ludzie/unknown.jpg"
+    photo: "/img/ludzie/lasyk.jpg"
     content: "Akrobata w firmie Codewise. W wolnym czasie rozwija kilka projektów open - source'owych (patrz Github). Serce w dużej części oddał Pythonowi oraz Fedorze (ale oczywiście w pierwszej kolejności rodzinie XD). Od kilku lat jest w skomplikowanym związku z systemd oraz Selinuxem. Uwielbia hackathony, restartować serwery, których inni się boją dotykać i automatyzuje wszystko co ma sens automatyzować. Używa na codzień wszystkich popularnych chmur, ale najlepiej odnajduje się w tej, którą stworzył u siebie w piwnicy. Żyje sportami - dzięki czemu czasem trochę kuśtyka ;) Lubi udowadniać, że nie ma rzeczy niemożliwych - ukończył najtrudniejszy triathlon na świecie oraz zarządza sporym clustrem Cassandry hostowanym na Dockerach (sic!). Biega po górach, woli biegówki niż zwykłe narty oraz pływanie z dala od brzegu."
   p9:
     name: "Jakub 'Siewca' Juszczakiewicz"
