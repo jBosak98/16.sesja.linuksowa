@@ -145,7 +145,7 @@ urządzeniu."
       title: "Wprowadzenie do Warp10 – Metryki bez barier"
       time: "11:00-12:00"
       lang: "[pl]"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/dorosz.png"
       author: "Filip Dorosz"
       desc: "Odkryj wspaniały świat <a href=\"https://www.warp10.io/\" target=\"_blank\">Warp10!</a> Platformy zbudowanej do zarządzania i przetwarzania szeregów czasowych. Poznaj podstawy WarpScriptu – języka programowania opartego na stosie, ułatwiającego ich analizę. W trakcie prezentacji zostaną poruszone takie zagadnienia jak:
         <ul>
@@ -249,7 +249,7 @@ speakers:
     content: "Programista w firmie SUSE. Dziś kontrybujący głównie w projekcie Cilium - implementacji CNI (Container Network Interface), który filtruje ruch sieciowy dla kontenerów przy pomocy BPF. Dawniej kontrybutor OpenStacka."
   p11:
     name: "Filip Dorosz"
-    photo: "/img/ludzie/unknown.jpg"
+    photo: "/img/ludzie/dorosz.png"
     content: "DevOps w OVH w zespole Ceph. Zapalony Linuxiarz i propagator Otwartego Oprogramowania. Interesuję się tematami związanymi z bezpieczeństwem teleinformatycznym, lubię dank memy, a wolnych chwilach prowadzę prywatne \"data center\""
   p12:
     name: "Marcin Stożek"
