@@ -91,7 +91,7 @@ During the talk we will explain the importance of edge AI and discuss some of th
       time: "14:00-15:00"
       lang: "[pl]"
       author: "Semihalf - Maciej Czekaj"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/czekaj.png"
       desc: "Jak poradzić sobie z 40Gbit lub 100Gbit Ethernetem w Linuksie?<br>
 W obecnej dekadzie obserwujemy gwałtowny rozwój sieci światłowodowych,<br>
 któremu towarzyszy stosunkowo powolny wzrost mocy obliczeniowych.<br>
@@ -221,7 +221,7 @@ speakers:
     content: "Inżynier oprogramowania w firmie NOKIA, oraz doktorant Katedry Informatyki Technicznej na Politechnice Wrocławskiej. Na co dzień zajmuje się administracją setek repozytoriów, utrzymywaniem kilku Jenkinsów oraz bohaterskim rozwiązywaniem problemów, których nie mają inne projekty :-)"
   p5:
     name: "Maciej Czekaj"
-    photo: "/img/ludzie/unknown.jpg"
+    photo: "/img/ludzie/czekaj.png"
     content: "Wiodący inżynier oprogramowania w firmie Semihalf. Zajmuje się
     w systemami wbudowanymi Linux/ARM, stosami sieciowymi i wirtualizacją,
     commiter DPDK . Współtworzył m.in. aplikację do zarządzania siecią SDN na bazie DPDK: Contrail Virtual Router.
