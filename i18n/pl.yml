@@ -177,7 +177,7 @@ Zapraszam Cię do świata idealnej symbiozy nginx i Lua."
       time: "14:00-15:00"
       lang: "[pl]"
       author: "Jarek Ratajski"
-      photo: "/img/ludzie/unknown.jpg"
+      photo: "/img/ludzie/ratajski.jpg"
       desc: "Haskell, CQRS/ES i elementy  DDD na linuksie<br><br>
 Serwery REST w Haskellu to raczej nie jest mainstreamowa technologia...
 Ale jeśli spróbujemy to szybko poznajemy zalety w stosunku do imperatywnym rozwiązań (np. w Javie i Scali). Szczególnie jest to widoczne jeśli korzystamy z event sourcingu oraz staramy się programować z wykorzystanem zasad DDD.
@@ -260,7 +260,7 @@ Od tego czasu brałem udział w wielu projektach z różnych dziedzin, od bezpie
 Szerzę zarazę automatyzacji, GNU/Linuksa oraz Vima. Niekoniecznie w tej kolejności."
   p13:
     name: "Jarek Ratajski"
-    photo: "/img/ludzie/unknown.jpg"
+    photo: "/img/ludzie/ratajski.jpg"
     content: "Programista, Nekromanta,  Anarchitekt"
   p14:
     name: "Bartłomiej Kuczyński"
