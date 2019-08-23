@@ -2,6 +2,8 @@
 
 source 'https://rubygems.org'
 
+ruby '~> 2.6.0'
+
 gem 'sinatra'
 gem 'sinatra-partial', require: "sinatra/partial"
 gem 'sinatra-r18n', require: "sinatra/r18n"
