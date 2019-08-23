@@ -5,8 +5,8 @@ utworzenia strony dla kolejnej edycji Sesji.
 
 # Instrukcja obsługi
 
-1. git clone git@git.asi.wroclaw.pl:sesjalinuksowa/sesja.linuksowa.git
-2. cd sesja.linuksowa && bundle install
+1. `git clone git@git.asi.wroclaw.pl:sesjalinuksowa/sesja.linuksowa.git`
+2. cd `sesja.linuksowa && bundle install`
 3. Opcjonalnie zainstaluj i uruchom [Mailcatcher](https://mailcatcher.me/).
 4. W pliku `sesja.rb` ustaw symbol `:edition` na numer obecnej edycji Sesji
 5. Pliki CSS i JS idą do odopowiednio do `assets/css` oraz `assets/js`. Zajmuje się nimi
