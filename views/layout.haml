@@ -376,11 +376,8 @@
       .con-content
         %h2.bg-text=t.navigation.contact
         %h2.spacer &nbsp;
-        %form{:action => "/", :method => "POST", :role => "form"}
-          %input#name.form-control{:name => "name", :placeholder => t.contact.form.name, :type => "text"}/
-          %input#email.form-control{:name => "adres", :placeholder => t.contact.form.email, :type => "email"}/
-          %textarea#content.form-control{:name => "content", :placeholder => t.contact.form.content, :rows => "10"}
-          %input#sendemail{:type => "submit", :value => t.contact.form.submit}/
+        %h2{ :style => "margin: 100px 0px;" }=t.contact.text
+
     #con-footer.con-bg
       .con-content
         %span.year=t.year
