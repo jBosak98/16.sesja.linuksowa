@@ -1,0 +1,10 @@
+image: "ruby:2.6"
+
+pages:
+  image: alpine:latest
+  script:
+    - echo "I'm doing it!"
+  stage: deploy
+  artifacts:
+    paths:
+      - public
