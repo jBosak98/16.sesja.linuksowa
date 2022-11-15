@@ -41,6 +41,7 @@ contact:
     email: "Your email"
     content: "Got any questions or suggestions? Write them here."
     submit: "Send"
+  text: Send an email to us at kontakt@sesja.linuksowa.pl
 agenda:
   speaker: "Speaker:"
   extended_text: "Click here if you want to check the talk descriptions."

@@ -41,6 +41,7 @@ contact:
     email: "Email"
     content: "Pytania? Sugestie? Wpisz je tutaj!"
     submit: "Wyślij"
+  text: Napisz do nas na kontakt@sesja.linuksowa.pl
 agenda:
   speaker: "Prelegent:"
   extended_text: "Aby przejść do rozszerzonej agendy (z opisami prelekcji), kliknij tutaj."
