@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport'>
+<meta content='16. Sesja Linuksowa' property='og:site_name'>
+<meta content='pl_PL' property='og:locale'>
+<meta content='website' property='og:type'>
+<meta content='Sesja Linuksowa | Wrocław, Polska' property='og:title'>
+<meta content='http://16.sesja.linuksowa.pl/' property='og:url'>
+<meta content='Sesja Linuksowa to największa w Polsce konferencja poświęcona rozwiązaniom Open Source oraz najnowszym trendom w systemach z rodziny GNU/Linux.' property='og:description'>
+<meta content='http://16.sesja.linuksowa.pl/img/logo-opengraph-pl.png' property='og:image'>
+<link href='/css/style.css' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700&amp;subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+<link href='/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+<link href='/img/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+<title>Sesja Linuksowa | Wrocław, Polska</title>
+</head>
+<body>
+<img class='image-preload' src='img/tla/1.jpg'>
+<div class='con-bg' id='con-head'>
+<div class='con-content'>
+<a href='#top'>
+<img src='/img/logo-male-pl.png'>
+</a>
+<span class='fa-bars' id='menu-button'></span>
+<div class='mobile-hidden' id='menu-container'>
+<a href='/pl'>Powrót do strony głównej</a>
+<a href='#agenda'>Agenda</a>
+<a href='#prelegenci'>Prelegenci</a>
+<a class='lang-switch' href='/en/agenda'>
+<img alt='' src='/img/icon-us.png'>
+<span class='mobile-only'>English version</span>
+</a>
+</div>
+</div>
+</div>
+<div class='extended-agenda' style='margin-top: 5em'>
+<span class='anchor-jump-link' id='agenda'></span>
+<div class='con-content'>
+<h2 class='bg-text'>Agenda</h2>
+<h2 class='spacer'>&nbsp;</h2>
+<h3>
+<span class='data'>6 kwietnia 2019</span>
+- Sobota
+</h3>
+<div class='prelekcja'>
+<img src='/img/ludzie/karolg.jpg'>
+<div class='opis'>
+<div class='tytul'>
+Enabling AI at the edge using open source
+<span class='lang'>[pl/en]</span>
+</div>
+<div class='godzina'>09:00-10:00</div>
+<div class='abstrakt'>With even the smallest of platforms becoming capable of AI/ML - via embedded GPUs, dedicated deep learning accelerators or FPGAs - omnipresent and always on edge computation is no longer theory. And with a growing awareness of and investment in open source, a new wave of free and open platforms, software, hardware and tooling is changing the collaboration patterns and work methodologies for AI.<br/><br/> During the talk we will explain the importance of edge AI and discuss some of the crucial open technologies propelling the development of deep and machine learning forward - from open FPGA projects, through open edge processing platforms, to the global game-changer in computer architecture - RISC-V.</div>
+<div class='autor'>Prelegent: Antmicro -  Karol Gugała</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/drapej.jpg'>
+<div class='opis'>
+<div class='tytul'>
+Deep Learning revolution - are we subjects or objects?
+<span class='lang'>[en]</span>
+</div>
+<div class='godzina'>10:00-11:00</div>
+<div class='abstrakt'>The greatest technological and social revolution in human history is happening right now. Advancements in IT and AI (with Deep Learning as most prominent example), as well as in medicine and biotechnology transform humankind in unprecedented way. But are we subjects of this revolution, or are we mere objects? In this lecture I explain nature of deep learning, possible gains, possible threats and how Free and Open Software can mitigate them.</div>
+<div class='autor'>Prelegent: Filip Drapejkowski</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/wysocki.jpg'>
+<div class='opis'>
+<div class='tytul'>
+Jak zmienia się jądro Linuksa
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>11:00-12:00</div>
+<div class='abstrakt'>Jądro Linuksa jest teraz jednym z najczęściej używanych programów komputerowych na świecie. Jednocześnie i głównie z tego powodu jest to także jeden z największych i najszybciej rozwijających się projektów informatycznych w historii. Utrzymanie tak wysokiego tempa rozwoju przy równoczesnym zachowaniu otwartości projektu na kontrubucje od wszystkich jego użytkowników i braku sformalizowanej struktury organizacyjnej służącej do kierowania nim jest możliwe głównie dzięki specyficznemu podziałowi zadań przy wprowadzaniu i integrowaniu zmian oraz dystrybucji poprawek. Nie bez znaczenia jest także infrastruktura wspierająca jego rozwój, zbudowana w dużej mierze w oparciu o dobrowolną współpracę wielu różnych podmiotów realizujących zadania służące ich własnym celom, lecz również przynoszące korzyści całemu projektowi. Moja prezentacja będzie poświęcona tym zagadnieniom.</div>
+<div class='autor'>Prelegent: Rafał Wysocki</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/szandala.jpg'>
+<div class='opis'>
+<div class='tytul'>
+Zuul v3 - CI/CD nowej generacji
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>12:00-13:00</div>
+<div class='abstrakt'>Zuul v3 to system służący automatyzacji CI/CD, współpracujący z Gerritem lub GitHubem, mogący automatycznie scalać zmiany zaproponowane przez deweloperów. Architektura mikro-serwisów, zaprojektowana przez OpenStack Foundation, pozwala na doskonałe skalowanie rozwiązania. Kolejnym atutem rozwiązania jest przejrzysta konfiguracja zapisana w plikach Yaml i skryptach Ansible, umieszczona bezpośrednio w repozytoriach, które znajdują się pod opieką Zuula.</div>
+<div class='autor'>Prelegent: Nokia - Tomasz Szandała</div>
+</div>
+</div>
+<div class='prelekcja'>
+<div class='opis'>
+<div class='tytul'>
+Przerwa obiadowa
+<span class='lang'></span>
+</div>
+<div class='godzina'>13:00-14:00</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/czekaj.png'>
+<div class='opis'>
+<div class='tytul'>
+Szybkie sieci w Linuksie - jak to się robi przy pomocy DPDK.
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>14:00-15:00</div>
+<div class='abstrakt'>Jak poradzić sobie z 40Gbit lub 100Gbit Ethernetem w Linuksie? W obecnej dekadzie obserwujemy gwałtowny rozwój sieci światłowodowych, któremu towarzyszy stosunkowo powolny wzrost mocy obliczeniowych. Powoduje to konieczność wynajdywania nowych paradygmatów programowania sieciowego. Jednym z nich jest programowanie sprzętu w przestrzeni użytkownika, które korzysta z mechanizmów sprzętowej wirtualizacji takich, jak VFIO używane w Qemu/KVM. Na wykładzie opowiemy w skrócie,  jak można to osiągać przy pomocy biblioteki DPDK.</div>
+<div class='autor'>Prelegent: Semihalf - Maciej Czekaj</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/karol.jpg'>
+<div class='opis'>
+<div class='tytul'>
+Tajemnicze właściwości GIFów
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>15:00-16:00</div>
+<div class='abstrakt'>Na prezentacji opowiem o formacie GIF oraz implementacji jego obsługi. Jakie dane można w nim przechowywać, w jaki sposób można je interpretować, jakie są ograniczenia i na jakie niespodzianki można natrafić.</div>
+<div class='autor'>Prelegent: Karol Wrótniak</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/vovcia.jpg'>
+<div class='opis'>
+<div class='tytul'>
+Jenkins Declarative Pipelines with Kubernetes
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>16:00-17:00</div>
+<div class='abstrakt'>Jenkins jest dynamicznie rozwijającym się produktem do budowania projektów oraz realizacji CI/CD. Jego największą zaletą (oraz jednocześnie słabością) jest niezliczona ilość pluginów. Wbrew obiegowej opinii, ma on dużo większe możliwości niż Gitlab-CI, a równocześnie bez problemu z Gitlabem się integruje. W prelekcji zajmiemy się relatywnie nową funkcjonalnością w Jenkins2 - deklaratywnymi pipelinami, oraz wykorzystaniem w nich Kubernetesa.</div>
+<div class='autor'>Prelegent: Vladimir Mitiouchev</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/lasyk.jpg'>
+<div class='opis'>
+<div class='tytul'>
+O bezpieczeństwie kontenerów linuksowych
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>17:00-18:00</div>
+<div class='abstrakt'>Celem prezentacji jest przedstawienie obecnego stanu kontenerów linuksowych oraz różnych form izolacji procesów z punktu widzenia bezpieczeństwa. Omówię w jaki sposób nie należy uruchamiać Dockera ani kontenerów, którymi on zarządza oraz przedstawię alternatywne metody konteneryzacji (Podman, systemd). Dodatkowo pokażę w jaki sposób można bez kontenerów, a jedynie za pomocą systemd wyizolować proces w taki sposób, aby nie przeszkadzał on innym oraz nie miał dostępu do zasobów, do których nie powinien. Będzie kilka dem na żywo, trochę Basha, Pythona i jako bonus omówię kwestię bezpieczeństwa związaną z znanym obrazem kontenerowym Alpine Linux.</div>
+<div class='autor'>Prelegent: Maciej Lasyk</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/siewca.jpg'>
+<div class='opis'>
+<div class='tytul'>
+Podstawy konfiguracji sieci w Linuksie
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>18:00-19:00</div>
+<div class='abstrakt'>Systemy oparte na Linuksie znajdują zastosowanie na najróżniejszych platformach w niezliczonej liczbie zadań. Praktycznie każdy z tych zastosowań wymaga działającej sieci - czy to LAN, czy internetu. Powstało wiele narzędzi wspomagających konfigurowanie sieci, ale... co zrobić, jak coś pójdzie nie tak? Przedstawię podstawowe metody i sposoby radzenia sobie w takiej sytuacji, gdy mamy fizyczny dostęp konsoli na urządzeniu.</div>
+<div class='autor'>Prelegent: Jakub Juszczakiewicz</div>
+</div>
+</div>
+<h3>
+<span class='data'>7 kwietnia 2019</span>
+- Niedziela
+</h3>
+<div class='prelekcja'>
+<img src='/img/ludzie/rostecki.png'>
+<div class='opis'>
+<div class='tytul'>
+Wydajne filtrowanie pakietów przy pomocy jądra Linuksa i BPF
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>10:00-11:00</div>
+<div class='abstrakt'>BPF (Berkeley Packet Filter) to interpreter, który pozwala na monitorowanie, filtrowanie i modyfikowanie pakietów sieciowych przy pomocy bytecode'u. Czyli de facto, pozwala on na pisanie programów filtrujących ruch. Daje nam to większą wydajność i elastyczność niż inne znane w Linuksie mechanizmy filtrujące - netfilter czy iptables. Istnieje wiele jego implementacji, ale w tej prelekcji skupię się na tej, która jest zawarta w jądrze Linuksa. Prezentacja poruszy też temat projektów, które korzystają z BPF - na przykład bpfilter (następca nftables i iptables) i Cilium (plugin CNI, filtrujący ruch sieciowy dla kontenerów).</div>
+<div class='autor'>Prelegent: Michał Rostecki</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/dorosz.png'>
+<div class='opis'>
+<div class='tytul'>
+Wprowadzenie do Warp10 – Metryki bez barier
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>11:00-12:00</div>
+<div class='abstrakt'>Odkryj wspaniały świat <a href="https://www.warp10.io/" target="_blank">Warp10!</a> Platformy zbudowanej do zarządzania i przetwarzania szeregów czasowych. Poznaj podstawy WarpScriptu – języka programowania opartego na stosie, ułatwiającego ich analizę. W trakcie prezentacji zostaną poruszone takie zagadnienia jak: <ul> <li>A komu to potrzebne, a dlaczego?</li> <li>Dlaczego Warp10 jest super.</li> <li>Jak wysyłać metryki.</li> <li>Jak postawić swoją instancję Warp10.</li> <li>Podstawy przetwarzania danych w WarpScriptcie.</li> <li>Jak rozszerzyć Warp10 o własne funkcje.</li> <li>Jak używamy Warp10 w OVH.</li> <li>Jak zaangażować się w rozwój platformy.</li> </ul></div>
+<div class='autor'>Prelegent: Filip Dorosz</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/stozek.jpg'>
+<div class='opis'>
+<div class='tytul'>
+API Gateway w blasku księżyca
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>12:00-13:00</div>
+<div class='abstrakt'>Czy wiesz co potrafi zrobić twój serwer reverse-proxy? Wydaje Ci się, że żeby zrobić sprytny routing / uwierzytelnianie / autoryzację (niepotrzebne skreślić) między serwisami musisz go napisać w Javie lub jako moduł w C? A co jeżeli odpalanie JVM tylko po to, żeby do każdego żądania http dokleić jeden nagłówek to armata na wróbla? Zwłaszcza, że prawie na pewno gdzieś tam po drodze mijasz nginx... Zapraszam Cię do świata idealnej symbiozy nginx i Lua.</div>
+<div class='autor'>Prelegent: Marcin Stożek</div>
+</div>
+</div>
+<div class='prelekcja'>
+<div class='opis'>
+<div class='tytul'>
+Przerwa obiadowa
+<span class='lang'></span>
+</div>
+<div class='godzina'>13:00-14:00</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/ratajski.jpg'>
+<div class='opis'>
+<div class='tytul'>
+Czysty serwer
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>14:00-15:00</div>
+<div class='abstrakt'>Haskell, CQRS/ES i elementy  DDD na linuksie<br><br> Serwery REST w Haskellu to raczej nie jest mainstreamowa technologia... Ale jeśli spróbujemy to szybko poznajemy zalety w stosunku do imperatywnym rozwiązań (np. w Javie i Scali). Szczególnie jest to widoczne jeśli korzystamy z event sourcingu oraz staramy się programować z wykorzystanem zasad DDD. To wszystko na przykładzie sieciowej gierki w Węża.</div>
+<div class='autor'>Prelegent: Jarek Ratajski</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/kuczynski.jpg'>
+<div class='opis'>
+<div class='tytul'>
+Monolit? Mikroserwisy? A czy to ważne?
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>15:00-16:00</div>
+<div class='abstrakt'>Rozmowy o architekturze można obecnie podsumować w prosty sposób – zaczynasz projekt, zrób mikroserwisy. Pytanie, czy jest to dobre podejście? Czy każdy problem należy rozwiązywać za pomocą „aplikacji chmurowej w architekturze mikroserwisowej”? Oczywiście nie! Zatem dlaczego tak robimy? Czy istnieje inne podejście do problemu? Czy klasyczne monolity mają sens? W czasie prelekcji podyskutujemy na ten temat. Rozbierzemy na elementy pierwsze kilka klasycznych aplikacji i problemów w systemach monolitycznych. Przyjrzymy się, jak można tworzyć programy i przy okazji nie utonąć w rachunkach za usługi.</div>
+<div class='autor'>Prelegent: Bartłomiej Kuczyński</div>
+</div>
+</div>
+<div class='prelekcja'>
+<img src='/img/ludzie/mewp.jpg'>
+<div class='opis'>
+<div class='tytul'>
+Własny serwer email - jak i dlaczego
+<span class='lang'>[pl]</span>
+</div>
+<div class='godzina'>16:00-17:00</div>
+<div class='abstrakt'>Stawianie i utrzymywanie serwera pocztowego to zadanie, którego mało kto chce się podjąć. Kojarzy się to z dużą ilością pracy przy bardzo skomplikowanym systemie. Jak jest naprawdę? Ta prelekcja pokaże jak działa email w praktyce, co jest faktycznie trudne, a co można osiągnąć dość niewielkim wysiłkiem. A przede wszystkim - jak mieć pocztę u siebie.</div>
+<div class='autor'>Prelegent: Błażej Święcicki</div>
+</div>
+</div>
+<div class='prelekcja'>
+<div class='opis'>
+<div class='tytul'>
+Lightning talki
+<span class='lang'></span>
+</div>
+<div class='godzina'>17:00-</div>
+</div>
+</div>
+</div>
+</div>
+<div class='con-bg' id='con-prelegenci'>
+<span class='anchor-jump-link' id='prelegenci'></span>
+<div class='con-content'>
+<h2 class='bg-text'>Prelegenci</h2>
+<h2 class='spacer'>&nbsp;</h2>
+<div class='third'>
+<img src='/img/ludzie/karolg.jpg'>
+<h3>Karol Gugała</h3>
+<span>Karol is a Team Leader at Antmicro. His team focuses on complex systems development from CPU designs, through OS development up to edge AI applications. Prior to joining Antmicro in 2011, Karol worked at the Poznan University of Technology as a researcher. His research focused on acceleration of neural tissue simulations.</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/drapej.jpg'>
+<h3>Filip Drapejkowski</h3>
+<span>Senior Software Developer in Luxoft focused on automotive Deep Learning consultancy for Nauto. Wroclaw University of Science and Technology graduate, alumni member of ASI. Passionate about Computer Vision, Data Science, Machine Learning, Robotics and  Edge computing. Climber, wannabe kitesurfer and motorcycle adventurer in free time.</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/wysocki.jpg'>
+<h3>Rafał Wysocki</h3>
+<span>W rozwijaniu jądra Linuksa biorę udział od 2005 r. Zaczynałem od rozwijania kodu wspierającego usypianie systemu oraz hibernację i w 2009 roku zostałem opiekunem tego (niewielkiego) fragmentu jądra. Zajmuję się tym do dziś, a oprócz tego jestem opiekunem kilku innych części składowych jądra Linuksa, głównie związanych z tak zwaną efektywnością energetyczną. Od 2012 roku pracuję w firmie Intel, obecnie w jednostce organizacyjnej o nazwie Linux Systems Engineering, przede wszystkim nad rozwijaniem jądra Linuksa. Przedtem współpracowałem z SUSE (dystrybujcja Linuksa dla przedsiębiorstw) i Renesas Electronics (układy scalone typu System-on-a-Chip i podzespoły elektroniczne) oraz pracowałem na Wydziale Fizyki Uniwersytetu Warszawskiego, a także w XXVII L.O. im. T. Czackiego w Warszawie, między innymi jako administrator systemów komputerowych. Z wykształcenia jestem fizykiem, mam stopień naukowy doktora, który otrzymałem na Wydziale Fizyki UW w 2002 r.</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/szandala.jpg'>
+<h3>Tomasz Szandała</h3>
+<span>Inżynier oprogramowania w firmie NOKIA, oraz doktorant Katedry Informatyki Technicznej na Politechnice Wrocławskiej. Na co dzień zajmuje się administracją setek repozytoriów, utrzymywaniem kilku Jenkinsów oraz bohaterskim rozwiązywaniem problemów, których nie mają inne projekty :-)</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/czekaj.png'>
+<h3>Maciej Czekaj</h3>
+<span>Wiodący inżynier oprogramowania w firmie Semihalf. Zajmuje się w systemami wbudowanymi Linux/ARM, stosami sieciowymi i wirtualizacją, commiter DPDK . Współtworzył m.in. aplikację do zarządzania siecią SDN na bazie DPDK: Contrail Virtual Router. Aktualnie realizuje doktorat wdrożeniowy przy AGH w Krakowie na temat metod akceleracji ruchu sieciowego. Autor wielu artykułów w prasie branżowej z zakresu programowania niskopoziomowego i sieci.</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/karol.jpg'>
+<h3>Karol Wrótniak</h3>
+<span>Karol Wrótniak zajmuje się Androidem od ponad 7 lat. Programowanie to jego pasja i praca. Na co dzień buduje aplikacje i biblioteki w Droids on Roids oraz pomaga zespołowi QA w automatyzacji testów i rozwiązywaniu trudnych przypadków. Po godzinach realizuje własne pomysły. Autor postów na blogu Droids On Roids - <a href="https://www.thedroidsonroids.com/blog">https://www.thedroidsonroids.com/blog</a>. Prelegent na konferencjach i meetupach. Zaangażowany w wiele projektów open source, w szczególności te związane z testami.</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/vovcia.jpg'>
+<h3>Vladimir Mitiouchev</h3>
+<span>Admin z długim (>12 lat) stażem, z doświadczeniem w najróżniejszych dziedzinach. Od 5 lat pracuje w AVSystem w roli admina, R&D oraz specjalisty od sieci i wdrożeń Kubernetesa. W wolnym czasie gra na gitarze i programuje IoT w micropythonie. </span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/lasyk.jpg'>
+<h3>Maciej Lasyk</h3>
+<span>Akrobata w firmie Codewise. W wolnym czasie rozwija kilka projektów open - source'owych (patrz Github). Serce w dużej części oddał Pythonowi oraz Fedorze (ale oczywiście w pierwszej kolejności rodzinie XD). Od kilku lat jest w skomplikowanym związku z systemd oraz Selinuxem. Uwielbia hackathony, restartować serwery, których inni się boją dotykać i automatyzuje wszystko co ma sens automatyzować. Używa na codzień wszystkich popularnych chmur, ale najlepiej odnajduje się w tej, którą stworzył u siebie w piwnicy. Żyje sportami - dzięki czemu czasem trochę kuśtyka ;) Lubi udowadniać, że nie ma rzeczy niemożliwych - ukończył najtrudniejszy triathlon na świecie oraz zarządza sporym clustrem Cassandry hostowanym na Dockerach (sic!). Biega po górach, woli biegówki niż zwykłe narty oraz pływanie z dala od brzegu.</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/siewca.jpg'>
+<h3>Jakub 'Siewca' Juszczakiewicz</h3>
+<span>Jestem programistą i miłośnikiem otwartego oprogramowania. Byłym członkiem w ASI i absolwentem Politechniki Wrocławskiej. Po za informatyką lubię się przemieszczać różnymi środkami transportu - od własnych nóg, przez rower, narty... do pociągów.</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/rostecki.png'>
+<h3>Michał Rostecki</h3>
+<span>Programista w firmie SUSE. Dziś kontrybujący głównie w projekcie Cilium - implementacji CNI (Container Network Interface), który filtruje ruch sieciowy dla kontenerów przy pomocy BPF. Dawniej kontrybutor OpenStacka.</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/dorosz.png'>
+<h3>Filip Dorosz</h3>
+<span>DevOps w OVH w zespole Ceph. Zapalony Linuxiarz i propagator Otwartego Oprogramowania. Interesuję się tematami związanymi z bezpieczeństwem teleinformatycznym, lubię dank memy, a wolnych chwilach prowadzę prywatne "data center"</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/stozek.jpg'>
+<h3>Marcin Stożek</h3>
+<span>Za dnia jestem programistą i devopsem, po nocach czytam co słychać na Hacker News. Wierny fan pracy zdalnej.<br> Programowanie zaczynałem od zeszytu w kratkę, w którym w drugiej klasie podstawówki na piechotę wyliczałem bajty potrzebne do wyświetlenia obrazka na C64.<br> Od tego czasu brałem udział w wielu projektach z różnych dziedzin, od bezpieczeństwa w kolejkach po Hadoopa, od monolitu do mikroserwisów.<br> Szerzę zarazę automatyzacji, GNU/Linuksa oraz Vima. Niekoniecznie w tej kolejności.</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/ratajski.jpg'>
+<h3>Jarek Ratajski</h3>
+<span>Programista, Nekromanta,  Anarchitekt</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/kuczynski.jpg'>
+<h3>Bartłomiej Kuczyński</h3>
+<span>Programista, architekt z doskoku, standardowy nerd i posiadacz brody. Od 15 lat zawodowo zajmujący się psuciem oprogramowania w różnych instytucjach finansowych. Obecnie związany z JLupin Platform jako ewangelista tego rozwiązania.</span>
+</div>
+<div class='third'>
+<img src='/img/ludzie/mewp.jpg'>
+<h3>Błażej Święcicki</h3>
+<span>Sysadmin, programista, linuksiarz i były prezes Akademickiego Stowarzyszenia Informatycznego. Zagorzały przeciwnik Facebooka i innych zcentralizowanych usług w chmurze.</span>
+</div>
+</div>
+</div>
+<div class='con-bg' id='con-footer'>
+<div class='con-content'>
+<div class='year'>© 2019</div>
+<a href='http://asi.wroclaw.pl'>Akademickie Stowarzyszenie Informatyczne</a>
+</div>
+</div>
+<script src='https://maps.googleapis.com/maps/api/js?sensor=false' type='text/javascript'></script>
+<script src='/js/jquery-2.1.1.min.js'></script>
+<script src='/js/style.js'></script>
+</body>
+</html>
